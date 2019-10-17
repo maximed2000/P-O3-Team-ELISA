@@ -1,0 +1,112 @@
+\documentclass{article}
+
+\usepackage{graphicx, titling}
+\usepackage{eurosym}
+
+\title{% Geef hier de titel van je project in
+                                              }
+\author{% Geef de naam van de teamleden in, gescheiden door \\
+                                                               }
+\date{}
+
+\begin{document}
+\pagestyle{empty}
+
+\begin{center}
+	{{\Large Subfaculteit wetenschappen}
+	
+	\vspace{1cm}
+	
+	\includegraphics[width=6cm]{2013-kulak-cmyk-highres.jpg}
+	
+	\vspace{1cm}
+	
+	\Large Probleemoplossen en ontwerpen 3}
+	
+	\vspace{2cm}
+
+	{\Huge \textbf{Titel van het project}}
+	
+	\vspace{1cm}
+	
+	{\Large \textbf{Team ELISA}}
+	
+	\vspace{1cm}
+	
+	{\Large \textbf{Matthias Derez}}\\
+	{\Large \textbf{Maxime Dujardin}}\\
+	{\Large \textbf{Korneel Verkens}}\\
+	{\Large \textbf{Seppe Vilain}}\\
+
+\end{center}
+
+\vspace{2cm}
+{\Large Titularis : % naam titularis}
+\vspace{1cm}
+
+{\Large Begeleider : % naam begeleider}
+
+
+\vspace{1cm}
+
+\begin{center}
+	{\Large Academiejaar 2019 - 2020}
+\end{center}
+
+\section*{Inleiding}
+
+
+\section{Klantenvereisten}
+De klant wil een geautomatiseerde \textit{dispenser}. De \textit{dispenser} moet in staat zijn om volledig autonoom een \textit{microwell}-plaat te vullen met de te onderzoeken substantie. Dit alles moet kunnen zonder dat er fouten gemaakt worden: dit betekent dat in elke \textit{microwell} exact evenveel substantie moet zitten en dat er niet naast de \textit{microwells} mag gemorst worden. Bovendien moet dit alles kunnen in een tijd die aanzienlijk korter is dan wanneer men deze \textit{microwell}-plaat handmatig zou vullen. Vooral dit laatse is belangrijk, aangezien het vullen van de platen een zeer arbeidsintensief en tijdrovend aspect is bij de ELISA-test. Het apparaat moet eenvoudig te bedienen zijn en de pipetpunten die de substantie in de \textit{wells} spuiten, moeten vervangbaar zijn. Er is een budget van \EUR{50} tot \EUR{75} voorzien. 
+
+
+
+\section{Ontwerpspecificaties}
+De te onderzoeken substantie bevindt zich in een recipiënt van waaruit het kan worden opgezogen. De \textit{microwell}-plaat is 27.76 mm breed, 85.48 mm lang en 14.4 mm hoog. Er zitten 96 \textit{microwells} in, met een bovendiameter van 6.96 mm en een benedendiameter van 6.58 mm (zie FIGUUR). Het werkvolume van elke \textit{well} is tussen 25 $\mu l$ en 340 $\mu l$. De middelpunten van de \textit{wells} bevinden zich op 9 mm van elkaar. De middelpunten van de pipetpunten moeten dus op 9 mm van elkaar zitten en moeten verwijderbaar zijn. De machine moet elke \textit{well} kunnen vullen met een hoeveelheid van 100 $\mu l$ of 200 $\mu l$ van de te onderzoeken substantie. Om de vloeistof niet te morsen naast de \textit{wells}, moeten de pipetpunten telkens exact boven het middelpunt van de \textit{well} de vloeistof lossen. Om het apparaat gebruikvriendelijk te maken, moet een grafische interface voorzien worden, zodat de machine in enkele tellen kan opgestart worden. 
+
+\section{Ontwerpen}
+\subsection{Mogelijke \textit{concepts}}
+\subsubsection{Concept 1}
+Een eerste concept is gebaseerd op het principe van een handmatige \textit{dispenser} die ter beschikking werd gesteld. In FIGUUR staat een schets van het \textit{concept}. De \textit{wells} worden in dit concept gevuld door 96 cilinders. De cilinders zijn vastgemaakt aan een plaat in 12 rijen van 8. De afstand tussen de middelpunten van 2 cilinders is telkens 9 mm. De cilinders zelf bewegen niet. In elke cilinder zit een zuiger die op en neer kan bewegen. De koppen van de cilinders zijn vastgemaakt op een plaat die op en neer kan bewegen m.b.v. een motor die boven het geheel van de twee platen is bevestigd. Het geheel van de platen met de zuigers en cilinders kan op en neer bewegen om de vloeistof in de cilinders op te zuigen. De \textit{microwell}-plaat is bevestigd aan een aandrijfriem met een motor zodat de plaat naar links en rechts kan bewegen. Dit laat het mechanisme toe om telkens de cilinders opnieuw te vullen en een gevulde \textit{microwell}-plaat te vervangen door een lege.  
+
+\subsubsection{Concept 2}
+Het tweede concept is qua mechanisme om de \textit{wells} te vullen gelijkaardig, alleen worden hier minder cilinders en zuigers gebruikt. In FIGUUR staat een schets van het \textit{concept}. Er worden acht cilinders naast elkaar vastgemaakt aan een plaat, met opnieuw een afstand van 9 mm tussen de middelpunten van twee aanliggende cilinders. De zuigers die in de cilinders zitten, worden op analoge manier bevestigd als in \textit{concept} 1. In plaats van de \textit{wells} in de plaat in een keer te vullen, gebeurt dit nu in twaalf stappen. Telkens wanneer een rij van acht \textit{wells} gevuld is, schuift de \textit{microwell}-plaat naar rechts, weg van onder de cilinders, en beweegt het geheel met de zuigers en cilinders naar onder en weer naar boven om de cilinders opnieuw te vullen met vloeistof. Vervolgens schuift de \textit{microwell}-plaat opnieuw naar links onder de cilinders en wordt weer een rij van 8 \textit{microwells} gevuld.
+
+
+\subsubsection{Concept 3}
+Het derde \textit{concept} is compleet verschillend van de eerste twee. In dit \textit{concept} wordt gewerkt met een pomp die de vloeistof uit het recipiënt oppompt en via een buizennetwerk verdeelt over acht pipetpunten waarvan de middelpunten zich opnieuw op een afstand van 9 mm van elkaar bevinden. De afstand die de vloeistof aflegt van de pomp tot aan de uitgang van de pipetpunt is voor elk van de acht kanalen gelijk, wat belangrijk is om in elke \textit{well} even veel vloeistof te hebben. De \textit{microwell}-plaat wordt vastgemaakt aan een aandrijfriem en motor en kan op die manier verplaatst worden. Telkens wanneer een rij van acht \textit{wells} gevuld is, stopt de pomp en verschuift de \textit{microwell}-plaat 9 mm naar links. Daarna vult de pomp opnieuw acht \textit{wells}. Dit proces wordt herhaald tot de twaalf rijen van acht \textit{wells} gevuld zijn. 
+
+\subsection{Selectie concept}
+In deze sectie worden per ontwerp de voordelen opgesomd en wordt de uiteindelijke keuze van een van de drie \textit{concepts} toegelicht.
+
+\subsubsection{Voordelen}
+
+\paragraph{Concept 1}
+	\begin{itemize}
+		\item Snelste optie, want alle 96 \textit{wells} in één keer gevuld
+		\item Uiterst precies, want er wordt gewerkt met vooraf geijkte cilinders zodat elke 	\textit{well} exact even veel vloeistof krijgt
+	\end{itemize}
+
+\paragraph{Concept 2}
+	\begin{itemize}
+		\item Goedkoper dan \textit{concept} 1
+		\item Uiterst precies, want er wordt gewerkt met vooraf geijkte cilinders zodat elke 	\textit{well} exact even veel vloeistof krijgt
+	\end{itemize}
+
+\paragraph{Concept 3}
+	\begin{itemize}
+		\item Sneller dan \textit{concept 2}, want geen verticale bewegingen nodig
+		\item Goedkoopste optie
+		\item Eenvoudiger te maken dan \textit{concept} 1 en 2, want geen bewegingen in twee dimensies nodig
+	\end{itemize}
+
+\subsubsection{Selectie uiteindelijk ontwerp}
+Uiteindelijk werd gekozen voor het \textit{Concept} 3. De doorslaggevende factor was hierbij de kostprijs. In het eerste en tweede \textit{concept}
+
+
+
+
+
+
+
+\end{document}
