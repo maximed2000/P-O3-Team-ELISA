@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.10.1)  17 OCT 2019 17:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.10.1)  17 OCT 2019 17:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -174,9 +174,9 @@ cmr/m/n/14.4 ex-act even veel vloeistof
  []
 
 [5]
-Overfull \hbox (56.75545pt too wide) in paragraph at lines 104--105
-\OT1/cmr/m/n/14.4 Uiteindelijk werd gekozen voor het \OT1/cmr/m/it/14.4 Con-cep
-t \OT1/cmr/m/n/14.4 3. De doorslaggevende
+Overfull \hbox (34.03906pt too wide) in paragraph at lines 104--105
+\OT1/cmr/m/n/14.4 Uiteindelijk werd gekozen voor \OT1/cmr/m/it/14.4 Con-cept \O
+T1/cmr/m/n/14.4 3. De doorslaggevende
  []
 
 [6] (./TussentijdsVerslagTeamElisa.aux) )
@@ -201,7 +201,7 @@ exmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2018/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public
 /eurosym/feymr10.pfb>
-Output written on TussentijdsVerslagTeamElisa.pdf (6 pages, 147176 bytes).
+Output written on TussentijdsVerslagTeamElisa.pdf (6 pages, 147286 bytes).
 PDF statistics:
  56 PDF objects out of 1000 (max. 8388607)
  38 compressed objects within 1 object stream
