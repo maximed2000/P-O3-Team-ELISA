@@ -12,3 +12,7 @@
 \contentsline {paragraph}{Concept 2}{9}{section*.10}
 \contentsline {paragraph}{Concept 3}{9}{section*.11}
 \contentsline {subsection}{\numberline {3.2.2}Selectie uiteindelijk ontwerp}{9}{subsection.3.2.2}
+\contentsline {paragraph}{Algemene Natuurkunde: Mechanica}{12}{section*.17}
+\contentsline {paragraph}{Beginselen van Programmeren}{12}{section*.18}
+\contentsline {paragraph}{Probleemoplossen \& Ontwerpen, deel 2}{12}{section*.19}
+\contentsline {paragraph}{Algemene Natuurkunde: Elektromagnetisme en Informatieoverdracht en -verwerking \& elektrische netwerken}{12}{section*.20}

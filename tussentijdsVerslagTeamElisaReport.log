@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.10.1)  21 OCT 2019 22:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.10.1)  24 OCT 2019 11:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -986,25 +986,45 @@ Package: subcaption 2018/05/01 v1.1-162 Sub-captions (AR)
 \c@subfigure=\count309
 \c@subtable=\count310
 )
+(c:/texlive/2018/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
+\heavyrulewidth=\dimen292
+\lightrulewidth=\dimen293
+\cmidrulewidth=\dimen294
+\belowrulesep=\dimen295
+\belowbottomsep=\dimen296
+\aboverulesep=\dimen297
+\abovetopsep=\dimen298
+\cmidrulesep=\dimen299
+\cmidrulekern=\dimen300
+\defaultaddspace=\dimen301
+\@cmidla=\count311
+\@cmidlb=\count312
+\@aboverulesep=\dimen302
+\@belowrulesep=\dimen303
+\@thisruleclass=\count313
+\@lastruleclass=\count314
+\@thisrulewidth=\dimen304
+)
 (./tussentijdsVerslagTeamElisaReport.aux)
 \openout1 = `tussentijdsVerslagTeamElisaReport.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
 \AtBeginShipoutBox=\box93
-Package hyperref Info: Link coloring OFF on input line 29.
+Package hyperref Info: Link coloring OFF on input line 31.
 
 (c:/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1012,11 +1032,11 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (c:/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count311
+\c@section@level=\count315
 )
-LaTeX Info: Redefining \ref on input line 29.
-LaTeX Info: Redefining \pageref on input line 29.
-LaTeX Info: Redefining \nameref on input line 29.
+LaTeX Info: Redefining \ref on input line 31.
+LaTeX Info: Redefining \pageref on input line 31.
+LaTeX Info: Redefining \nameref on input line 31.
 
 (./tussentijdsVerslagTeamElisaReport.out)
 (./tussentijdsVerslagTeamElisaReport.out)
@@ -1026,16 +1046,16 @@ LaTeX Info: Redefining \nameref on input line 29.
 
 (c:/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count312
-\scratchdimen=\dimen292
+\scratchcounter=\count316
+\scratchdimen=\dimen305
 \scratchbox=\box94
-\nofMPsegments=\count313
-\nofMParguments=\count314
+\nofMPsegments=\count317
+\nofMParguments=\count318
 \everyMPshowfont=\toks34
-\MPscratchCnt=\count315
-\MPscratchDim=\dimen293
-\MPnumerator=\count316
-\makeMPintoPDFobject=\count317
+\MPscratchCnt=\count319
+\MPscratchDim=\dimen306
+\MPnumerator=\count320
+\makeMPintoPDFobject=\count321
 \everyMPtoPDFconversion=\toks35
 ) (c:/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1149,27 +1169,31 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 29.
+(Font)              <7> on input line 31.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 29.
+(Font)              <5> on input line 31.
 <kulakLogo.pdf, id=47, 245.83241pt x 51.21533pt>
 File: kulakLogo.pdf Graphic file (type pdf)
 <use kulakLogo.pdf>
-Package pdftex.def Info: kulakLogo.pdf  used on input line 31.
+Package pdftex.def Info: kulakLogo.pdf  used on input line 33.
 (pdftex.def)             Requested size: 245.8318pt x 51.21504pt.
  [1
 
 {c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <c:/texlive/texm
 f-local/tex/latex/local/kulak/kulakLogo.pdf>] (./tussentijdsVerslagTeamElisaRep
-ort.toc)
+ort.toc
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <10> not available
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 5.
+
+)
 \tf@toc=\write5
 \openout5 = `tussentijdsVerslagTeamElisaReport.toc'.
 
  [2
 
 
-]
-[3
+] [3
 
 ]
 Hoofdstuk 1.
@@ -1177,124 +1201,167 @@ Hoofdstuk 1.
 
 ]
 Hoofdstuk 2.
-<AfmetingenMicrowell.png, id=91, 169.8345pt x 104.18925pt>
+<AfmetingenMicrowell.png, id=92, 169.8345pt x 104.18925pt>
 File: AfmetingenMicrowell.png Graphic file (type png)
 <use AfmetingenMicrowell.png>
-Package pdftex.def Info: AfmetingenMicrowell.png  used on input line 46.
+Package pdftex.def Info: AfmetingenMicrowell.png  used on input line 48.
 (pdftex.def)             Requested size: 172.5pt x 105.82805pt.
 [5
 
  <./AfmetingenMicrowell.PNG>]
 Hoofdstuk 3.
 
-Package caption Warning: \label without proper reference on input line 78.
+Package caption Warning: \label without proper reference on input line 80.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: Reference `fig: foto concept 1 zuiger' on page 6 undefined on in
-put line 56.
+put line 58.
 
-<fotoConcept1.jpg, id=102, 2007.5pt x 1129.21875pt>
+<fotoConcept1.jpg, id=104, 2007.5pt x 1129.21875pt>
 File: fotoConcept1.jpg Graphic file (type jpg)
 <use fotoConcept1.jpg>
-Package pdftex.def Info: fotoConcept1.jpg  used on input line 60.
+Package pdftex.def Info: fotoConcept1.jpg  used on input line 62.
 (pdftex.def)             Requested size: 276.00105pt x 155.24652pt.
-<fotoConcept1Zuiger(1).jpg, id=103, 4015.0pt x 2258.4375pt>
+<fotoConcept1Zuiger(1).jpg, id=105, 4015.0pt x 2258.4375pt>
 File: fotoConcept1Zuiger(1).jpg Graphic file (type jpg)
 <use fotoConcept1Zuiger(1).jpg>
-Package pdftex.def Info: fotoConcept1Zuiger(1).jpg  used on input line 70.
+Package pdftex.def Info: fotoConcept1Zuiger(1).jpg  used on input line 72.
 (pdftex.def)             Requested size: 120.74947pt x 67.88805pt.
-<fotoConcept1Zuiger(2).jpg, id=104, 4015.0pt x 2258.4375pt>
+<fotoConcept1Zuiger(2).jpg, id=106, 4015.0pt x 2258.4375pt>
 File: fotoConcept1Zuiger(2).jpg Graphic file (type jpg)
 <use fotoConcept1Zuiger(2).jpg>
-Package pdftex.def Info: fotoConcept1Zuiger(2).jpg  used on input line 75.
+Package pdftex.def Info: fotoConcept1Zuiger(2).jpg  used on input line 77.
 (pdftex.def)             Requested size: 120.74947pt x 67.88805pt.
-[6
+
+Underfull \vbox (badness 2080) has occurred while \output is active []
+
+ [6
 
  <./fotoConcept1.jpg>]
-<fotoConcept2.jpg, id=112, 752.8125pt x 423.5825pt>
+<fotoConcept2.jpg, id=115, 752.8125pt x 423.5825pt>
 File: fotoConcept2.jpg Graphic file (type jpg)
 <use fotoConcept2.jpg>
-Package pdftex.def Info: fotoConcept2.jpg  used on input line 86.
+Package pdftex.def Info: fotoConcept2.jpg  used on input line 88.
 (pdftex.def)             Requested size: 276.00105pt x 155.30113pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 94.
+(Font)              <8> on input line 96.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 94.
+(Font)              <6> on input line 96.
  [7 <./fotoConcept1Zuiger(1).jpg> <./fotoConcept1Zuiger(2).jpg> <./fotoConcept2
 .jpg>]
-<micdis1.jpg, id=127, 3854.4pt x 1735.48375pt>
+<micdis1.jpg, id=130, 3854.4pt x 1735.48375pt>
 File: micdis1.jpg Graphic file (type jpg)
 <use micdis1.jpg>
-Package pdftex.def Info: micdis1.jpg  used on input line 97.
+Package pdftex.def Info: micdis1.jpg  used on input line 99.
 (pdftex.def)             Requested size: 276.00105pt x 124.25032pt.
-<micdis2.jpg, id=128, 3854.4pt x 1735.48375pt>
+<micdis2.jpg, id=131, 3854.4pt x 1735.48375pt>
 File: micdis2.jpg Graphic file (type jpg)
 <use micdis2.jpg>
-Package pdftex.def Info: micdis2.jpg  used on input line 105.
+Package pdftex.def Info: micdis2.jpg  used on input line 107.
 (pdftex.def)             Requested size: 276.00105pt x 124.25032pt.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 118.
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 120
+.
+LaTeX Font Info:    No file OMScmss.fd. on input line 120.
 
 
-(c:/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 118.
- [8 <./micdis1.jpg> <./micdis2.jpg>] [9] [10
+LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbullet' on input line 120.
 
-] [11
+[8 <./micdis1.jpg> <./micdis2.jpg>] [9]
+
+Package caption Warning: \label without proper reference on input line 152.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `tab:financieelVerslag' on page 10 undefined on input 
+line 147.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 150.
+
+
+Overfull \hbox (199.32045pt too wide) in paragraph at lines 154--168
+[][] 
+ []
+
+[10
 
 ]
-<kuleuvenSedes.pdf, id=151, 349.305pt x 596.2275pt>
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <10> not available
+(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 178.
+
+[11
+
+]
+Overfull \hbox (1.2843pt too wide) in paragraph at lines 206--207
+ []\OT1/cmr/bx/n/10 Algemene Na-tuur-kunde: Elek-tro-mag-ne-tisme en In-for-ma-
+tie-over-dracht
+ []
+
+[12
+
+] [13
+
+]
+<kuleuvenSedes.pdf, id=172, 349.305pt x 596.2275pt>
 File: kuleuvenSedes.pdf Graphic file (type pdf)
 <use kuleuvenSedes.pdf>
-Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 145.
+Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 213.
 (pdftex.def)             Requested size: 25.00282pt x 42.67912pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 145.
- [12
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 213.
+ [14
 
 
  <c:/texlive/texmf-local/tex/latex/local/kulak/kuleuvenSedes.pdf>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 145.
- (./tussentijdsVerslagTeamElisaReport.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 145.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 145.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 213.
+(./tussentijdsVerslagTeamElisaReport.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 213.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 213.
 Package rerunfilecheck Info: File `tussentijdsVerslagTeamElisaReport.out' has n
 ot changed.
 (rerunfilecheck)             Checksum: 994D78B5ADB035042E7B20605410E427;607.
 
 
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 145.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 213.
  ) 
 Here is how much of TeX's memory you used:
- 30524 strings out of 492639
- 613617 string characters out of 6133088
- 642147 words of memory out of 5000000
- 33979 multiletter control sequences out of 15000+600000
- 541975 words of font info for 58 fonts, out of 8000000 for 9000
+ 30594 strings out of 492639
+ 614449 string characters out of 6133088
+ 643055 words of memory out of 5000000
+ 34032 multiletter control sequences out of 15000+600000
+ 543851 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,15n,67p,1143b,1125s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,15n,67p,1143b,1126s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tex
 live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2018
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><c:/texlive/2018/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2018/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmr10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:
-/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/
-2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2018/texmf
--dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2018/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmti8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/p
-ublic/eurosym/feymr10.pfb>
-Output written on tussentijdsVerslagTeamElisaReport.pdf (12 pages, 12960511 byt
+fonts/cm/cmr8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r9.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><c
+:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/texlive
+/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2018/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb><c:/texlive/2018/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmti10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmti8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/eurosym/feymr10.p
+fb>
+Output written on tussentijdsVerslagTeamElisaReport.pdf (14 pages, 12996568 byt
 es).
 PDF statistics:
- 213 PDF objects out of 1000 (max. 8388607)
- 172 compressed objects within 2 object streams
- 35 named destinations out of 1000 (max. 500000)
+ 248 PDF objects out of 1000 (max. 8388607)
+ 201 compressed objects within 3 object streams
+ 45 named destinations out of 1000 (max. 500000)
  138 words of extra memory for PDF output out of 10000 (max. 10000000)
 

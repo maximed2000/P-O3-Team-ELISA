@@ -11,11 +11,13 @@
 \usepackage{pdfpages}
 \usepackage{caption}
 \usepackage{subcaption}
+\usepackage{booktabs}
+
 
 \faculty{Wetenschap \& Technologie Kulak}
 \group{Ingenieurswetenschappen}
 \title{How to make \textit{an automated microplate dispenser}}
-\subtitle{Een zoektocht naar precisie, snelheid en }
+\subtitle{Een zoektocht naar balans tussen precisie, snelheid en betaalbaarheid}
 \author{Team ELISA}
 \institute{Matthias Derez, Maxime Dujardin, Korneel Verkens, Seppe Vilain}
 \date{Academiejaar 2019 -- 2020}
@@ -27,7 +29,7 @@
    }
 
 \begin{document} % hier begint de eigenlijke inhoud van het document
-
+\sffamily
 \titlepage
 
 \tableofcontents
@@ -139,7 +141,73 @@ Uiteindelijk werd gekozen voor \textit{Concept} 3. De doorslaggevende factor was
 
 
 
-\chapter*{Besluit}
-Afsluitende tekst.
+\chapter*{Appendices}
+\section*{Financieel verslag}
+
+In Tabel \ref{tab:financieelVerslag} staan de gemaakte aankopen vermeld. VOOR DE VERZENDING WERD NOG EEN EXTRA BEDRAG VAN    BETAALD.
+
+
+\begin{table}[]
+	\sffamily
+	\label{tab:financieelVerslag}
+	\caption{Aankopen}
+	\begin{tabular}{@{}lllll@{}}
+		\toprule
+		  Item & Product & Prijs/stuk (\euro) & Aantal & Totaal (\euro)   \\ \midrule
+		1 & Staaf voor X- of Y-as glad 10 mm x 100 cm & 4.75 & 2 & 9.50 \\
+		2 & SCS10UU lineaire kogellager  & 5.50 & 2 & 11.00 \\
+		3 & GT2 timing belt 6 mm (per meter)  & 4.50 & 2 & 9.00 \\
+		4 & GT2 Pulley hoge resolutie | 6 mm riem | 20 tanden | 5 mm as & 6.00 & 1 & 6.00 \\
+		5 & Spanrol | gladde pulley hoge resolutie | 6 mm riem | 5 mm as & 5.50 & 1 & 5.50 \\
+		6 & SHF10 as-bevestiging (2 stuks) & 9.50 & 2 & 19.00 \\
+		7 & Aluminium profiel 2020 extrusion lengte 1 m (123-3D huismerk)  & 9.50 & 3 & 28.50 \\
+		8 & Aluminium hoekverbinding 2020 inclusief bevestigingsmateriaal (123-3D huismerk) & 2.75 & 4 & 11.00 \\
+		9 & Hulpstukje 4 mm Luchtslang PE T-stuk 4 x 4 x 4 mm & 0.20 & 15 & 3.00 \\
+		\bottomrule
+	\end{tabular}
+
+	
+\end{table}
+
+\clearpage
+
+\section*{Verantwoordelijkheden taakverdeling}
+
+De volledige opdracht werd verdeeld in volgende delen (met bijhorende verantwoordelijken):
+\begin{itemize}
+	\item \textsc{Teamleider:} Seppe Vilain
+	\item \textsc{Notulist}: Maxime Dujardin
+	\item \textsc{Opstellen CAD-model}: Korneel Verkens
+	\item \textsc{Mechanisme om platform met \textit{microwell}-platen te verplaatsen:} Matthias Derez, Seppe Vilain
+	\item \textsc{Pompsysteem:} Maxime Dujardin, Korneel Verkens
+	\item \textsc{Verslag \& presentatie:} Matthias Derez, Maxime Dujardin, Korneel Verkens, Seppe Vilain
+	
+\end{itemize}
+
+\clearpage
+
+\section*{Vakintegratie}
+Om dit project tot een goed einde te kunnen brengen werden een aantal vakken uit semesters 1 t.e.m. 3 gebruikt:
+
+\paragraph{Algemene Natuurkunde: Mechanica}
+
+In het vak 'Mechanica' werden de basisbeginselen i.v.m. druk en stroming in dunne buizen bijgebracht. Deze kennis werd gebruikt bij het ontwerpen van het buizensysteem om de vloeistof te verdelen naar de acht \textit{microwells}.
+
+\paragraph{Beginselen van Programmeren}
+
+De gebruikte programmeertaal voor de programma's die de machine gebruikt, is Python. In het vak 'Beginselen van Programmeren' werd deze taal geleerd. 
+
+\paragraph{Probleemoplossen \& Ontwerpen, deel 2}
+
+Het CAD-model werd gemaakt met het programma 'Solid Edge'. In P\&O 2 werd aangeleerd hoe hiermee te werken. Verder werd hier ook getoond hoe een \textit{Raspberry Pi microcontroller} kan bestuurd worden vanaf een computer. 
+
+\paragraph{Algemene Natuurkunde: Elektromagnetisme en Informatieoverdracht en -verwerking \& elektrische netwerken}
+
+Deze vakken behandelen o.a. het maken en oplossen van elektrische circuits en overdracht van informatie, wat van pas kwam bij het maken van de connecties tussen de vacuümpomp, de \textit{stepper}motor, de \textit{Raspberry Pi microcontroller}, \textit{mosfet} ... en de computer.
+
+ 
+
+
+
 
 \end{document}
