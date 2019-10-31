@@ -12,6 +12,10 @@
 \usepackage{caption}
 \usepackage{subcaption}
 \usepackage{booktabs}
+\usepackage{url}
+\usepackage{hyperref}
+
+
 
 
 \faculty{Wetenschap \& Technologie Kulak}
@@ -35,9 +39,9 @@
 \tableofcontents
 
 \chapter*{Inleiding}
-Vandaag de dag komen veel mensen in contact met HIV, de ziekte van Lyme en voedselallergenen. Om deze aandoeningen op te sporen, kan de ELISA-test (\textit{Enzyme-Linked ImmunoSorbent Assay}) gebruikt worden. Het is een laboratoriumtest die gebruikt wordt voor het meten van macromoleculaire stoffen in bloedmonsters. Door, gebruik makend van een enzym als merker, een specifieke antigeen-antistofbinding aan te tonen in het bloed of andere lichaamsvloeistof van een mens of dier, kan de eventuele aanwezigheid van de aandoening vastgesteld worden. 
+Vandaag de dag komen veel mensen in contact met HIV, de ziekte van Lyme en voedselallergenen. Om deze aandoeningen op te sporen, kan de ELISA-test (\textit{Enzyme-Linked ImmunoSorbent Assay} \cite{website:wikipedia}) gebruikt worden. Het is een laboratoriumtest die gebruikt wordt voor het meten van macromoleculaire stoffen in bloedmonsters. Door, gebruik makend van een enzym als merker, een specifieke antigeen-antistofbinding aan te tonen in het bloed of andere lichaamsvloeistof van een mens of dier, kan de eventuele aanwezigheid van de aandoening vastgesteld worden. 
 \newline
-Beeld je in dat je een gedreven laborant bent die werkt met de ELISA-test en op zoek is naar de aandoening waaraan een patiënt lijdt. Je wil dan natuurlijk liefst zo veel mogelijk tijd en moeite steken in de analyse van de chemische stoffen en geen kostbare tijd verliezen aan het voortdurend handmatig titreren van de stoffen in de \textit{microplate} zoals dit nu gebeurt in het\textit{Laboratory for Thrombosis Research} aan Kulak. De \textit{automatic microplate dispenser} is hiervoor de oplossing. Deze machine is snel en niet moe te maken, waardoor fouten uitgesloten worden. Mede door deze voordelen zal de \textit{automatic microplate dispenser} op termijn niet meer weg te denken zijn uit moderne laboratoria en zal deze mee zijn stempel drukken op de vooruitgang van de geneeskunde. Het grote probleem aan de \textit{automated microplate dispensers} die momenteel op de markt zijn, is dat prijzen voor een tweedehandstoestel beginnen bij \euro 1500 à \euro 8500 . Omdat dit veel geld is voor een machine die eigenlijk een relatief simpele handeling, besloten wij, studenten Ingenieurswetenschappen, zelf een machine te maken die hetzelfde doet als de apparaten die momenteel op de markt zijn, maar dan voor een wél acceptabele prijs.
+Beeld je in dat je een gedreven laborant bent die werkt met de ELISA-test en op zoek is naar de aandoening waaraan een patiënt lijdt. Je wil dan natuurlijk liefst zo veel mogelijk tijd en moeite steken in de analyse van de chemische stoffen en geen kostbare tijd verliezen aan het voortdurend handmatig titreren van de stoffen in de \textit{microplate} zoals dit nu gebeurt in het\textit{Laboratory for Thrombosis Research} aan Kulak. De \textit{automatic microplate dispenser} is hiervoor de oplossing. Deze machine is snel en niet moe te maken, waardoor fouten uitgesloten worden. Mede door deze voordelen zal de \textit{automatic microplate dispenser} op termijn niet meer weg te denken zijn uit moderne laboratoria en zal deze mee zijn stempel drukken op de vooruitgang van de geneeskunde. Het grote probleem aan de \textit{automated microplate dispensers} die momenteel op de markt zijn, is dat prijzen voor een tweedehandstoestel beginnen bij \euro 1500 à \euro 8500 \cite{website:LabX}. Omdat dit veel geld is voor een machine die eigenlijk een relatief simpele handeling, besloten wij, studenten Ingenieurswetenschappen, zelf een machine te maken die hetzelfde doet als de apparaten die momenteel op de markt zijn, maar dan voor een wél acceptabele prijs.
 
 
 \chapter{Klantenvereisten}
@@ -143,7 +147,6 @@ Uiteindelijk werd gekozen voor Concept 3. De doorslaggevende factor was hierbij 
 
 
 
-
 \chapter*{Appendices}
 \section*{Financieel verslag}
 
@@ -210,7 +213,16 @@ Deze vakken behandelen o.a. het maken en oplossen van elektrische circuits en ov
 
 \clearpage
 
-\section*{Vergaderverslagen}
+\section*{Planning}
+\subsection*{Gantt-grafiek}
+Op de volgende bladzijden vindt u een Gantt-grafiek van onze planning.
+\includepdf[pages=1]{kizzigeGanttchart.pdf}
+\includepdf[pages=2]{kizzigeGanttchart.pdf}
+\includepdf[pages=3]{kizzigeGanttchart.pdf}
+
+
+\subsection*{Vergaderverslagen}
+Op de volgende pagina's vindt u de vergaderverslagen van de teambijeenkomsten.
 \includepdf{vergaderverslag3oktober.pdf}
 \includepdf{vergaderverslag10oktober.pdf}
 \includepdf{vergaderverslag17oktober.pdf}
@@ -220,6 +232,8 @@ Deze vakken behandelen o.a. het maken en oplossen van elektrische circuits en ov
  
 
 
-
+\clearpage
+\bibliographystyle{plain}
+\bibliography{bibliografie.bib}
 
 \end{document}
