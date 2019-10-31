@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.10.1)  24 OCT 2019 22:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.10.1)  31 OCT 2019 13:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1204,34 +1204,34 @@ Hoofdstuk 2.
 <AfmetingenMicrowell.png, id=92, 169.8345pt x 104.18925pt>
 File: AfmetingenMicrowell.png Graphic file (type png)
 <use AfmetingenMicrowell.png>
-Package pdftex.def Info: AfmetingenMicrowell.png  used on input line 48.
+Package pdftex.def Info: AfmetingenMicrowell.png  used on input line 47.
 (pdftex.def)             Requested size: 172.5pt x 105.82805pt.
 [5
 
  <./AfmetingenMicrowell.PNG>]
 Hoofdstuk 3.
 
-Package caption Warning: \label without proper reference on input line 80.
+Package caption Warning: \label without proper reference on input line 79.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: Reference `fig: foto concept 1 zuiger' on page 6 undefined on in
-put line 58.
+put line 57.
 
 <fotoConcept1.jpg, id=104, 2007.5pt x 1129.21875pt>
 File: fotoConcept1.jpg Graphic file (type jpg)
 <use fotoConcept1.jpg>
-Package pdftex.def Info: fotoConcept1.jpg  used on input line 62.
+Package pdftex.def Info: fotoConcept1.jpg  used on input line 61.
 (pdftex.def)             Requested size: 276.00105pt x 155.24652pt.
 <fotoConcept1Zuiger(1).jpg, id=105, 4015.0pt x 2258.4375pt>
 File: fotoConcept1Zuiger(1).jpg Graphic file (type jpg)
 <use fotoConcept1Zuiger(1).jpg>
-Package pdftex.def Info: fotoConcept1Zuiger(1).jpg  used on input line 72.
+Package pdftex.def Info: fotoConcept1Zuiger(1).jpg  used on input line 71.
 (pdftex.def)             Requested size: 120.74947pt x 67.88805pt.
 <fotoConcept1Zuiger(2).jpg, id=106, 4015.0pt x 2258.4375pt>
 File: fotoConcept1Zuiger(2).jpg Graphic file (type jpg)
 <use fotoConcept1Zuiger(2).jpg>
-Package pdftex.def Info: fotoConcept1Zuiger(2).jpg  used on input line 77.
+Package pdftex.def Info: fotoConcept1Zuiger(2).jpg  used on input line 76.
 (pdftex.def)             Requested size: 120.74947pt x 67.88805pt.
 
 Underfull \vbox (badness 2080) has occurred while \output is active []
@@ -1242,48 +1242,48 @@ Underfull \vbox (badness 2080) has occurred while \output is active []
 <fotoConcept2.jpg, id=115, 752.8125pt x 423.5825pt>
 File: fotoConcept2.jpg Graphic file (type jpg)
 <use fotoConcept2.jpg>
-Package pdftex.def Info: fotoConcept2.jpg  used on input line 88.
+Package pdftex.def Info: fotoConcept2.jpg  used on input line 87.
 (pdftex.def)             Requested size: 276.00105pt x 155.30113pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 96.
+(Font)              <8> on input line 95.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 96.
+(Font)              <6> on input line 95.
  [7 <./fotoConcept1Zuiger(1).jpg> <./fotoConcept1Zuiger(2).jpg> <./fotoConcept2
 .jpg>]
 <micdis1.jpg, id=130, 3854.4pt x 1735.48375pt>
 File: micdis1.jpg Graphic file (type jpg)
 <use micdis1.jpg>
-Package pdftex.def Info: micdis1.jpg  used on input line 99.
+Package pdftex.def Info: micdis1.jpg  used on input line 98.
 (pdftex.def)             Requested size: 276.00105pt x 124.25032pt.
 <micdis2.jpg, id=131, 3854.4pt x 1735.48375pt>
 File: micdis2.jpg Graphic file (type jpg)
 <use micdis2.jpg>
-Package pdftex.def Info: micdis2.jpg  used on input line 107.
+Package pdftex.def Info: micdis2.jpg  used on input line 106.
 (pdftex.def)             Requested size: 276.00105pt x 124.25032pt.
-LaTeX Font Info:    Try loading font information for OMS+cmss on input line 120
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 119
 .
-LaTeX Font Info:    No file OMScmss.fd. on input line 120.
+LaTeX Font Info:    No file OMScmss.fd. on input line 119.
 
 
 LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 120.
+(Font)              for symbol `textbullet' on input line 119.
 
 [8 <./micdis1.jpg> <./micdis2.jpg>] [9]
 
-Package caption Warning: \label without proper reference on input line 152.
+Package caption Warning: \label without proper reference on input line 151.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: Reference `tab:financieelVerslag' on page 10 undefined on input 
-line 147.
+line 146.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 150.
+               Default added (so using `tbp') on input line 149.
 
 
-Overfull \hbox (199.32045pt too wide) in paragraph at lines 154--168
+Overfull \hbox (199.32045pt too wide) in paragraph at lines 153--167
 [][] 
  []
 
@@ -1292,35 +1292,214 @@ Overfull \hbox (199.32045pt too wide) in paragraph at lines 154--168
 ]
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <10> not available
-(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 178.
+(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 177.
 
 [11
 
 ]
-Overfull \hbox (1.2843pt too wide) in paragraph at lines 206--207
+Overfull \hbox (1.2843pt too wide) in paragraph at lines 205--206
  []\OT1/cmr/bx/n/10 Algemene Na-tuur-kunde: Elek-tro-mag-ne-tisme en In-for-ma-
 tie-over-dracht
  []
 
+<vergaderverslag3oktober.pdf, id=158, 597.50829pt x 845.0471pt>
+File: vergaderverslag3oktober.pdf Graphic file (type pdf)
+<use vergaderverslag3oktober.pdf>
+Package pdftex.def Info: vergaderverslag3oktober.pdf  used on input line 208.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: vergaderverslag3oktober.pdf Graphic file (type pdf)
+<use vergaderverslag3oktober.pdf>
+Package pdftex.def Info: vergaderverslag3oktober.pdf  used on input line 208.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+<vergaderverslag3oktober.pdf, id=161, page=1, 597.50829pt x 845.0471pt>
+File: vergaderverslag3oktober.pdf Graphic file (type pdf)
+<use vergaderverslag3oktober.pdf, page 1>
+Package pdftex.def Info: vergaderverslag3oktober.pdf , page1 used on input line
+ 208.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: vergaderverslag3oktober.pdf Graphic file (type pdf)
+<use vergaderverslag3oktober.pdf, page 1>
+Package pdftex.def Info: vergaderverslag3oktober.pdf , page1 used on input line
+ 208.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 [12
 
-] [13
-
 ]
-<kuleuvenSedes.pdf, id=172, 349.305pt x 596.2275pt>
+File: vergaderverslag3oktober.pdf Graphic file (type pdf)
+<use vergaderverslag3oktober.pdf, page 1>
+Package pdftex.def Info: vergaderverslag3oktober.pdf , page1 used on input line
+ 208.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: vergaderverslag3oktober.pdf Graphic file (type pdf)
+<use vergaderverslag3oktober.pdf, page 1>
+Package pdftex.def Info: vergaderverslag3oktober.pdf , page1 used on input line
+ 208.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: vergaderverslag3oktober.pdf Graphic file (type pdf)
+<use vergaderverslag3oktober.pdf, page 1>
+Package pdftex.def Info: vergaderverslag3oktober.pdf , page1 used on input line
+ 208.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [13 <./vergaderverslag3oktober.pdf>]
+<vergaderverslag10oktober.pdf, id=228, 597.50829pt x 845.0471pt>
+File: vergaderverslag10oktober.pdf Graphic file (type pdf)
+<use vergaderverslag10oktober.pdf>
+Package pdftex.def Info: vergaderverslag10oktober.pdf  used on input line 209.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: vergaderverslag10oktober.pdf Graphic file (type pdf)
+<use vergaderverslag10oktober.pdf>
+Package pdftex.def Info: vergaderverslag10oktober.pdf  used on input line 209.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+<vergaderverslag10oktober.pdf, id=231, page=1, 597.50829pt x 845.0471pt>
+File: vergaderverslag10oktober.pdf Graphic file (type pdf)
+<use vergaderverslag10oktober.pdf, page 1>
+Package pdftex.def Info: vergaderverslag10oktober.pdf , page1 used on input lin
+e 209.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: vergaderverslag10oktober.pdf Graphic file (type pdf)
+<use vergaderverslag10oktober.pdf, page 1>
+Package pdftex.def Info: vergaderverslag10oktober.pdf , page1 used on input lin
+e 209.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: vergaderverslag10oktober.pdf Graphic file (type pdf)
+<use vergaderverslag10oktober.pdf, page 1>
+Package pdftex.def Info: vergaderverslag10oktober.pdf , page1 used on input lin
+e 209.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: vergaderverslag10oktober.pdf Graphic file (type pdf)
+<use vergaderverslag10oktober.pdf, page 1>
+Package pdftex.def Info: vergaderverslag10oktober.pdf , page1 used on input lin
+e 209.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: vergaderverslag10oktober.pdf Graphic file (type pdf)
+<use vergaderverslag10oktober.pdf, page 1>
+Package pdftex.def Info: vergaderverslag10oktober.pdf , page1 used on input lin
+e 209.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [14 <./vergaderverslag10oktober.pdf>]
+<vergaderverslag17oktober.pdf, id=265, 597.50829pt x 845.0471pt>
+File: vergaderverslag17oktober.pdf Graphic file (type pdf)
+<use vergaderverslag17oktober.pdf>
+Package pdftex.def Info: vergaderverslag17oktober.pdf  used on input line 210.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: vergaderverslag17oktober.pdf Graphic file (type pdf)
+<use vergaderverslag17oktober.pdf>
+Package pdftex.def Info: vergaderverslag17oktober.pdf  used on input line 210.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+<vergaderverslag17oktober.pdf, id=268, page=1, 597.50829pt x 845.0471pt>
+File: vergaderverslag17oktober.pdf Graphic file (type pdf)
+<use vergaderverslag17oktober.pdf, page 1>
+Package pdftex.def Info: vergaderverslag17oktober.pdf , page1 used on input lin
+e 210.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: vergaderverslag17oktober.pdf Graphic file (type pdf)
+<use vergaderverslag17oktober.pdf, page 1>
+Package pdftex.def Info: vergaderverslag17oktober.pdf , page1 used on input lin
+e 210.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: vergaderverslag17oktober.pdf Graphic file (type pdf)
+<use vergaderverslag17oktober.pdf, page 1>
+Package pdftex.def Info: vergaderverslag17oktober.pdf , page1 used on input lin
+e 210.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: vergaderverslag17oktober.pdf Graphic file (type pdf)
+<use vergaderverslag17oktober.pdf, page 1>
+Package pdftex.def Info: vergaderverslag17oktober.pdf , page1 used on input lin
+e 210.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: vergaderverslag17oktober.pdf Graphic file (type pdf)
+<use vergaderverslag17oktober.pdf, page 1>
+Package pdftex.def Info: vergaderverslag17oktober.pdf , page1 used on input lin
+e 210.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+[15 <./vergaderverslag17oktober.pdf>]
+<vergaderverslag24oktober.pdf, id=303, 597.50829pt x 845.0471pt>
+File: vergaderverslag24oktober.pdf Graphic file (type pdf)
+<use vergaderverslag24oktober.pdf>
+Package pdftex.def Info: vergaderverslag24oktober.pdf  used on input line 211.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: vergaderverslag24oktober.pdf Graphic file (type pdf)
+<use vergaderverslag24oktober.pdf>
+Package pdftex.def Info: vergaderverslag24oktober.pdf  used on input line 211.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+<vergaderverslag24oktober.pdf, id=306, page=1, 597.50829pt x 845.0471pt>
+File: vergaderverslag24oktober.pdf Graphic file (type pdf)
+<use vergaderverslag24oktober.pdf, page 1>
+Package pdftex.def Info: vergaderverslag24oktober.pdf , page1 used on input lin
+e 211.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: vergaderverslag24oktober.pdf Graphic file (type pdf)
+<use vergaderverslag24oktober.pdf, page 1>
+Package pdftex.def Info: vergaderverslag24oktober.pdf , page1 used on input lin
+e 211.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: vergaderverslag24oktober.pdf Graphic file (type pdf)
+<use vergaderverslag24oktober.pdf, page 1>
+Package pdftex.def Info: vergaderverslag24oktober.pdf , page1 used on input lin
+e 211.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: vergaderverslag24oktober.pdf Graphic file (type pdf)
+<use vergaderverslag24oktober.pdf, page 1>
+Package pdftex.def Info: vergaderverslag24oktober.pdf , page1 used on input lin
+e 211.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: vergaderverslag24oktober.pdf Graphic file (type pdf)
+<use vergaderverslag24oktober.pdf, page 1>
+Package pdftex.def Info: vergaderverslag24oktober.pdf , page1 used on input lin
+e 211.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [16 <./vergaderverslag24oktober.pdf>]
+<vergaderverslag31oktober.pdf, id=340, 597.50829pt x 845.0471pt>
+File: vergaderverslag31oktober.pdf Graphic file (type pdf)
+<use vergaderverslag31oktober.pdf>
+Package pdftex.def Info: vergaderverslag31oktober.pdf  used on input line 212.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: vergaderverslag31oktober.pdf Graphic file (type pdf)
+<use vergaderverslag31oktober.pdf>
+Package pdftex.def Info: vergaderverslag31oktober.pdf  used on input line 212.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+<vergaderverslag31oktober.pdf, id=343, page=1, 597.50829pt x 845.0471pt>
+File: vergaderverslag31oktober.pdf Graphic file (type pdf)
+<use vergaderverslag31oktober.pdf, page 1>
+Package pdftex.def Info: vergaderverslag31oktober.pdf , page1 used on input lin
+e 212.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: vergaderverslag31oktober.pdf Graphic file (type pdf)
+<use vergaderverslag31oktober.pdf, page 1>
+Package pdftex.def Info: vergaderverslag31oktober.pdf , page1 used on input lin
+e 212.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: vergaderverslag31oktober.pdf Graphic file (type pdf)
+<use vergaderverslag31oktober.pdf, page 1>
+Package pdftex.def Info: vergaderverslag31oktober.pdf , page1 used on input lin
+e 212.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: vergaderverslag31oktober.pdf Graphic file (type pdf)
+<use vergaderverslag31oktober.pdf, page 1>
+Package pdftex.def Info: vergaderverslag31oktober.pdf , page1 used on input lin
+e 212.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: vergaderverslag31oktober.pdf Graphic file (type pdf)
+<use vergaderverslag31oktober.pdf, page 1>
+Package pdftex.def Info: vergaderverslag31oktober.pdf , page1 used on input lin
+e 212.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+
+[17 <./vergaderverslag31oktober.pdf>]
+<kuleuvenSedes.pdf, id=377, 349.305pt x 596.2275pt>
 File: kuleuvenSedes.pdf Graphic file (type pdf)
 <use kuleuvenSedes.pdf>
-Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 213.
+Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 219.
 (pdftex.def)             Requested size: 25.00282pt x 42.67912pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 213.
- [14
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 219.
+ [18
 
 
  <c:/texlive/texmf-local/tex/latex/local/kulak/kuleuvenSedes.pdf>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 213.
-(./tussentijdsVerslagTeamElisaReport.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 213.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 213.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 219.
+ (./tussentijdsVerslagTeamElisaReport.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 219.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 219.
 Package rerunfilecheck Info: File `tussentijdsVerslagTeamElisaReport.out' has n
 ot changed.
 (rerunfilecheck)             Checksum: 994D78B5ADB035042E7B20605410E427;607.
@@ -1331,16 +1510,16 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 213.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 219.
  ) 
 Here is how much of TeX's memory you used:
- 30594 strings out of 492639
- 614449 string characters out of 6133088
+ 30644 strings out of 492639
+ 616214 string characters out of 6133088
  643055 words of memory out of 5000000
- 34032 multiletter control sequences out of 15000+600000
+ 34067 multiletter control sequences out of 15000+600000
  543851 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,15n,67p,1143b,1126s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,18n,67p,1186b,1126s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tex
 live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2018
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><c:/texlive/2018/texmf-
@@ -1353,15 +1532,21 @@ r9.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><c
 /2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2018/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb><c:/texlive/2018/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmti10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmti8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/eurosym/feymr10.p
-fb>
-Output written on tussentijdsVerslagTeamElisaReport.pdf (14 pages, 12996568 byt
+ype1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmsy8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmti10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8
+.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb><c:/tex
+live/2018/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2018/
+texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2018/texmf-dist
+/fonts/type1/public/cm-super/sfrm0500.pfb><c:/texlive/2018/texmf-dist/fonts/typ
+e1/public/cm-super/sfrm0800.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/
+cm-super/sfrm1000.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/cm-super/s
+frm1200.pfb>
+Output written on tussentijdsVerslagTeamElisaReport.pdf (18 pages, 13868233 byt
 es).
 PDF statistics:
- 248 PDF objects out of 1000 (max. 8388607)
- 201 compressed objects within 3 object streams
- 45 named destinations out of 1000 (max. 500000)
- 138 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 460 PDF objects out of 1000 (max. 8388607)
+ 366 compressed objects within 4 object streams
+ 50 named destinations out of 1000 (max. 500000)
+ 238 words of extra memory for PDF output out of 10000 (max. 10000000)
 
