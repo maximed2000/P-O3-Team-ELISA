@@ -40,9 +40,9 @@
 \tableofcontents
 
 \chapter*{Inleiding}
-Vandaag de dag komen veel mensen in contact met HIV, de ziekte van Lyme en voedselallergenen. Om deze aandoeningen op te sporen, kan de ELISA-test (\textit{Enzyme-Linked ImmunoSorbent Assay} \cite{website:wikipedia}) gebruikt worden. Het is een laboratoriumtest die gebruikt wordt voor het meten van macromoleculaire stoffen in bloedmonsters. Door, gebruik makend van een enzym als merker, een specifieke antigeen-antistofbinding aan te tonen in het bloed of andere lichaamsvloeistof van een mens of dier, kan de eventuele aanwezigheid van de aandoening vastgesteld worden. 
+Vandaag de dag komen veel mensen in contact met HIV, de ziekte van Lyme en voedselallergenen. Om deze aandoeningen op te sporen, kan de ELISA-test (\textit{Enzyme-Linked ImmunoSorbent Assay}) gebruikt worden. Het is een laboratoriumtest die gebruikt wordt voor het meten van macromoleculaire stoffen in bloedmonsters. Door, gebruik makend van een enzym als merker, een specifieke antigeen-antistofbinding aan te tonen in het bloed of andere lichaamsvloeistof van een mens of dier, kan de eventuele aanwezigheid van de aandoening vastgesteld worden. 
 \newline
-Beeld je in dat je een gedreven laborant bent die werkt met de ELISA-test en op zoek is naar de aandoening waaraan een patiënt lijdt. Je wil dan natuurlijk liefst zo veel mogelijk tijd en moeite steken in de analyse van de chemische stoffen en geen kostbare tijd verliezen aan het voortdurend handmatig titreren van de stoffen in de \textit{microplate} zoals dit nu gebeurt in het\textit{Laboratory for Thrombosis Research} aan Kulak. De \textit{automatic microplate dispenser} is hiervoor de oplossing. Deze machine is snel en niet moe te maken, waardoor fouten uitgesloten worden. Mede door deze voordelen zal de \textit{automatic microplate dispenser} op termijn niet meer weg te denken zijn uit moderne laboratoria en zal deze mee zijn stempel drukken op de vooruitgang van de geneeskunde. Het grote probleem aan de \textit{automated microplate dispensers} die momenteel op de markt zijn, is dat prijzen voor een tweedehandstoestel beginnen bij \euro 1500 à \euro 8500 \cite{website:LabX}. Omdat dit veel geld is voor een machine die eigenlijk een relatief simpele handeling, besloten wij, studenten Ingenieurswetenschappen, zelf een machine te maken die hetzelfde doet als de apparaten die momenteel op de markt zijn, maar dan voor een wél acceptabele prijs.
+Beeld je in dat je een gedreven laborant bent die werkt met de ELISA-test en op zoek is naar de aandoening waaraan een patiënt lijdt. Je wil dan natuurlijk liefst zo veel mogelijk tijd en moeite steken in de analyse van de chemische stoffen en geen kostbare tijd verliezen aan het voortdurend handmatig titreren van de stoffen in de \textit{microplate} zoals dit nu gebeurt in het\textit{Laboratory for Thrombosis Research} aan Kulak. De \textit{automatic microplate dispenser} is hiervoor de oplossing. Deze machine is snel en niet moe te maken, waardoor fouten uitgesloten worden. Mede door deze voordelen zal de \textit{automatic microplate dispenser} op termijn niet meer weg te denken zijn uit moderne laboratoria en zal deze mee zijn stempel drukken op de vooruitgang van de geneeskunde. Het grote probleem aan de \textit{automated microplate dispensers} die momenteel op de markt zijn, is dat prijzen voor een tweedehandstoestel beginnen bij \euro 1500 à \euro 8500. Omdat dit veel geld is voor een machine die eigenlijk een relatief simpele handeling, besloten wij, studenten Ingenieurswetenschappen, zelf een machine te maken die hetzelfde doet als de apparaten die momenteel op de markt zijn, maar dan voor een wél acceptabele prijs.
 
 
 \chapter{Klantenvereisten}
@@ -59,49 +59,18 @@ De te onderzoeken substantie bevindt zich in een recipiënt van waaruit het kan 
 \end{figure} 
 
 
-\chapter{Ontwerpen} 
-\section{Mogelijke concepts}
-\subsection{Concept 1}
-Een eerste concept is gebaseerd op het principe van een handmatige \textit{dispenser} die ter beschikking werd gesteld. In Figuur \ref{fig: schets concept 1} staat een schets van het concept. De \textit{wells} worden in dit concept in een keer gevuld door 96 cilinders. De cilinders zijn vastgemaakt aan een plaat in 12 rijen van 8. De afstand tussen de middelpunten van 2 cilinders is telkens 9 mm. De cilinders zelf bewegen niet. In elke cilinder zit een zuiger die op en neer kan bewegen. De koppen van de cilinders zijn vastgemaakt op een plaat die op en neer kan bewegen (zie Figuur \ref{fig:foto concept 1 zuiger}) m.b.v. een motor die boven het geheel van de twee platen is bevestigd. Het geheel van de platen met de zuigers en cilinders kan op en neer bewegen om de vloeistof in de cilinders op te zuigen. De \textit{microwell}-plaat is bevestigd aan een aandrijfriem met een motor zodat de plaat naar links en rechts kan bewegen. Dit laat het mechanisme toe om telkens de cilinders opnieuw te vullen en een gevulde \textit{microwell}-plaat te vervangen door een lege.  
+\chapter{Ontwerp} 
 
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=0.8\textwidth]{fotoConcept1.jpg}
-	\caption{Schets concept 1}
-	\label{fig: schets concept 1}
+
+In deze sectie wordt het uiteindelijke concept toegelicht en uitgelegd waarom dit concept weerhouden is.
+
+\section{Werking}
+
+	Het concept (zie Figuren \ref{fig: CAD-model globaal} en \ref{fig: CAD-model ingezoomd}) laat toe om zes \textit{microwell}-platen in één keer te vullen.  Er wordt gewerkt met een pomp die de vloeistof uit het recipiënt oppompt en via een buizennetwerk verdeelt over acht pipetpunten waarvan de middelpunten zich op een afstand van 9 mm van elkaar bevinden. De verdeling gebeurt door elke buis te splitsen in twee andere buizen m.b.v. een verdeelstuk. De pipetpunten kunnen van de machine gehaald worden en zo gemakkelijk vervangen worden. In het platform waar de \textit{microwell}-platen worden op geplaatst, zitten zes rechthoeken in de vorm van de \textit{microwell}-platen gefreesd zodat de platen vastzitten. Het platform is vastgemaakt aan een aandrijfriem en \textit{stepper}-motor en kan op die manier verplaatst worden. Telkens wanneer een rij van acht \textit{wells} gevuld is, stopt de pomp en verschuift de \textit{microwell}-plaat 9 mm naar links. Daarna vult de pomp opnieuw acht \textit{wells}. Dit proces wordt herhaald tot de twaalf rijen van acht \textit{wells} gevuld zijn. 
 	
-\end{figure} 
-
-\begin{figure}
-	\centering
-	\begin{subfigure}{.5\textwidth}
-		\centering
-		\includegraphics[width=0.7\linewidth,angle=270]{fotoConcept1Zuiger(1).jpg}
-		\caption{Plaat aan de koppen van de zuigers omhoog}
-	\end{subfigure}%
-	\begin{subfigure}{.5\textwidth}
-		\centering
-		\includegraphics[width=0.7\linewidth,angle=270]{fotoConcept1Zuiger(2).jpg}
-		\caption{Plaat aan de koppen van de zuigers omlaag}
-	\end{subfigure}
-	\caption{Voorstelling zuigmechanisme}
-	\label{fig:foto concept 1 zuiger}
-\end{figure}
-
-\subsection{Concept 2}
-Het tweede concept is qua mechanisme om de \textit{wells} te vullen gelijkaardig, alleen worden hier minder cilinders en zuigers gebruikt. In Figuur \ref{fig: schets concept 2} staat een schets van het concept. Er worden acht cilinders naast elkaar vastgemaakt aan een plaat, met opnieuw een afstand van 9 mm tussen de middelpunten van twee aanliggende cilinders. De zuigers die in de cilinders zitten, worden op analoge manier bevestigd als in concept 1. In plaats van de \textit{wells} in de plaat in een keer te vullen, gebeurt dit nu in twaalf stappen. Telkens wanneer een rij van acht \textit{wells} gevuld is, schuift de \textit{microwell}-plaat naar rechts, tot deze zich niet meer onder de zuigers bevindt, en beweegt het geheel met de zuigers en cilinders naar onder en weer naar boven om de cilinders opnieuw te vullen met vloeistof. Vervolgens schuift de \textit{microwell}-plaat opnieuw naar links onder de cilinders en wordt de volgende rij van 8 \textit{microwells} gevuld.
-
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=0.8\textwidth]{fotoConcept2.jpg}
-	\caption{Schets concept 2}
-	\label{fig: schets concept 2}
+\section{Voordelen}
+	We gebruiken slechts 8 pipetpunten en geen 12 of 96. Er werd beslist om geen 96 \textit{wells} tegelijk te vullen omdat één enkele pomp niet genoeg zuigkracht genereert om zo'n grote hoeveelheid vloeistof te kunnen opzuigen. De reden dat we geen 12 \textit{wells} tegelijk vullen is de volgende: wanneer we de vloeistof verdelen over 8 pipetpunten, kunnen we ervoor zorgen dat de vloeistof van het recipiënt tot aan elk van de 8 pipetpunten een gelijke afstand aflegt. Dit kan eenvoudig gerealiseerd worden door de buizen te verdelen m.b.v. T- of Y-verdeelstukken, wat bij 12 pipetpunten niet het geval is. Dit laatste zou ervoor kunnen zorgen dat er niet evenveel vloeistof in elke \textit{well} komt, wat problemen oplevert bij het uitvoeren van de ELISA-test. Dit concept heeft ook als voordeel t.o.v. andere concepten die opgesteld werden dat er maar één bewegend onderdeel is. Hierdoor kan het aantal motoren beperkt worden. Een ander voordeel van dit concept is dat het relatief goedkoop is. Bij andere concepten die gemaakt werden, werd voorgesteld om met cilinders en zuigers te werken i.p.v. met een pomp. Deze onderdelen kosten per stuk echter even veel als het voorziene budget voor dit project. Door met een pomp te werken kan dit vermeden worden en wordt de kostprijs aanzienlijk gedrukt. 
 	
-\end{figure} 
-
-\subsection{Concept 3}
-Het derde concept is compleet verschillend van de eerste twee. In dit concept (zie Figuren \ref{fig: CAD-model globaal} en \ref{fig: CAD-model ingezoomd}) wordt gewerkt met een pomp die de vloeistof uit het recipiënt oppompt en via een buizennetwerk verdeelt over acht pipetpunten waarvan de middelpunten zich opnieuw op een afstand van 9 mm van elkaar bevinden. De afstand die de vloeistof aflegt van de pomp tot aan de uitgang van de pipetpunt is voor elk van de acht kanalen gelijk, wat belangrijk is om in elke \textit{well} even veel vloeistof te hebben. De \textit{microwell}-plaat wordt vastgemaakt aan een aandrijfriem en motor en kan op die manier verplaatst worden. Telkens wanneer een rij van acht \textit{wells} gevuld is, stopt de pomp en verschuift de \textit{microwell}-plaat 9 mm naar links. Daarna vult de pomp opnieuw acht \textit{wells}. Dit proces wordt herhaald tot de twaalf rijen van acht \textit{wells} gevuld zijn. 
-
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.8\textwidth]{micdis1.jpg}
@@ -117,33 +86,6 @@ Het derde concept is compleet verschillend van de eerste twee. In dit concept (z
 	\label{fig: CAD-model ingezoomd}
 	
 \end{figure} 
-
-\section{Selectie concept}
-In deze sectie worden per ontwerp de voordelen opgesomd en wordt de uiteindelijke keuze van een van de drie concepts toegelicht.
-
-\subsection{Voordelen}
-
-\paragraph{Concept 1}
-\begin{itemize}
-	\item Snelste optie, want alle 96 \textit{wells} in één keer gevuld
-	\item Uiterst precies, want er wordt gewerkt met vooraf geijkte cilinders zodat elke 	\textit{well} exact even veel vloeistof krijgt
-\end{itemize}
-
-\paragraph{Concept 2}
-\begin{itemize}
-	\item Goedkoper dan concept 1
-	\item Uiterst precies, want er wordt gewerkt met vooraf geijkte cilinders zodat elke 	\textit{well} exact even veel vloeistof krijgt
-\end{itemize}
-
-\paragraph{Concept 3}
-\begin{itemize}
-	\item Sneller dan concept 2, want geen verticale bewegingen nodig
-	\item Goedkoopste optie
-	\item Eenvoudiger te maken dan concept 1 en 2, want geen bewegingen in twee dimensies nodig
-\end{itemize}
-
-\subsection{Selectie uiteindelijk ontwerp}
-Uiteindelijk werd gekozen voor Concept 3. De doorslaggevende factor was hierbij de kostprijs. In het eerste en tweede concept kosten de gebruikte zuigers en cilinders per stuk evenveel als het voorziene budget voor de gehele machine. Aangezien deze niet nodig waren voor het derde concept, is dit veruit het goedkoopste effect. Doordat enkel de plaat horizontaal moet kunnen bewegen, hebben we maar een riem en een \textit{steppermotor} voor dit ontwerp. Bij de eerste twee ontwerpen moet er ook verticale beweging zijn voor de zuigers. Hiervoor zijn een tweede riem en \textit{steppermotor} nodig, wat het productieproces ingewikkelder en duurder maakt. De snelheid van concept drie is afhankelijk van hoe krachtig de pomp is. Wanneer deze voldoende snel de substantie kan opzuigen en spuiten, zal dit concept zeker sneller zijn dan concept twee en amper trager dan concept een. Indien de pomp nauwkeurig genoeg is en er gewerkt wordt met precies even lange en dikke buizen, kan men ook exact de gevraagde hoeveelheid subsantie in de \textit{wells} spuiten. 
 
 
 
@@ -236,11 +178,11 @@ Op de volgende pagina's vindt u de vergaderverslagen van de teambijeenkomsten.
  
 
 
-\clearpage
-\nocite{website:wikipedia,website:LabX}
-\bibliographystyle{plainurl}
-\bibliography{bibliografie.bib}
-\bibliographystyle{plain}
+%\clearpage
+%\nocite{website:wikipedia,website:LabX}
+%\bibliographystyle{plainurl}
+%\bibliography{bibliografie.bib}
+%\bibliographystyle{plain}
 
 
 \end{document}

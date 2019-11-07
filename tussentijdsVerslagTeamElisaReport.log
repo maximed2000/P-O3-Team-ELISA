@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.10.1)  31 OCT 2019 22:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.10.1)  7 NOV 2019 17:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1172,7 +1172,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 36.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 36.
-<kulakLogo.pdf, id=47, 245.83241pt x 51.21533pt>
+<kulakLogo.pdf, id=27, 245.83241pt x 51.21533pt>
 File: kulakLogo.pdf Graphic file (type pdf)
 <use kulakLogo.pdf>
 Package pdftex.def Info: kulakLogo.pdf  used on input line 38.
@@ -1193,28 +1193,6 @@ ort.toc)
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <10> not available
 (Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 43.
 
-! Undefined control sequence.
-<argument> \@safe@activesfalse \citeauthoryear 
-                                               {??}{web}{2019}
-l.43 ...unoSorbent Assay} \cite{website:wikipedia}
-                                                  ) gebruikt worden. Het is ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \@safe@activesfalse \citeauthoryear 
-                                               {??}{web}{}
-l.45 ...uro 1500 à \euro 8500 \cite{website:LabX}
-                                                  . Omdat dit veel geld is v...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
 [3
 
 ]
@@ -1223,7 +1201,7 @@ Hoofdstuk 1.
 
 ]
 Hoofdstuk 2.
-<AfmetingenMicrowell.png, id=96, 169.8345pt x 104.18925pt>
+<AfmetingenMicrowell.png, id=67, 169.8345pt x 104.18925pt>
 File: AfmetingenMicrowell.png Graphic file (type png)
 <use AfmetingenMicrowell.png>
 Package pdftex.def Info: AfmetingenMicrowell.png  used on input line 55.
@@ -1232,417 +1210,368 @@ Package pdftex.def Info: AfmetingenMicrowell.png  used on input line 55.
 
  <./AfmetingenMicrowell.PNG>]
 Hoofdstuk 3.
-<fotoConcept1.jpg, id=108, 2007.5pt x 1129.21875pt>
-File: fotoConcept1.jpg Graphic file (type jpg)
-<use fotoConcept1.jpg>
-Package pdftex.def Info: fotoConcept1.jpg  used on input line 69.
-(pdftex.def)             Requested size: 276.00105pt x 155.24652pt.
-<fotoConcept1Zuiger(1).jpg, id=109, 4015.0pt x 2258.4375pt>
-File: fotoConcept1Zuiger(1).jpg Graphic file (type jpg)
-<use fotoConcept1Zuiger(1).jpg>
-Package pdftex.def Info: fotoConcept1Zuiger(1).jpg  used on input line 79.
-(pdftex.def)             Requested size: 120.74947pt x 67.88805pt.
-<fotoConcept1Zuiger(2).jpg, id=110, 4015.0pt x 2258.4375pt>
-File: fotoConcept1Zuiger(2).jpg Graphic file (type jpg)
-<use fotoConcept1Zuiger(2).jpg>
-Package pdftex.def Info: fotoConcept1Zuiger(2).jpg  used on input line 84.
-(pdftex.def)             Requested size: 120.74947pt x 67.88805pt.
 [6
 
- <./fotoConcept1.jpg>]
-<fotoConcept2.jpg, id=118, 752.8125pt x 423.5825pt>
-File: fotoConcept2.jpg Graphic file (type jpg)
-<use fotoConcept2.jpg>
-Package pdftex.def Info: fotoConcept2.jpg  used on input line 96.
-(pdftex.def)             Requested size: 276.00105pt x 155.30113pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 104.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 104.
- [7 <./fotoConcept1Zuiger(1).jpg> <./fotoConcept1Zuiger(2).jpg> <./fotoConcept2
-.jpg>]
-<micdis1.jpg, id=130, 3854.4pt x 1735.48375pt>
+]
+<micdis1.jpg, id=85, 3854.4pt x 1735.48375pt>
 File: micdis1.jpg Graphic file (type jpg)
 <use micdis1.jpg>
-Package pdftex.def Info: micdis1.jpg  used on input line 107.
+Package pdftex.def Info: micdis1.jpg  used on input line 76.
 (pdftex.def)             Requested size: 276.00105pt x 124.25032pt.
-<micdis2.jpg, id=131, 3854.4pt x 1735.48375pt>
+<micdis2.jpg, id=86, 3854.4pt x 1735.48375pt>
 File: micdis2.jpg Graphic file (type jpg)
 <use micdis2.jpg>
-Package pdftex.def Info: micdis2.jpg  used on input line 115.
+Package pdftex.def Info: micdis2.jpg  used on input line 84.
 (pdftex.def)             Requested size: 276.00105pt x 124.25032pt.
-LaTeX Font Info:    Try loading font information for OMS+cmss on input line 128
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 93.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 93.
+ [7 <./micdis1.jpg> <./micdis2.jpg>]
+Overfull \hbox (224.93192pt too wide) in paragraph at lines 104--119
+[][]
+ []
+
+[8
+
+]
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 130
 .
-LaTeX Font Info:    No file OMScmss.fd. on input line 128.
+LaTeX Font Info:    No file OMScmss.fd. on input line 130.
 
 
 LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 128.
+(Font)              for symbol `textbullet' on input line 130.
 
-[8 <./micdis1.jpg> <./micdis2.jpg>] [9]
-Overfull \hbox (224.93192pt too wide) in paragraph at lines 162--177
-[][]
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <10> not available
+(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 130.
+
+[9
+
+]
+Overfull \hbox (1.2843pt too wide) in paragraph at lines 158--159
+ []\OT1/cmr/bx/n/10 Algemene Na-tuur-kunde: Elek-tro-mag-ne-tisme en In-for-ma-
+tie-over-dracht
  []
 
 [10
 
 ]
-
-LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <10> not available
-(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 188.
-
-[11
-
-]
-Overfull \hbox (1.2843pt too wide) in paragraph at lines 216--217
- []\OT1/cmr/bx/n/10 Algemene Na-tuur-kunde: Elek-tro-mag-ne-tisme en In-for-ma-
-tie-over-dracht
- []
-
-[12
-
-]
-<kizzigeGanttchart.pdf, id=170, 794.97pt x 614.295pt>
+<kizzigeGanttchart.pdf, id=118, 794.97pt x 614.295pt>
 File: kizzigeGanttchart.pdf Graphic file (type pdf)
 <use kizzigeGanttchart.pdf>
-Package pdftex.def Info: kizzigeGanttchart.pdf  used on input line 223.
+Package pdftex.def Info: kizzigeGanttchart.pdf  used on input line 165.
 (pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
 File: kizzigeGanttchart.pdf Graphic file (type pdf)
 <use kizzigeGanttchart.pdf>
-Package pdftex.def Info: kizzigeGanttchart.pdf  used on input line 223.
+Package pdftex.def Info: kizzigeGanttchart.pdf  used on input line 165.
 (pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-<kizzigeGanttchart.pdf, id=173, page=1, 794.97pt x 614.295pt>
+<kizzigeGanttchart.pdf, id=121, page=1, 794.97pt x 614.295pt>
 File: kizzigeGanttchart.pdf Graphic file (type pdf)
 <use kizzigeGanttchart.pdf, page 1>
-Package pdftex.def Info: kizzigeGanttchart.pdf , page1 used on input line 223.
+Package pdftex.def Info: kizzigeGanttchart.pdf , page1 used on input line 165.
 (pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
 File: kizzigeGanttchart.pdf Graphic file (type pdf)
 <use kizzigeGanttchart.pdf, page 1>
-Package pdftex.def Info: kizzigeGanttchart.pdf , page1 used on input line 223.
+Package pdftex.def Info: kizzigeGanttchart.pdf , page1 used on input line 165.
 (pdftex.def)             Requested size: 598.22752pt x 462.26671pt.
- [13
+ [11
 
 ]
 File: kizzigeGanttchart.pdf Graphic file (type pdf)
 <use kizzigeGanttchart.pdf, page 1>
-Package pdftex.def Info: kizzigeGanttchart.pdf , page1 used on input line 223.
+Package pdftex.def Info: kizzigeGanttchart.pdf , page1 used on input line 165.
 (pdftex.def)             Requested size: 598.22752pt x 462.26671pt.
 File: kizzigeGanttchart.pdf Graphic file (type pdf)
 <use kizzigeGanttchart.pdf, page 1>
-Package pdftex.def Info: kizzigeGanttchart.pdf , page1 used on input line 223.
+Package pdftex.def Info: kizzigeGanttchart.pdf , page1 used on input line 165.
 (pdftex.def)             Requested size: 598.22752pt x 462.26671pt.
 File: kizzigeGanttchart.pdf Graphic file (type pdf)
 <use kizzigeGanttchart.pdf, page 1>
-Package pdftex.def Info: kizzigeGanttchart.pdf , page1 used on input line 223.
+Package pdftex.def Info: kizzigeGanttchart.pdf , page1 used on input line 165.
 (pdftex.def)             Requested size: 598.22752pt x 462.26671pt.
- [14 <./kizzigeGanttchart.pdf>]
+ [12 <./kizzigeGanttchart.pdf>]
 File: kizzigeGanttchart.pdf Graphic file (type pdf)
 <use kizzigeGanttchart.pdf>
-Package pdftex.def Info: kizzigeGanttchart.pdf  used on input line 224.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-File: kizzigeGanttchart.pdf Graphic file (type pdf)
-<use kizzigeGanttchart.pdf>
-Package pdftex.def Info: kizzigeGanttchart.pdf  used on input line 224.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-<kizzigeGanttchart.pdf, id=205, page=2, 794.97pt x 614.295pt>
-File: kizzigeGanttchart.pdf Graphic file (type pdf)
-<use kizzigeGanttchart.pdf, page 2>
-Package pdftex.def Info: kizzigeGanttchart.pdf , page2 used on input line 224.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-File: kizzigeGanttchart.pdf Graphic file (type pdf)
-<use kizzigeGanttchart.pdf, page 2>
-Package pdftex.def Info: kizzigeGanttchart.pdf , page2 used on input line 224.
-(pdftex.def)             Requested size: 598.22752pt x 462.26671pt.
-File: kizzigeGanttchart.pdf Graphic file (type pdf)
-<use kizzigeGanttchart.pdf, page 2>
-Package pdftex.def Info: kizzigeGanttchart.pdf , page2 used on input line 224.
-(pdftex.def)             Requested size: 598.22752pt x 462.26671pt.
-File: kizzigeGanttchart.pdf Graphic file (type pdf)
-<use kizzigeGanttchart.pdf, page 2>
-Package pdftex.def Info: kizzigeGanttchart.pdf , page2 used on input line 224.
-(pdftex.def)             Requested size: 598.22752pt x 462.26671pt.
-File: kizzigeGanttchart.pdf Graphic file (type pdf)
-<use kizzigeGanttchart.pdf, page 2>
-Package pdftex.def Info: kizzigeGanttchart.pdf , page2 used on input line 224.
-(pdftex.def)             Requested size: 598.22752pt x 462.26671pt.
- [15 <./kizzigeGanttchart.pdf>]
-File: kizzigeGanttchart.pdf Graphic file (type pdf)
-<use kizzigeGanttchart.pdf>
-Package pdftex.def Info: kizzigeGanttchart.pdf  used on input line 225.
+Package pdftex.def Info: kizzigeGanttchart.pdf  used on input line 166.
 (pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
 File: kizzigeGanttchart.pdf Graphic file (type pdf)
 <use kizzigeGanttchart.pdf>
-Package pdftex.def Info: kizzigeGanttchart.pdf  used on input line 225.
+Package pdftex.def Info: kizzigeGanttchart.pdf  used on input line 166.
 (pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-<kizzigeGanttchart.pdf, id=217, page=3, 794.97pt x 614.295pt>
+<kizzigeGanttchart.pdf, id=152, page=2, 794.97pt x 614.295pt>
+File: kizzigeGanttchart.pdf Graphic file (type pdf)
+<use kizzigeGanttchart.pdf, page 2>
+Package pdftex.def Info: kizzigeGanttchart.pdf , page2 used on input line 166.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+File: kizzigeGanttchart.pdf Graphic file (type pdf)
+<use kizzigeGanttchart.pdf, page 2>
+Package pdftex.def Info: kizzigeGanttchart.pdf , page2 used on input line 166.
+(pdftex.def)             Requested size: 598.22752pt x 462.26671pt.
+File: kizzigeGanttchart.pdf Graphic file (type pdf)
+<use kizzigeGanttchart.pdf, page 2>
+Package pdftex.def Info: kizzigeGanttchart.pdf , page2 used on input line 166.
+(pdftex.def)             Requested size: 598.22752pt x 462.26671pt.
+File: kizzigeGanttchart.pdf Graphic file (type pdf)
+<use kizzigeGanttchart.pdf, page 2>
+Package pdftex.def Info: kizzigeGanttchart.pdf , page2 used on input line 166.
+(pdftex.def)             Requested size: 598.22752pt x 462.26671pt.
+File: kizzigeGanttchart.pdf Graphic file (type pdf)
+<use kizzigeGanttchart.pdf, page 2>
+Package pdftex.def Info: kizzigeGanttchart.pdf , page2 used on input line 166.
+(pdftex.def)             Requested size: 598.22752pt x 462.26671pt.
+ [13 <./kizzigeGanttchart.pdf>]
+File: kizzigeGanttchart.pdf Graphic file (type pdf)
+<use kizzigeGanttchart.pdf>
+Package pdftex.def Info: kizzigeGanttchart.pdf  used on input line 167.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+File: kizzigeGanttchart.pdf Graphic file (type pdf)
+<use kizzigeGanttchart.pdf>
+Package pdftex.def Info: kizzigeGanttchart.pdf  used on input line 167.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+<kizzigeGanttchart.pdf, id=165, page=3, 794.97pt x 614.295pt>
 File: kizzigeGanttchart.pdf Graphic file (type pdf)
 <use kizzigeGanttchart.pdf, page 3>
-Package pdftex.def Info: kizzigeGanttchart.pdf , page3 used on input line 225.
+Package pdftex.def Info: kizzigeGanttchart.pdf , page3 used on input line 167.
 (pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
 File: kizzigeGanttchart.pdf Graphic file (type pdf)
 <use kizzigeGanttchart.pdf, page 3>
-Package pdftex.def Info: kizzigeGanttchart.pdf , page3 used on input line 225.
+Package pdftex.def Info: kizzigeGanttchart.pdf , page3 used on input line 167.
 (pdftex.def)             Requested size: 598.22752pt x 462.26671pt.
 File: kizzigeGanttchart.pdf Graphic file (type pdf)
 <use kizzigeGanttchart.pdf, page 3>
-Package pdftex.def Info: kizzigeGanttchart.pdf , page3 used on input line 225.
+Package pdftex.def Info: kizzigeGanttchart.pdf , page3 used on input line 167.
 (pdftex.def)             Requested size: 598.22752pt x 462.26671pt.
 File: kizzigeGanttchart.pdf Graphic file (type pdf)
 <use kizzigeGanttchart.pdf, page 3>
-Package pdftex.def Info: kizzigeGanttchart.pdf , page3 used on input line 225.
+Package pdftex.def Info: kizzigeGanttchart.pdf , page3 used on input line 167.
 (pdftex.def)             Requested size: 598.22752pt x 462.26671pt.
 File: kizzigeGanttchart.pdf Graphic file (type pdf)
 <use kizzigeGanttchart.pdf, page 3>
-Package pdftex.def Info: kizzigeGanttchart.pdf , page3 used on input line 225.
+Package pdftex.def Info: kizzigeGanttchart.pdf , page3 used on input line 167.
 (pdftex.def)             Requested size: 598.22752pt x 462.26671pt.
 
-[16 <./kizzigeGanttchart.pdf>]
-<vergaderverslag3oktober.pdf, id=222, 597.50829pt x 845.0471pt>
+[14 <./kizzigeGanttchart.pdf>]
+<vergaderverslag3oktober.pdf, id=171, 597.50829pt x 845.0471pt>
 File: vergaderverslag3oktober.pdf Graphic file (type pdf)
 <use vergaderverslag3oktober.pdf>
-Package pdftex.def Info: vergaderverslag3oktober.pdf  used on input line 230.
+Package pdftex.def Info: vergaderverslag3oktober.pdf  used on input line 172.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: vergaderverslag3oktober.pdf Graphic file (type pdf)
 <use vergaderverslag3oktober.pdf>
-Package pdftex.def Info: vergaderverslag3oktober.pdf  used on input line 230.
+Package pdftex.def Info: vergaderverslag3oktober.pdf  used on input line 172.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-<vergaderverslag3oktober.pdf, id=225, page=1, 597.50829pt x 845.0471pt>
+<vergaderverslag3oktober.pdf, id=174, page=1, 597.50829pt x 845.0471pt>
 File: vergaderverslag3oktober.pdf Graphic file (type pdf)
 <use vergaderverslag3oktober.pdf, page 1>
 Package pdftex.def Info: vergaderverslag3oktober.pdf , page1 used on input line
- 230.
+ 172.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: vergaderverslag3oktober.pdf Graphic file (type pdf)
 <use vergaderverslag3oktober.pdf, page 1>
 Package pdftex.def Info: vergaderverslag3oktober.pdf , page1 used on input line
- 230.
+ 172.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [17]
+ [15]
 File: vergaderverslag3oktober.pdf Graphic file (type pdf)
 <use vergaderverslag3oktober.pdf, page 1>
 Package pdftex.def Info: vergaderverslag3oktober.pdf , page1 used on input line
- 230.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: vergaderverslag3oktober.pdf Graphic file (type pdf)
-<use vergaderverslag3oktober.pdf, page 1>
-Package pdftex.def Info: vergaderverslag3oktober.pdf , page1 used on input line
- 230.
+ 172.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: vergaderverslag3oktober.pdf Graphic file (type pdf)
 <use vergaderverslag3oktober.pdf, page 1>
 Package pdftex.def Info: vergaderverslag3oktober.pdf , page1 used on input line
- 230.
+ 172.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [18 <./vergaderverslag3oktober.pdf>]
-<vergaderverslag10oktober.pdf, id=286, 597.50829pt x 845.0471pt>
+File: vergaderverslag3oktober.pdf Graphic file (type pdf)
+<use vergaderverslag3oktober.pdf, page 1>
+Package pdftex.def Info: vergaderverslag3oktober.pdf , page1 used on input line
+ 172.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [16 <./vergaderverslag3oktober.pdf>]
+<vergaderverslag10oktober.pdf, id=235, 597.50829pt x 845.0471pt>
 File: vergaderverslag10oktober.pdf Graphic file (type pdf)
 <use vergaderverslag10oktober.pdf>
-Package pdftex.def Info: vergaderverslag10oktober.pdf  used on input line 231.
+Package pdftex.def Info: vergaderverslag10oktober.pdf  used on input line 173.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: vergaderverslag10oktober.pdf Graphic file (type pdf)
 <use vergaderverslag10oktober.pdf>
-Package pdftex.def Info: vergaderverslag10oktober.pdf  used on input line 231.
+Package pdftex.def Info: vergaderverslag10oktober.pdf  used on input line 173.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-<vergaderverslag10oktober.pdf, id=289, page=1, 597.50829pt x 845.0471pt>
+<vergaderverslag10oktober.pdf, id=238, page=1, 597.50829pt x 845.0471pt>
 File: vergaderverslag10oktober.pdf Graphic file (type pdf)
 <use vergaderverslag10oktober.pdf, page 1>
 Package pdftex.def Info: vergaderverslag10oktober.pdf , page1 used on input lin
-e 231.
+e 173.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: vergaderverslag10oktober.pdf Graphic file (type pdf)
 <use vergaderverslag10oktober.pdf, page 1>
 Package pdftex.def Info: vergaderverslag10oktober.pdf , page1 used on input lin
-e 231.
+e 173.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: vergaderverslag10oktober.pdf Graphic file (type pdf)
 <use vergaderverslag10oktober.pdf, page 1>
 Package pdftex.def Info: vergaderverslag10oktober.pdf , page1 used on input lin
-e 231.
+e 173.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: vergaderverslag10oktober.pdf Graphic file (type pdf)
 <use vergaderverslag10oktober.pdf, page 1>
 Package pdftex.def Info: vergaderverslag10oktober.pdf , page1 used on input lin
-e 231.
+e 173.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: vergaderverslag10oktober.pdf Graphic file (type pdf)
 <use vergaderverslag10oktober.pdf, page 1>
 Package pdftex.def Info: vergaderverslag10oktober.pdf , page1 used on input lin
-e 231.
+e 173.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 
-[19 <./vergaderverslag10oktober.pdf>]
-<vergaderverslag17oktober.pdf, id=325, 597.50829pt x 845.0471pt>
+[17 <./vergaderverslag10oktober.pdf>]
+<vergaderverslag17oktober.pdf, id=272, 597.50829pt x 845.0471pt>
 File: vergaderverslag17oktober.pdf Graphic file (type pdf)
 <use vergaderverslag17oktober.pdf>
-Package pdftex.def Info: vergaderverslag17oktober.pdf  used on input line 232.
+Package pdftex.def Info: vergaderverslag17oktober.pdf  used on input line 174.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: vergaderverslag17oktober.pdf Graphic file (type pdf)
 <use vergaderverslag17oktober.pdf>
-Package pdftex.def Info: vergaderverslag17oktober.pdf  used on input line 232.
+Package pdftex.def Info: vergaderverslag17oktober.pdf  used on input line 174.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-<vergaderverslag17oktober.pdf, id=328, page=1, 597.50829pt x 845.0471pt>
+<vergaderverslag17oktober.pdf, id=275, page=1, 597.50829pt x 845.0471pt>
 File: vergaderverslag17oktober.pdf Graphic file (type pdf)
 <use vergaderverslag17oktober.pdf, page 1>
 Package pdftex.def Info: vergaderverslag17oktober.pdf , page1 used on input lin
-e 232.
+e 174.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: vergaderverslag17oktober.pdf Graphic file (type pdf)
 <use vergaderverslag17oktober.pdf, page 1>
 Package pdftex.def Info: vergaderverslag17oktober.pdf , page1 used on input lin
-e 232.
+e 174.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: vergaderverslag17oktober.pdf Graphic file (type pdf)
 <use vergaderverslag17oktober.pdf, page 1>
 Package pdftex.def Info: vergaderverslag17oktober.pdf , page1 used on input lin
-e 232.
+e 174.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: vergaderverslag17oktober.pdf Graphic file (type pdf)
 <use vergaderverslag17oktober.pdf, page 1>
 Package pdftex.def Info: vergaderverslag17oktober.pdf , page1 used on input lin
-e 232.
+e 174.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: vergaderverslag17oktober.pdf Graphic file (type pdf)
 <use vergaderverslag17oktober.pdf, page 1>
 Package pdftex.def Info: vergaderverslag17oktober.pdf , page1 used on input lin
-e 232.
+e 174.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [20 <./vergaderverslag17oktober.pdf>]
-<vergaderverslag24oktober.pdf, id=362, 597.50829pt x 845.0471pt>
+ [18 <./vergaderverslag17oktober.pdf>]
+<vergaderverslag24oktober.pdf, id=309, 597.50829pt x 845.0471pt>
 File: vergaderverslag24oktober.pdf Graphic file (type pdf)
 <use vergaderverslag24oktober.pdf>
-Package pdftex.def Info: vergaderverslag24oktober.pdf  used on input line 233.
+Package pdftex.def Info: vergaderverslag24oktober.pdf  used on input line 175.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: vergaderverslag24oktober.pdf Graphic file (type pdf)
 <use vergaderverslag24oktober.pdf>
-Package pdftex.def Info: vergaderverslag24oktober.pdf  used on input line 233.
+Package pdftex.def Info: vergaderverslag24oktober.pdf  used on input line 175.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-<vergaderverslag24oktober.pdf, id=365, page=1, 597.50829pt x 845.0471pt>
+<vergaderverslag24oktober.pdf, id=312, page=1, 597.50829pt x 845.0471pt>
 File: vergaderverslag24oktober.pdf Graphic file (type pdf)
 <use vergaderverslag24oktober.pdf, page 1>
 Package pdftex.def Info: vergaderverslag24oktober.pdf , page1 used on input lin
-e 233.
+e 175.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: vergaderverslag24oktober.pdf Graphic file (type pdf)
 <use vergaderverslag24oktober.pdf, page 1>
 Package pdftex.def Info: vergaderverslag24oktober.pdf , page1 used on input lin
-e 233.
+e 175.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: vergaderverslag24oktober.pdf Graphic file (type pdf)
 <use vergaderverslag24oktober.pdf, page 1>
 Package pdftex.def Info: vergaderverslag24oktober.pdf , page1 used on input lin
-e 233.
+e 175.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: vergaderverslag24oktober.pdf Graphic file (type pdf)
 <use vergaderverslag24oktober.pdf, page 1>
 Package pdftex.def Info: vergaderverslag24oktober.pdf , page1 used on input lin
-e 233.
+e 175.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: vergaderverslag24oktober.pdf Graphic file (type pdf)
 <use vergaderverslag24oktober.pdf, page 1>
 Package pdftex.def Info: vergaderverslag24oktober.pdf , page1 used on input lin
-e 233.
+e 175.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 
-[21 <./vergaderverslag24oktober.pdf>]
-<vergaderverslag31oktober.pdf, id=399, 597.50829pt x 845.0471pt>
+[19 <./vergaderverslag24oktober.pdf>]
+<vergaderverslag31oktober.pdf, id=348, 597.50829pt x 845.0471pt>
 File: vergaderverslag31oktober.pdf Graphic file (type pdf)
 <use vergaderverslag31oktober.pdf>
-Package pdftex.def Info: vergaderverslag31oktober.pdf  used on input line 234.
+Package pdftex.def Info: vergaderverslag31oktober.pdf  used on input line 176.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: vergaderverslag31oktober.pdf Graphic file (type pdf)
 <use vergaderverslag31oktober.pdf>
-Package pdftex.def Info: vergaderverslag31oktober.pdf  used on input line 234.
+Package pdftex.def Info: vergaderverslag31oktober.pdf  used on input line 176.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-<vergaderverslag31oktober.pdf, id=402, page=1, 597.50829pt x 845.0471pt>
+<vergaderverslag31oktober.pdf, id=351, page=1, 597.50829pt x 845.0471pt>
 File: vergaderverslag31oktober.pdf Graphic file (type pdf)
 <use vergaderverslag31oktober.pdf, page 1>
 Package pdftex.def Info: vergaderverslag31oktober.pdf , page1 used on input lin
-e 234.
+e 176.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: vergaderverslag31oktober.pdf Graphic file (type pdf)
 <use vergaderverslag31oktober.pdf, page 1>
 Package pdftex.def Info: vergaderverslag31oktober.pdf , page1 used on input lin
-e 234.
+e 176.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: vergaderverslag31oktober.pdf Graphic file (type pdf)
 <use vergaderverslag31oktober.pdf, page 1>
 Package pdftex.def Info: vergaderverslag31oktober.pdf , page1 used on input lin
-e 234.
+e 176.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: vergaderverslag31oktober.pdf Graphic file (type pdf)
 <use vergaderverslag31oktober.pdf, page 1>
 Package pdftex.def Info: vergaderverslag31oktober.pdf , page1 used on input lin
-e 234.
+e 176.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: vergaderverslag31oktober.pdf Graphic file (type pdf)
 <use vergaderverslag31oktober.pdf, page 1>
 Package pdftex.def Info: vergaderverslag31oktober.pdf , page1 used on input lin
-e 234.
+e 176.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [22 <./vergaderverslag31oktober.pdf>]
-(./tussentijdsVerslagTeamElisaReport.bbl
-! Undefined control sequence.
-<argument> \protect \citeauthoryear 
-                                    {??}{web}{}
-l.3 ...ct\citeauthoryear{??}{web}{}]{website:LabX}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \protect \citeauthoryear 
-                                    {??}{web}{2019}
-l.6 ...thoryear{??}{web}{2019}]{website:wikipedia}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-) [23
-
+ [20 <./vergaderverslag31oktober.pdf>]
+[21
 
 ]
-<kuleuvenSedes.pdf, id=442, 349.305pt x 596.2275pt>
+<kuleuvenSedes.pdf, id=389, 349.305pt x 596.2275pt>
 File: kuleuvenSedes.pdf Graphic file (type pdf)
 <use kuleuvenSedes.pdf>
-Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 246.
+Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 188.
 (pdftex.def)             Requested size: 25.00282pt x 42.67912pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 246.
- [24
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 188.
+ [22
 
 
  <c:/texlive/texmf-local/tex/latex/local/kulak/kuleuvenSedes.pdf>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 246.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 188.
 
 (./tussentijdsVerslagTeamElisaReport.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 246.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 246.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 188.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 188.
 Package rerunfilecheck Info: File `tussentijdsVerslagTeamElisaReport.out' has n
 ot changed.
-(rerunfilecheck)             Checksum: 994D78B5ADB035042E7B20605410E427;607.
+(rerunfilecheck)             Checksum: 2C3EF4B038529E1558FCAC8A1E6E6D82;256.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 246.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 188.
  ) 
 Here is how much of TeX's memory you used:
- 30673 strings out of 492639
- 616925 string characters out of 6133088
- 643045 words of memory out of 5000000
- 34081 multiletter control sequences out of 15000+600000
- 543140 words of font info for 62 fonts, out of 8000000 for 9000
+ 30616 strings out of 492639
+ 615797 string characters out of 6133088
+ 641778 words of memory out of 5000000
+ 34048 multiletter control sequences out of 15000+600000
+ 542841 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,18n,67p,1325b,1126s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,18n,67p,1364b,1126s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tex
 live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2018
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><c:/texlive/2018/texmf-
@@ -1650,27 +1579,26 @@ dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2018/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmr10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmr8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r9.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb><c
-:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><c:/texlive
-/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/texlive/2018/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2018/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmssi10.pfb><c:/texlive/2018/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmsy7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmsy8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti1
-0.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:
-/texlive/2018/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb><c:/texlive/201
-8/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2018/texmf-di
-st/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2018/texmf-dist/fonts/t
-ype1/public/cm-super/sfrm0500.pfb><c:/texlive/2018/texmf-dist/fonts/type1/publi
-c/cm-super/sfrm0800.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/cm-super
-/sfrm1000.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfrm1200.
-pfb>
-Output written on tussentijdsVerslagTeamElisaReport.pdf (24 pages, 13908869 byt
-es).
+sl12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb>
+<c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/texli
+ve/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2018
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb><c:/texlive/2018/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmti10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
+i12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb><c:/
+texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/20
+18/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2018/texmf-d
+ist/fonts/type1/public/cm-super/sfrm0500.pfb><c:/texlive/2018/texmf-dist/fonts/
+type1/public/cm-super/sfrm0800.pfb><c:/texlive/2018/texmf-dist/fonts/type1/publ
+ic/cm-super/sfrm1000.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/cm-supe
+r/sfrm1200.pfb>
+Output written on tussentijdsVerslagTeamElisaReport.pdf (22 pages, 4697872 byte
+s).
 PDF statistics:
- 523 PDF objects out of 1000 (max. 8388607)
- 410 compressed objects within 5 object streams
- 61 named destinations out of 1000 (max. 500000)
- 288 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 464 PDF objects out of 1000 (max. 8388607)
+ 359 compressed objects within 4 object streams
+ 45 named destinations out of 1000 (max. 500000)
+ 228 words of extra memory for PDF output out of 10000 (max. 10000000)
 
