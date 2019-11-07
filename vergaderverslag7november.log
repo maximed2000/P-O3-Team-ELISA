@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.10.1)  7 NOV 2019 16:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.10.1)  7 NOV 2019 18:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**vergaderverslag31oktober.tex
-(./vergaderverslag31oktober.tex
+**vergaderverslag7november.tex
+(./vergaderverslag7november.tex
 LaTeX2e <2018-04-01> patch level 5
 (c:/texlive/texmf-local/tex/latex/local/kulak/kulakarticle.cls
 Document Class: kulakarticle 2016/10/17 Article class for KU Leuven
@@ -586,8 +586,8 @@ File: babel.def 2018/09/26 3.24 Babel common definitions
 )
 Package babel Info: Making " an active character on input line 132.
 ))
-(./vergaderverslag31oktober.aux)
-\openout1 = `vergaderverslag31oktober.aux'.
+(./vergaderverslag7november.aux)
+\openout1 = `vergaderverslag7november.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
@@ -618,9 +618,9 @@ LaTeX Info: Redefining \ref on input line 15.
 LaTeX Info: Redefining \pageref on input line 15.
 LaTeX Info: Redefining \nameref on input line 15.
 
-(./vergaderverslag31oktober.out) (./vergaderverslag31oktober.out)
+(./vergaderverslag7november.out) (./vergaderverslag7november.out)
 \@outlinefile=\write4
-\openout4 = `vergaderverslag31oktober.out'.
+\openout4 = `vergaderverslag7november.out'.
 
 
 (c:/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -697,10 +697,10 @@ f-local/tex/latex/local/kulak/kulakLogo.pdf> <c:/texlive/texmf-local/tex/latex/
 local/kulak/kuleuvenSedes.pdf>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 39.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 39.
- (./vergaderverslag31oktober.aux)
+ (./vergaderverslag7november.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 39.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 39.
-Package rerunfilecheck Info: File `vergaderverslag31oktober.out' has not change
+Package rerunfilecheck Info: File `vergaderverslag7november.out' has not change
 d.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 39.
@@ -720,7 +720,7 @@ texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2018/texmf-dist
 e1/public/cm-super/sfrm0800.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/
 cm-super/sfrm1000.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/cm-super/s
 frm1200.pfb>
-Output written on vergaderverslag31oktober.pdf (1 page, 242004 bytes).
+Output written on vergaderverslag7november.pdf (1 page, 242430 bytes).
 PDF statistics:
  77 PDF objects out of 1000 (max. 8388607)
  48 compressed objects within 1 object stream
