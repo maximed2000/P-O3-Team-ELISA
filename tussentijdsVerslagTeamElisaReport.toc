@@ -3,16 +3,22 @@
 \contentsline {chapter}{\numberline {2}Ontwerpspecificaties}{5}{chapter.2}
 \contentsline {chapter}{\numberline {3}Ontwerp}{6}{chapter.3}
 \contentsline {section}{\numberline {3.1}Werking}{6}{section.3.1}
-\contentsline {section}{\numberline {3.2}Voordelen}{6}{section.3.2}
-\contentsline {chapter}{\numberline {4}\textit {Unique selling point}}{8}{chapter.4}
-\contentsline {paragraph}{Prijs-kwaliteitverhouding}{8}{section*.6}
-\contentsline {paragraph}{Gebruiksgemak}{8}{section*.7}
-\contentsline {paragraph}{Mobiliteit en stevigheid}{8}{section*.8}
-\contentsline {paragraph}{Veiligheid}{8}{section*.9}
-\contentsline {paragraph}{Hygi\IeC {\"e}ne}{8}{section*.10}
-\contentsline {paragraph}{Vervangstukken}{9}{section*.11}
-\contentsline {chapter}{\numberline {5}Mogelijkheden tot uitbreiding}{10}{chapter.5}
-\contentsline {paragraph}{Algemene Natuurkunde: Mechanica}{13}{section*.17}
-\contentsline {paragraph}{Beginselen van Programmeren}{13}{section*.18}
-\contentsline {paragraph}{Probleemoplossen \& Ontwerpen, deel 2}{13}{section*.19}
-\contentsline {paragraph}{Algemene Natuurkunde: Elektromagnetisme en Informatieoverdracht en -verwerking \& elektrische netwerken}{13}{section*.20}
+\contentsline {section}{\numberline {3.2}Voordelen ontwerp}{6}{section.3.2}
+\contentsline {chapter}{\numberline {4}Realisatie ontwerp}{8}{chapter.4}
+\contentsline {section}{\numberline {4.1}Chassis}{8}{section.4.1}
+\contentsline {section}{\numberline {4.2}Transportplaat}{8}{section.4.2}
+\contentsline {section}{\numberline {4.3}Steppermotor}{9}{section.4.3}
+\contentsline {section}{\numberline {4.4}Waterpomp}{9}{section.4.4}
+\contentsline {section}{\numberline {4.5}Microcontroller}{9}{section.4.5}
+\contentsline {chapter}{\numberline {5}\textit {Unique selling proposition}}{10}{chapter.5}
+\contentsline {paragraph}{Prijs-kwaliteitverhouding}{10}{section*.6}
+\contentsline {paragraph}{Gebruiksgemak}{10}{section*.7}
+\contentsline {paragraph}{Mobiliteit en stevigheid}{10}{section*.8}
+\contentsline {paragraph}{Veiligheid}{10}{section*.9}
+\contentsline {paragraph}{Hygi\IeC {\"e}ne}{10}{section*.10}
+\contentsline {paragraph}{Vervangstukken}{11}{section*.11}
+\contentsline {chapter}{\numberline {6}Mogelijkheden tot uitbreiding}{12}{chapter.6}
+\contentsline {paragraph}{Algemene Natuurkunde: Mechanica}{15}{section*.17}
+\contentsline {paragraph}{Beginselen van Programmeren}{15}{section*.18}
+\contentsline {paragraph}{Probleemoplossen \& Ontwerpen, deel 2}{15}{section*.19}
+\contentsline {paragraph}{Algemene Natuurkunde: Elektromagnetisme en Informatieoverdracht en -verwerking \& elektrische netwerken}{15}{section*.20}

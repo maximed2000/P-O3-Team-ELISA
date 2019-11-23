@@ -14,6 +14,7 @@
 \usepackage{booktabs}
 \usepackage{url}
 \usepackage{hyperref}
+\usepackage{gensymb}
 
 
 
@@ -62,13 +63,20 @@ De te onderzoeken substantie bevindt zich in een recipiënt van waaruit het kan 
 \chapter{Ontwerp} 
 
 
-In deze sectie wordt het uiteindelijke concept toegelicht en uitgelegd waarom dit concept weerhouden is.
+In dit hoofdstuk wordt het uiteindelijke concept toegelicht en uitgelegd waarom dit concept weerhouden is.
 
 \section{Werking}
 
-	Het concept (zie Figuren \ref{fig: CAD-model globaal} en \ref{fig: CAD-model ingezoomd}) laat toe om zes \textit{microwell}-platen in één keer te vullen.  Er wordt gewerkt met een pomp die de vloeistof uit het recipiënt oppompt en via een buizennetwerk verdeelt over acht pipetpunten waarvan de middelpunten zich op een afstand van 9 mm van elkaar bevinden. De verdeling gebeurt door elke buis te splitsen in twee andere buizen m.b.v. een verdeelstuk. De pipetpunten kunnen van de machine gehaald worden en zo gemakkelijk vervangen worden. In het platform waar de \textit{microwell}-platen worden op geplaatst, zitten zes rechthoeken in de vorm van de \textit{microwell}-platen gefreesd zodat de platen vastzitten. Het platform is vastgemaakt aan een aandrijfriem en \textit{stepper}-motor en kan op die manier verplaatst worden. Telkens wanneer een rij van acht \textit{wells} gevuld is, stopt de pomp en verschuift de \textit{microwell}-plaat 9 mm naar links. Daarna vult de pomp opnieuw acht \textit{wells}. Dit proces wordt herhaald tot de twaalf rijen van acht \textit{wells} gevuld zijn. 
+	Het concept (zie Figuren \ref{fig: CAD-model globaal} en \ref{fig: CAD-model ingezoomd}) laat toe om zes \textit{microwell}-platen in één keer te vullen.  Er wordt gewerkt met een pomp die de vloeistof uit het recipiënt oppompt en via een buizennetwerk verdeelt over acht pipetpunten waarvan de middelpunten zich op een afstand van 9 mm van elkaar bevinden. De verdeling gebeurt door elke buis te splitsen in twee nieuwe buizen m.b.v. een T-verdeelstuk. De pipetpunten kunnen van de machine gehaald worden en zo gemakkelijk vervangen worden. In het platform waar de \textit{microwell}-platen worden op geplaatst, zitten zes rechthoeken in de vorm van de \textit{microwell}-platen gefreesd zodat de platen niet kunnen verschuiven. Het platform is vastgemaakt aan een aandrijfriem en een motor en kan op die manier in de lengterichting van het chassis verplaatst worden. 
 	
-\section{Voordelen}
+	De transportplaat wordt m.b.v. lagers verbonden aan 2 staven om zo heen en weer te bewegen. 
+	
+	
+	(OVERGANG) 
+	
+	Telkens wanneer een rij van acht \textit{wells} gevuld is, stopt de pomp en verschuift de \textit{microwell}-plaat 9 mm naar links. Daarna vult de pomp opnieuw acht \textit{wells}. Dit proces wordt herhaald tot de twaalf rijen van acht \textit{wells} gevuld zijn. 
+	
+\section{Voordelen ontwerp}
 	We gebruiken slechts 8 pipetpunten en geen 12 of 96. Er werd beslist om geen 96 \textit{wells} tegelijk te vullen omdat één enkele pomp niet genoeg zuigkracht genereert om zo'n grote hoeveelheid vloeistof te kunnen opzuigen. De reden dat we geen 12 \textit{wells} tegelijk vullen is de volgende: wanneer we de vloeistof verdelen over 8 pipetpunten, kunnen we ervoor zorgen dat de vloeistof van het recipiënt tot aan elk van de 8 pipetpunten een gelijke afstand aflegt. Dit kan eenvoudig gerealiseerd worden door de buizen te verdelen m.b.v. T- of Y-verdeelstukken, wat bij 12 pipetpunten niet het geval is. Dit laatste zou ervoor kunnen zorgen dat er niet evenveel vloeistof in elke \textit{well} komt, wat problemen oplevert bij het uitvoeren van de ELISA-test. Dit concept heeft ook als voordeel t.o.v. andere concepten die opgesteld werden dat er maar één bewegend onderdeel is. Hierdoor kan het aantal motoren beperkt worden. Een ander voordeel van dit concept is dat het relatief goedkoop is. Bij andere concepten die gemaakt werden, werd voorgesteld om met cilinders en zuigers te werken i.p.v. met een pomp. Deze onderdelen kosten per stuk echter even veel als het voorziene budget voor dit project. Door met een pomp te werken kan dit vermeden worden en wordt de kostprijs aanzienlijk gedrukt. 
 	
 \begin{figure}[h]
@@ -88,7 +96,40 @@ In deze sectie wordt het uiteindelijke concept toegelicht en uitgelegd waarom di
 \end{figure} 
 
 
-\chapter{\textit{Unique selling point}}
+\chapter{Realisatie ontwerp}
+
+In dit hoofdstuk wordt uitgelegd hoe we het ontwerp dat in het vorige hoofdstuk toegelicht werd, gerealiseerd hebben. We bespreken de belangrijkste onderdelen we gebruikt hebben en leggen uit waarom precies voor deze onderdelen werd gekozen. Een overzicht van de aangekochte onderdelen is terug te vinden in het financieel verslag (zie appendix \ref{Appendix: Financieel verslag}).
+
+\section{Chassis}
+
+Het chassis werd gebouwd uit 4 aluminium profielen. In de profielen zitten groeven waar glijmoeren in passen. Dit zorgt voor de nodige bevestigingspunten op het chassis. We kozen voor aluminium profielen omdat deze zorgen voor een stevige basis voor de constructie en dat in combinatie met een laag gewicht. (BOVENDIEN ZIJN DE PROFIELEN GEMAKKELIJK TE VERZAGEN, NIET ECHT RELEVANT ZEKER OM DIT ERBIJ TE ZETTEN?)
+
+\section{Transportplaat}
+
+De transportplaat waarop de microplates worden geplaatst, laat toe om 6 microplates tegelijk te vullen. Om de microplates te kunnen vullen zonder vloeistof te morsen, is het noodzakelijk dat de mciroplates niet kunnen verschuiven tijdens het verplaatsen van de transportplaat. Om dit schuiven te vermijden, werden uit een dunne houten plaat (met dezelfde afmetingen als de transportplaat) 6 rechthoeken \textit{gelasercut} met precies de afmetingen van een microplate. Dit geheel werd bevestigd op de transportplaat. Als materiaal voor de transportplaat kozen we voor waterafstotend MDF (\textit{Medium-Density Fibreboard}). Dit materiaal heeft twee voordelen. Ten eerste is het een licht materiaal, wat een relatief lage belasting voor de constructie betekent. Een tweede voordeel is dat het geen kwaad kan als de gebruiker van het apparaat één of andere vloeistof morst op de plaat. Wanneer voor gewoon hout zou gekozen worden om de transportplaat uit te vervaardigen, zou het morsen van vloeistof als gevolg hebben dat het hout zou beginnen rotten. \\
+De transportplaat kan via twee glijlagers verschuiven over 2 staven die aan het chassis bevestigd zijn.  
+
+AFBEELDING TRANSPORTPLAAT ZETTEN
+
+
+
+\section{Steppermotor}
+
+Als motor werd gekozen voor een steppermotor. Een steppermotor is een type motor dat werkt m.b.v. elektromagneten die de aandrijfas van de motor laten draaien. In de door ons gebruikte motor zitten in totaal 4 elektromagneten die afwisselend aan- en uitgezet worden door er een stroom door te sturen. Telkenmale 1 van de 4 magneten wordt aangezet (dit is 1 stap), verdraait de aandrijfas waarop het magnetisch veld van de aangezette elektromagneet inwerkt volgens een vaste hoek\footnote{Voor meer informatie i.v.m. steppermotoren verwijzen we naar \url{https://en.wikipedia.org/wiki/Stepper_motor}}. Het grote voordeel van dit type motoren is dat deze hoek zeer klein is: de as van de motor die wij gebruiken maakt per stap een verdraaiing van $1.8\degree$. Hierdoor kunnen we de transportplaat die via een aandrijfriem aan de motor verbonden is met een zeer hoge nauwkeurigheid verplaatsen. Dit is van groot belang gezien de kleine afstand tussen 2 opeenvolgende rijen wells op de microplates. 
+
+\section{Waterpomp}
+
+
+
+\section{Microcontroller}
+
+Om aan de vereiste te voldoen dat de machine volledig automatisch de microplates kan vullen, moet het apparaat bestuurd worden via een microcontroller. Er werd gekozen voor een \textit{Raspberry Pi}.
+
+GOEDKOOP, GEMAKKELIJK AAN TE SLUITEN EN BEDIENEN VIA SCHERM, NOG ANDERE VOORDELEN
+WAT ZIJN DE VOORDELEN T.O.V. ARDUINO OF NOG ANDERE?
+
+
+\chapter{\textit{Unique selling proposition}}
 
 De door ons gebouwde machine heeft heel wat potentieel. Hieronder vindt u enkele grote pluspunten die onze machine onderscheidt van toestellen die reeds op de markt zijn.
 
@@ -119,6 +160,7 @@ De machine werd gemaakt uit onderdelen die gemakkelijk te vinden zijn in zowel w
 platen automatisch erop zetten
 \chapter*{Appendices}
 \section*{Financieel verslag}
+\label{Appendix: Financieel verslag}
 
 In Tabel \ref{tab:financieelVerslag} staan de gemaakte aankopen vermeld. 
 
@@ -204,6 +246,7 @@ Op de volgende pagina's vindt u de vergaderverslagen van de teambijeenkomsten.
 
  
 
+%https://en.wikipedia.org/wiki/Stepper_motor
 
 %\clearpage
 %\nocite{website:wikipedia,website:LabX}
