@@ -41,15 +41,24 @@
 \tableofcontents
 
 \chapter*{Inleiding}
-Vandaag de dag komen veel mensen in contact met HIV, de ziekte van Lyme en voedselallergenen. Om deze aandoeningen op te sporen, kan de ELISA-test (\textit{Enzyme-Linked ImmunoSorbent Assay}) gebruikt worden. Het is een laboratoriumtest die gebruikt wordt voor het meten van macromoleculaire stoffen in bloedmonsters. Door, gebruik makend van een enzym als merker, een specifieke antigeen-antistofbinding aan te tonen in het bloed of andere lichaamsvloeistof van een mens of dier, kan de eventuele aanwezigheid van de aandoening vastgesteld worden. 
+Vandaag de dag komen veel mensen in contact met HIV, de ziekte van Lyme en voedselallergenen. Een vaak gebruikte techniek om deze aandoeningen op te sporen, is de ELISA-test (\textit{Enzyme-Linked ImmunoSorbent Assay}). Het is een laboratoriumtest die gebruikt wordt voor het meten van macromoleculaire stoffen in bloedmonsters. Door, gebruik makend van een enzym als merker, een specifieke antigeen-antistofbinding aan te tonen in het bloed of andere lichaamsvloeistof van een mens of dier, kan de eventuele aanwezigheid van de aandoening vastgesteld worden. 
 \newline
-Beeld je in dat je een gedreven laborant bent die werkt met de ELISA-test en op zoek is naar de aandoening waaraan een patiënt lijdt. Je wil dan natuurlijk liefst zo veel mogelijk tijd en moeite steken in de analyse van de chemische stoffen en geen kostbare tijd verliezen aan het voortdurend handmatig titreren van de stoffen in de \textit{microplate} zoals dit nu gebeurt in het\textit{Laboratory for Thrombosis Research} aan Kulak. De \textit{automatic microplate dispenser} is hiervoor de oplossing. Deze machine is snel en niet moe te maken, waardoor fouten uitgesloten worden. Mede door deze voordelen zal de \textit{automatic microplate dispenser} op termijn niet meer weg te denken zijn uit moderne laboratoria en zal deze mee zijn stempel drukken op de vooruitgang van de geneeskunde. Het grote probleem aan de \textit{automated microplate dispensers} die momenteel op de markt zijn, is dat prijzen voor een tweedehandstoestel beginnen bij \euro 1500 à \euro 8500. Omdat dit veel geld is voor een machine die eigenlijk een relatief simpele handeling, besloten wij, studenten Ingenieurswetenschappen, zelf een machine te maken die hetzelfde doet als de apparaten die momenteel op de markt zijn, maar dan voor een wél acceptabele prijs.
+De test verloopt in volgende stappen:
+\begin{enumerate}
+	\item Men brengt het te bestuderen antigen aan in de \textit{wells} van een \textit{microwell}plaat.
+	\item Vervolgens wordt een oplossing met een niet-reagerend proteïne toegevoegd aan de wells zodat het volledige grondvlak van elke well bedekt is met vloeistof.
+	\item Het antilichaam met een geconjugeerd enzyme wordt in de wells gevoegd.
+	\item Een substraat voor het enzyme wordt toegevoegd. 
+	\item De concentratie van het antilichaam wordt gemeten.
+\end{enumerate}
+Deze test wordt elke dag gebruikt door de onderzoekers van het \textit{Laboratory for Thrombosis Research} aan Kulak. Er is echter een probleem bij de uitvoering van de test: wanneer de uitvoering van het proces niet geautomatiseerd is, neemt de ELISA-test veel handenarbeid en tijd in beslag. De \textit{automatic microplate dispenser} is hiervoor de oplossing. Deze machine is snel en bovendien volledig geautomatiseerd, waardoor onderzoekers zich volledig kunnen richten op het analyseren en bestuderen van de onderzochte stof en niet langer tijd hoeven te spenderen aan het vullen van microwellplaten. 
+Het grote probleem met de \textit{automated microplate dispensers} die momenteel op de markt zijn, is dat prijzen voor een tweedehandstoestel beginnen bij \euro 1500 tot zelfs \euro 8500. Omdat dit veel geld is voor een machine die eigenlijk een relatief simpele handeling uitvoert, besloten wij, studenten Ingenieurswetenschappen, zelf een machine te maken die hetzelfde doet als de apparaten die momenteel op de markt zijn, maar dan voor een wél acceptabele prijs.
 
 
 \chapter{Klantenvereisten}
 De klant wil een geautomatiseerde \textit{dispenser}. De \textit{dispenser} moet in staat zijn om volledig autonoom een \textit{microwell}-plaat te vullen met de te onderzoeken substantie. Dit proces moet foutloos gebeuren: in elke \textit{microwell} moet exact evenveel substantie zitten en er mag niet naast de \textit{microwells} gemorst worden. Bovendien moet dit alles kunnen in een tijd die aanzienlijk korter is dan wanneer men deze \textit{microwell}-plaat handmatig zou vullen. Vooral dit laatse aspect is belangrijk, aangezien het handmatig vullen van de platen een zeer arbeidsintensief en tijdrovend onderdeel is van de ELISA-test. Het apparaat moet eenvoudig te bedienen zijn en de pipetpunten die de substantie in de \textit{wells} spuiten, moeten vervangbaar zijn.  Indien mogelijk kunnen ook al andere stappen, buiten het vullen van de \textit{microwells} zelf, geautomatiseerd worden. Het automatisch aan- en afvoeren van \textit{microwell}-platen kan het productieproces al veel versnellen. Er is een budget van \EUR{50} tot \EUR{75} voorzien.
 \chapter{Ontwerpspecificaties}
-De te onderzoeken substantie bevindt zich in een recipiënt van waaruit het kan worden opgezogen. De \textit{microwell}-plaat is 27.76 mm breed, 85.48 mm lang en 14.4 mm hoog. Er zitten 96 \textit{microwells} in, met een bovendiameter van 6.96 mm en een benedendiameter van 6.58 mm (zie Figuur \ref{fig: afmetingenMicrowellplaat}). Het werkvolume van elke \textit{well} is tussen 25 $\mu l$ en 340 $\mu l$. De middelpunten van de \textit{wells} bevinden zich op 9 mm van elkaar. De middelpunten van de pipetpunten moeten dus op 9 mm van elkaar zitten en moeten verwijderbaar zijn. De machine moet elke \textit{well} kunnen vullen met een hoeveelheid van 100 $\mu l$ of 200 $\mu l$ van de te onderzoeken substantie. Om de vloeistof niet te morsen naast de \textit{wells}, moeten de pipetpunten telkens exact boven het middelpunt van de \textit{well} de vloeistof lossen. Om het apparaat gebruiksvriendelijk te maken, moet een grafische interface voorzien worden. Zo kan de machine in enkele tellen opgestart worden en kunnen onderzoekers die de programmeertaal niet kennen de machine toch zonder probleem gebruiken.
+De te onderzoeken substantie bevindt zich in een recipiënt van waaruit het kan worden opgezogen. De \textit{microwell}-plaat is 127.76 mm breed, 85.48 mm lang en 14.4 mm hoog. Er zitten 96 \textit{microwells} in, met een bovendiameter van 6.96 mm en een benedendiameter van 6.58 mm (zie Figuur \ref{fig: afmetingenMicrowellplaat}). Het werkvolume van elke \textit{well} is tussen 25 $\mu l$ en 340 $\mu l$. De middelpunten van de \textit{wells} bevinden zich op 9 mm van elkaar. De middelpunten van de pipetpunten moeten dus op 9 mm van elkaar zitten en moeten verwijderbaar zijn. De machine moet elke \textit{well} kunnen vullen met een hoeveelheid van 100 $\mu l$ of 200 $\mu l$ van de te onderzoeken substantie. Om de vloeistof niet te morsen naast de \textit{wells}, moeten de pipetpunten telkens exact boven het middelpunt van de \textit{well} de vloeistof lossen. Om het apparaat gebruiksvriendelijk te maken, moet een grafische interface voorzien worden. Zo kan de machine in enkele tellen opgestart worden en kunnen onderzoekers die de programmeertaal niet kennen de machine toch zonder probleem gebruiken.
 
 \begin{figure}[h]
 	\centering
@@ -67,14 +76,12 @@ In dit hoofdstuk wordt het uiteindelijke concept toegelicht en uitgelegd waarom 
 
 \section{Werking}
 
-	Het concept (zie Figuren \ref{fig: CAD-model globaal} en \ref{fig: CAD-model ingezoomd}) laat toe om zes \textit{microwell}-platen in één keer te vullen.  Er wordt gewerkt met een pomp die de vloeistof uit het recipiënt oppompt en via een buizennetwerk verdeelt over acht pipetpunten waarvan de middelpunten zich op een afstand van 9 mm van elkaar bevinden. De verdeling gebeurt door elke buis te splitsen in twee nieuwe buizen m.b.v. een T-verdeelstuk. De pipetpunten kunnen van de machine gehaald worden en zo gemakkelijk vervangen worden. In het platform waar de \textit{microwell}-platen worden op geplaatst, zitten zes rechthoeken in de vorm van de \textit{microwell}-platen gefreesd zodat de platen niet kunnen verschuiven. Het platform is vastgemaakt aan een aandrijfriem en een motor en kan op die manier in de lengterichting van het chassis verplaatst worden. 
+	Het concept (zie Figuren \ref{fig: CAD-model globaal} en \ref{fig: CAD-model ingezoomd}) laat toe om zes \textit{microwell}-platen in één keer te vullen. Er wordt gewerkt met twee pompen die de vloeistof oppompen uit het recipiënt waarin de te onderzoeken vloeistof zich bevindt. Op elke pomp is een buizennetwerk aangesloten. In elk buizennetwerk wordt de vloeistof verdeeld over uiteindelijk acht pipetpunten. De middelpunten van de pipetpunten bevinden zich telkens op een afstand van 9 mm van elkaar. De verdeling gebeurt door elke buis te splitsen in twee nieuwe buizen m.b.v. een T-verdeelstuk. De pipetpunten kunnen van de machine gehaald worden en zo gemakkelijk vervangen worden.
 	
-	De transportplaat wordt m.b.v. lagers verbonden aan 2 staven om zo heen en weer te bewegen. 
+	Alle onderdelen van de constructie zijn bevestigd aan het centrale chassis. Dit vormt de basis van de gehele constructie en bestaat uit 4 profielen die aan elkaar vasthangen. Het hierboven beschreven buizennetwerk wordt hierop vastgemaakt.
+	De microplates worden op een transportplaat geplaatst. Op dit platform is plaats voorzien voor 6 microplates: deze worden in 2 rijen van 3 na elkaar gezet. Het platform is vastgemaakt aan een aandrijfriem en een motor en kan op die manier heen en weer bewegen. De motor hangt vast aan het chassis. De transportplaat wordt m.b.v. lagers verbonden aan 2 staven om zo heen en weer te bewegen. De lagers zijn gemonteerd op het chassis.
 	
-	
-	(OVERGANG) 
-	
-	Telkens wanneer een rij van acht \textit{wells} gevuld is, stopt de pomp en verschuift de \textit{microwell}-plaat 9 mm naar links. Daarna vult de pomp opnieuw acht \textit{wells}. Dit proces wordt herhaald tot de twaalf rijen van acht \textit{wells} gevuld zijn. 
+	Het mechanisme om de microwells te vullen werkt als volgt: telkens wanneer een rij van acht \textit{wells} gevuld is, stopt de pomp en verschuift de transportplaat. Daarna vult de pomp opnieuw acht \textit{wells}. Dit proces wordt herhaald tot de twaalf rijen van acht \textit{wells} gevuld zijn. 
 	
 \section{Voordelen ontwerp}
 	We gebruiken slechts 8 pipetpunten en geen 12 of 96. Er werd beslist om geen 96 \textit{wells} tegelijk te vullen omdat één enkele pomp niet genoeg zuigkracht genereert om zo'n grote hoeveelheid vloeistof te kunnen opzuigen. De reden dat we geen 12 \textit{wells} tegelijk vullen is de volgende: wanneer we de vloeistof verdelen over 8 pipetpunten, kunnen we ervoor zorgen dat de vloeistof van het recipiënt tot aan elk van de 8 pipetpunten een gelijke afstand aflegt. Dit kan eenvoudig gerealiseerd worden door de buizen te verdelen m.b.v. T- of Y-verdeelstukken, wat bij 12 pipetpunten niet het geval is. Dit laatste zou ervoor kunnen zorgen dat er niet evenveel vloeistof in elke \textit{well} komt, wat problemen oplevert bij het uitvoeren van de ELISA-test. Dit concept heeft ook als voordeel t.o.v. andere concepten die opgesteld werden dat er maar één bewegend onderdeel is. Hierdoor kan het aantal motoren beperkt worden. Een ander voordeel van dit concept is dat het relatief goedkoop is. Bij andere concepten die gemaakt werden, werd voorgesteld om met cilinders en zuigers te werken i.p.v. met een pomp. Deze onderdelen kosten per stuk echter even veel als het voorziene budget voor dit project. Door met een pomp te werken kan dit vermeden worden en wordt de kostprijs aanzienlijk gedrukt. 
@@ -102,11 +109,11 @@ In dit hoofdstuk wordt uitgelegd hoe we het ontwerp dat in het vorige hoofdstuk 
 
 \section{Chassis}
 
-Het chassis werd gebouwd uit 4 aluminium profielen. In de profielen zitten groeven waar glijmoeren in passen. Dit zorgt voor de nodige bevestigingspunten op het chassis. We kozen voor aluminium profielen omdat deze zorgen voor een stevige basis voor de constructie en dat in combinatie met een laag gewicht. (BOVENDIEN ZIJN DE PROFIELEN GEMAKKELIJK TE VERZAGEN, NIET ECHT RELEVANT ZEKER OM DIT ERBIJ TE ZETTEN?)
+Het chassis dient als basis voor het hele toestel. De belangrijkste vereisten voor dit onderdeel is dat het stevig en licht moet zijn. Om hieraan te voldoen, beslisten we om het chassis op te bouwen uit 4 aluminium profielen die aan elkaar gehangen worden. 
 
 \section{Transportplaat}
 
-De transportplaat waarop de microplates worden geplaatst, laat toe om 6 microplates tegelijk te vullen. Om de microplates te kunnen vullen zonder vloeistof te morsen, is het noodzakelijk dat de mciroplates niet kunnen verschuiven tijdens het verplaatsen van de transportplaat. Om dit schuiven te vermijden, werden uit een dunne houten plaat (met dezelfde afmetingen als de transportplaat) 6 rechthoeken \textit{gelasercut} met precies de afmetingen van een microplate. Dit geheel werd bevestigd op de transportplaat. Als materiaal voor de transportplaat kozen we voor waterafstotend MDF (\textit{Medium-Density Fibreboard}). Dit materiaal heeft twee voordelen. Ten eerste is het een licht materiaal, wat een relatief lage belasting voor de constructie betekent. Een tweede voordeel is dat het geen kwaad kan als de gebruiker van het apparaat één of andere vloeistof morst op de plaat. Wanneer voor gewoon hout zou gekozen worden om de transportplaat uit te vervaardigen, zou het morsen van vloeistof als gevolg hebben dat het hout zou beginnen rotten. \\
+De transportplaat waarop de microplates worden geplaatst, laat toe om 6 microplates tegelijk te vullen. Om de microplates te kunnen vullen zonder vloeistof te morsen, is het noodzakelijk dat de mciroplates niet kunnen verschuiven tijdens het verplaatsen van de transportplaat. Om dit schuiven te vermijden, werden uit een dunne houten plaat (met dezelfde afmetingen als de transportplaat) 6 rechthoeken \textit{gelasercut} met precies de afmetingen van een microplate. Dit geheel werd bevestigd op de transportplaat. Als materiaal voor de transportplaat kozen we voor waterafstotend MDF (\textit{Medium-Density Fibreboard}). Dit materiaal heeft twee voordelen. Ten eerste is het een licht materiaal, wat een relatief lage belasting voor de constructie betekent. Een tweede voordeel is dat de transportplaat niet zal rotten als de gebruiker van het apparaat één of andere vloeistof morst op de plaat, wat bij een gewone houten plaat wel het geval zou zijn.  \\
 De transportplaat kan via twee glijlagers verschuiven over 2 staven die aan het chassis bevestigd zijn.  
 
 AFBEELDING TRANSPORTPLAAT ZETTEN
@@ -119,19 +126,19 @@ Als motor werd gekozen voor een steppermotor. Een steppermotor is een type motor
 
 \section{Waterpomp}
 
-
+De gebruikte pompen zijn vacuümpompen. Deze zorgen ervoor dat wanneer de pomp niet actief is dat de vloeistof die nog in het buizennetwerk zit niet weglekt via de pipetpunten. We kozen zoals eerder vermeld voor twee pompen die de twee buizennetwerken van vloeistof voorzien. 
 
 \section{Microcontroller}
 
-Om aan de vereiste te voldoen dat de machine volledig automatisch de microplates kan vullen, moet het apparaat bestuurd worden via een microcontroller. Er werd gekozen voor een \textit{Raspberry Pi}.
+Om aan de vereiste te voldoen dat de machine volledig automatisch de microplates kan vullen, moet het apparaat bestuurd worden via een microcontroller. Er werd gekozen voor een \textit{Raspberry Pi}. Deze heeft verschillende voordelen t.o.v. andere microcontrollers. Ten eerste punt is het een relatief goedkope microcontroller. Dit was een belangrijk aspect gezien het budget dat voorhanden was. Ten tweede laat een Raspberry Pi toe om een HDMI-kabel en computermuis rechtstreeks aan te sluiten op de microcontroller. Dit laat toe om een grafische interface te implementeren die eenvoudigweg kan bediend worden via een scherm en computermuis die met de Raspberry Pi verbonden zijn. Een derde reden voor onze keuze is dat dit type microcontroller redelijk compact is in vergelijking met andere microcontrollers die te verkrijgen zijn. Tot slot werkt een Raspberry Pi met de programmeertaal \textit{Python}. Dit had voor ons als voordeel dat we al konden werken met deze taal, wat niet het geval was met bijvoorbeeld een \textit{Arduino}microcontroller. 
 
-GOEDKOOP, GEMAKKELIJK AAN TE SLUITEN EN BEDIENEN VIA SCHERM, NOG ANDERE VOORDELEN
-WAT ZIJN DE VOORDELEN T.O.V. ARDUINO OF NOG ANDERE?
 
+
+\chapter{Programmeerstructuur}
 
 \chapter{\textit{Unique selling proposition}}
 
-De door ons gebouwde machine heeft heel wat potentieel. Hieronder vindt u enkele grote pluspunten die onze machine onderscheidt van toestellen die reeds op de markt zijn.
+De gebouwde machine heeft heel wat potentieel. Hieronder vindt u enkele grote pluspunten die onze machine onderscheidt van toestellen die reeds op de markt zijn.
 
 \paragraph{Prijs-kwaliteitverhouding}
 
@@ -139,26 +146,29 @@ Het grootste voordeel van ons toestel t.o.v. andere toestellen is ongetwijfeld d
 
 \paragraph{Gebruiksgemak}
 
-Doordat alles geautomatiseerd is, hoeft de gebruiker van het apparaat zeer weinig te doen om de \textit{microwell}-platen te vullen. Men hoeft enkel het aantal te vullen \textit{microwell}-platen en het volume per \textit{microwell} te specifiëren en de \textit{microwell}-platen op de transportband te plaatsen. Het ingeven van de aantallen en volumes kan heel snel en eenvoudig gebeuren via DRUKKNOPPEN OF INTERFACE.
+Doordat alles geautomatiseerd is, hoeft de gebruiker van het apparaat zeer weinig te doen om de microwellplaten te vullen. Men hoeft enkel het aantal te vullen platen en het volume per microwell te specifiëren en de microwellplaten op de transportband te plaatsen. Het ingeven van de aantallen en volumes kan heel snel en eenvoudig gebeuren via de voorziene grafische interface. De interface is zeer eenvoudig te bedienen via een scherm en computermuis.
 
 \paragraph{Mobiliteit en stevigheid}
 
-Tijdens het ontwerp en materiaalkeuze werd zo veel mogelijk rekeing gehouden met de massa van het toestel. De gehele machine is gebouwd op een chassis uit aluminium om een stevige basis te bekomen. Het platform op het chassis werd vervaardigd uit hout om zo veel mogelijk gewicht te besparen. Dit levert een licht, maar zeer stevig geheel op. 
-
-\paragraph{Veiligheid}
-VERMELDEN DAT ER DETECTOREN EN STOPKNOPPEN ZITTEN AAN DE TWEE UITEINDEN?
-
-\paragraph{Hygiëne}
-
-Een mogelijk nadeel van hout is dat het kan rotten wanneer er vloeistoffen op gemorst worden. Dit wordt echter verholpen door een beschermende coating aan te brengen die het hout beschermt tegen vloeistoffen. Dit zorgt er tevens voor dat de machine gereinigd kan worden zonder dat de onderdelen hieronder lijden.
+Tijdens het ontwerp en materiaalkeuze werd zo veel mogelijk rekening gehouden met de massa van het toestel. De gehele machine is gebouwd op een chassis uit aluminium om een stevige basis te bekomen. Het platform op het chassis werd vervaardigd uit hout om zo veel mogelijk gewicht te besparen. Dit levert een licht, maar stevig geheel op. 
 
 \paragraph{Vervangstukken}
 
 De machine werd gemaakt uit onderdelen die gemakkelijk te vinden zijn in zowel winkels als op internet. Dit zorgt ervoor dat de gebruiker in het geval van een defect onderdeel snel kan geholpen worden en snel weer aan de slag kan.
 
-\chapter{Mogelijkheden tot uitbreiding}
-platen automatisch erop zetten
+\chapter{Mogelijkheden tot uitbreiding en verbetering}
+
+Om nog beter aan de wensen van de klant te voldoen, zijn er nog enkele zaken die na het einde van dit project zouden verbeterd kunnen worden. \\
+Een eerste mogelijke verbetering is een mechanisme dat automatisch gevulde microplates  van de transportplaat haalt en nieuwe microplates op de transportplaat plaatst. Nu moet de gebruiker van het apparaat dit zelf doen. Door ervoor te zorgen dat dit proces volledig geautomatiseerd wordt, kan het vullen van de microplates nog efficiënter gebeuren en moet de gebruiker minder zelf tussenkomen. \\
+Ten tweede zou er een systeem kunnen voorzien worden dat automatisch een recipiënt onder de pipetpunten plaats om de machine te initialiseren. Nu moet dit manueel gebeuren. \\
+Als derde 
+
+\chapter{Conclusie}
+
 \chapter*{Appendices}
+
+\section*{Handleiding toestel}
+
 \section*{Financieel verslag}
 \label{Appendix: Financieel verslag}
 
@@ -212,7 +222,7 @@ Om dit project tot een goed einde te kunnen brengen werden een aantal vakken uit
 
 \paragraph{Algemene Natuurkunde: Mechanica}
 
-In het vak 'Mechanica' werden de basisbeginselen i.v.m. druk en stroming in dunne buizen bijgebracht. Deze kennis werd gebruikt bij het ontwerpen van het buizensysteem om de vloeistof te verdelen naar de acht \textit{microwells}.
+In het vak 'Mechanica' werden de basisbeginselen i.v.m. druk en stroming in dunne buizen bijgebracht. Deze kennis werd gebruikt bij het ontwerpen van het buizensysteem om de vloeistof te verdelen naar de acht microwells.
 
 \paragraph{Beginselen van Programmeren}
 
@@ -220,11 +230,11 @@ De gebruikte programmeertaal voor de programma's die de machine gebruikt, is Pyt
 
 \paragraph{Probleemoplossen \& Ontwerpen, deel 2}
 
-Het CAD-model werd gemaakt met het programma 'Solid Edge'. In P\&O 2 werd aangeleerd hoe hiermee te werken. Verder werd hier ook getoond hoe een \textit{Raspberry Pi microcontroller} kan bestuurd worden vanaf een computer. 
+Het CAD-model werd gemaakt met het programma 'Solid Edge'. In P\&O 2 werd aangeleerd hoe hiermee te werken. Verder werd hier ook getoond hoe een Raspberry Pi microcontroller kan bestuurd worden vanaf een computer. 
 
 \paragraph{Algemene Natuurkunde: Elektromagnetisme en Informatieoverdracht en -verwerking \& elektrische netwerken}
 
-Deze vakken behandelen o.a. het maken en oplossen van elektrische circuits en overdracht van informatie, wat van pas kwam bij het maken van de connecties tussen de vacuümpomp, de \textit{stepper}motor, de \textit{Raspberry Pi microcontroller}, \textit{mosfet} ... en de computer.
+Deze vakken behandelen o.a. het maken en oplossen van elektrische circuits en overdracht van informatie, wat van pas kwam bij het maken van de connecties tussen de vacuümpomp, de steppermotor, de Raspberry Pi microcontroller, mosfet ... en de computer.
 
 \clearpage
 

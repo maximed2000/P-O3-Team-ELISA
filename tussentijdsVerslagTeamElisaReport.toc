@@ -10,15 +10,15 @@
 \contentsline {section}{\numberline {4.3}Steppermotor}{9}{section.4.3}
 \contentsline {section}{\numberline {4.4}Waterpomp}{9}{section.4.4}
 \contentsline {section}{\numberline {4.5}Microcontroller}{9}{section.4.5}
-\contentsline {chapter}{\numberline {5}\textit {Unique selling proposition}}{10}{chapter.5}
-\contentsline {paragraph}{Prijs-kwaliteitverhouding}{10}{section*.6}
-\contentsline {paragraph}{Gebruiksgemak}{10}{section*.7}
-\contentsline {paragraph}{Mobiliteit en stevigheid}{10}{section*.8}
-\contentsline {paragraph}{Veiligheid}{10}{section*.9}
-\contentsline {paragraph}{Hygi\IeC {\"e}ne}{10}{section*.10}
-\contentsline {paragraph}{Vervangstukken}{11}{section*.11}
-\contentsline {chapter}{\numberline {6}Mogelijkheden tot uitbreiding}{12}{chapter.6}
-\contentsline {paragraph}{Algemene Natuurkunde: Mechanica}{15}{section*.17}
-\contentsline {paragraph}{Beginselen van Programmeren}{15}{section*.18}
-\contentsline {paragraph}{Probleemoplossen \& Ontwerpen, deel 2}{15}{section*.19}
-\contentsline {paragraph}{Algemene Natuurkunde: Elektromagnetisme en Informatieoverdracht en -verwerking \& elektrische netwerken}{15}{section*.20}
+\contentsline {chapter}{\numberline {5}Programmeerstructuur}{10}{chapter.5}
+\contentsline {chapter}{\numberline {6}\textit {Unique selling proposition}}{11}{chapter.6}
+\contentsline {paragraph}{Prijs-kwaliteitverhouding}{11}{section*.6}
+\contentsline {paragraph}{Gebruiksgemak}{11}{section*.7}
+\contentsline {paragraph}{Mobiliteit en stevigheid}{11}{section*.8}
+\contentsline {paragraph}{Vervangstukken}{11}{section*.9}
+\contentsline {chapter}{\numberline {7}Mogelijkheden tot uitbreiding en verbetering}{12}{chapter.7}
+\contentsline {chapter}{\numberline {8}Conclusie}{13}{chapter.8}
+\contentsline {paragraph}{Algemene Natuurkunde: Mechanica}{16}{section*.16}
+\contentsline {paragraph}{Beginselen van Programmeren}{16}{section*.17}
+\contentsline {paragraph}{Probleemoplossen \& Ontwerpen, deel 2}{16}{section*.18}
+\contentsline {paragraph}{Algemene Natuurkunde: Elektromagnetisme en Informatieoverdracht en -verwerking \& elektrische netwerken}{16}{section*.19}
