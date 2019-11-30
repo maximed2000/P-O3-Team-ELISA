@@ -35,7 +35,7 @@
    }
 
 \begin{document} % hier begint de eigenlijke inhoud van het document
-\sffamily
+
 \titlepage
 
 \tableofcontents
@@ -51,12 +51,13 @@ De test verloopt in volgende stappen:
 	\item Een substraat voor het enzyme wordt toegevoegd. 
 	\item De concentratie van het antilichaam wordt gemeten.
 \end{enumerate}
-Deze test wordt elke dag gebruikt door de onderzoekers van het \textit{Laboratory for Thrombosis Research} aan Kulak. Er is echter een probleem bij de uitvoering van de test: wanneer de uitvoering van het proces niet geautomatiseerd is, neemt de ELISA-test veel handenarbeid en tijd in beslag. De \textit{automatic microplate dispenser} is hiervoor de oplossing. Deze machine is snel en bovendien volledig geautomatiseerd, waardoor onderzoekers zich volledig kunnen richten op het analyseren en bestuderen van de onderzochte stof en niet langer tijd hoeven te spenderen aan het vullen van microwellplaten. 
-Het grote probleem met de \textit{automated microplate dispensers} die momenteel op de markt zijn, is dat prijzen voor een tweedehandstoestel beginnen bij \euro 1500 tot zelfs \euro 8500. Omdat dit veel geld is voor een machine die eigenlijk een relatief simpele handeling uitvoert, besloten wij, studenten Ingenieurswetenschappen, zelf een machine te maken die hetzelfde doet als de apparaten die momenteel op de markt zijn, maar dan voor een wél acceptabele prijs.
+Deze test wordt elke dag gebruikt door de onderzoekers van het \textit{Laboratory for Thrombosis Research} aan KU Leuven Campus Kulak Kortrijk. Er is echter een probleem bij de uitvoering van de test: wanneer de uitvoering van het proces niet geautomatiseerd is, neemt de ELISA-test veel handenarbeid en tijd in beslag. De \textit{automatic microplate dispenser} kan hier een oplossing voor bieden. Deze machine is volledig geautomatiseerd en snel, waardoor een pak efficiënter kan gewerkt worden. 
+
+Het grote probleem met de \textit{automated microplate dispensers} die momenteel op de markt zijn, is dat prijzen voor een tweedehandstoestel beginnen bij \euro 1500 tot zelfs \euro 8500. Het doel van dit project is dan ook om een machine te bouwen die hetzelfde doet als de apparaten die momenteel op de markt zijn, maar dan voor een wél acceptabele prijs.
 
 
 \chapter{Klantenvereisten}
-De klant wil een geautomatiseerde \textit{dispenser}. De \textit{dispenser} moet in staat zijn om volledig autonoom een \textit{microwell}-plaat te vullen met de te onderzoeken substantie. Dit proces moet foutloos gebeuren: in elke \textit{microwell} moet exact evenveel substantie zitten en er mag niet naast de \textit{microwells} gemorst worden. Bovendien moet dit alles kunnen in een tijd die aanzienlijk korter is dan wanneer men deze \textit{microwell}-plaat handmatig zou vullen. Vooral dit laatse aspect is belangrijk, aangezien het handmatig vullen van de platen een zeer arbeidsintensief en tijdrovend onderdeel is van de ELISA-test. Het apparaat moet eenvoudig te bedienen zijn en de pipetpunten die de substantie in de \textit{wells} spuiten, moeten vervangbaar zijn.  Indien mogelijk kunnen ook al andere stappen, buiten het vullen van de \textit{microwells} zelf, geautomatiseerd worden. Het automatisch aan- en afvoeren van \textit{microwell}-platen kan het productieproces al veel versnellen. Er is een budget van \EUR{50} tot \EUR{75} voorzien.
+De klant wil een geautomatiseerde \textit{dispenser}. De \textit{dispenser} moet in staat zijn om volledig autonoom een \textit{microwell}-plaat te vullen met de te onderzoeken substantie. Dit proces moet foutloos gebeuren: in elke \textit{microwell} moet exact evenveel substantie zitten en er mag niet naast de \textit{microwells} gemorst worden. Bovendien moet dit alles kunnen in een tijd die aanzienlijk korter is dan wanneer men deze \textit{microwell}-plaat handmatig zou vullen. Vooral dit laatse aspect is belangrijk, aangezien het handmatig vullen van de platen een zeer arbeidsintensief en tijdrovend onderdeel is van de ELISA-test. Het apparaat moet eenvoudig te bedienen zijn en de pipetpunten die de substantie in de \textit{wells} spuiten, moeten vervangbaar zijn.  Indien mogelijk kunnen ook al andere stappen, buiten het vullen van de \textit{microwells} zelf, geautomatiseerd worden. Het automatisch aan- en afvoeren van \textit{microwell}-platen kan het productieproces al veel versnellen. Er is een budget van \euro 50 tot \euro 75 voorzien.
 \chapter{Ontwerpspecificaties}
 De te onderzoeken substantie bevindt zich in een recipiënt van waaruit het kan worden opgezogen. De \textit{microwell}-plaat is 127.76 mm breed, 85.48 mm lang en 14.4 mm hoog. Er zitten 96 \textit{microwells} in, met een bovendiameter van 6.96 mm en een benedendiameter van 6.58 mm (zie Figuur \ref{fig: afmetingenMicrowellplaat}). Het werkvolume van elke \textit{well} is tussen 25 $\mu l$ en 340 $\mu l$. De middelpunten van de \textit{wells} bevinden zich op 9 mm van elkaar. De middelpunten van de pipetpunten moeten dus op 9 mm van elkaar zitten en moeten verwijderbaar zijn. De machine moet elke \textit{well} kunnen vullen met een hoeveelheid van 100 $\mu l$ of 200 $\mu l$ van de te onderzoeken substantie. Om de vloeistof niet te morsen naast de \textit{wells}, moeten de pipetpunten telkens exact boven het middelpunt van de \textit{well} de vloeistof lossen. Om het apparaat gebruiksvriendelijk te maken, moet een grafische interface voorzien worden. Zo kan de machine in enkele tellen opgestart worden en kunnen onderzoekers die de programmeertaal niet kennen de machine toch zonder probleem gebruiken.
 
@@ -136,6 +137,10 @@ Om aan de vereiste te voldoen dat de machine volledig automatisch de microplates
 
 \chapter{Programmeerstructuur}
 
+In dit hoofdstuk wordt uitgelegd hoe de programma's die de machine besturen werken.
+
+\section{Grafische interface}
+
 \chapter{\textit{Unique selling proposition}}
 
 De gebouwde machine heeft heel wat potentieel. Hieronder vindt u enkele grote pluspunten die onze machine onderscheidt van toestellen die reeds op de markt zijn.
@@ -161,7 +166,7 @@ De machine werd gemaakt uit onderdelen die gemakkelijk te vinden zijn in zowel w
 Om nog beter aan de wensen van de klant te voldoen, zijn er nog enkele zaken die na het einde van dit project zouden verbeterd kunnen worden. \\
 Een eerste mogelijke verbetering is een mechanisme dat automatisch gevulde microplates  van de transportplaat haalt en nieuwe microplates op de transportplaat plaatst. Nu moet de gebruiker van het apparaat dit zelf doen. Door ervoor te zorgen dat dit proces volledig geautomatiseerd wordt, kan het vullen van de microplates nog efficiënter gebeuren en moet de gebruiker minder zelf tussenkomen. \\
 Ten tweede zou er een systeem kunnen voorzien worden dat automatisch een recipiënt onder de pipetpunten plaats om de machine te initialiseren. Nu moet dit manueel gebeuren. \\
-Als derde 
+Als derde zou een mogelijkheid kunnen voorzien worden die automatisch de pipetpunten kan vervangen indien dit de gebruiker dit wenst.
 
 \chapter{Conclusie}
 
@@ -253,8 +258,11 @@ Op de volgende pagina's vindt u de vergaderverslagen van de teambijeenkomsten.
 \includepdf{vergaderverslag17oktober.pdf}
 \includepdf{vergaderverslag24oktober.pdf}
 \includepdf{vergaderverslag31oktober.pdf}
+\includepdf{vergaderverslag7november.pdf}
+\includepdf{vergaderverslag14november.pdf}
+\includepdf{vergaderverslag21november.pdf}
+\includepdf{vergaderverslag28november.pdf}
 
- 
 
 %https://en.wikipedia.org/wiki/Stepper_motor
 
