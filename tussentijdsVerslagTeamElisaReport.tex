@@ -15,7 +15,7 @@
 \usepackage{url}
 \usepackage{hyperref}
 \usepackage{gensymb}
-
+\usepackage{tabularx,pbox}
 
 
 
@@ -41,9 +41,20 @@
 \tableofcontents
 
 \chapter*{Inleiding}
-Vandaag de dag komen veel mensen in contact met HIV, de ziekte van Lyme en voedselallergenen. Een vaak gebruikte techniek om deze aandoeningen op te sporen, is de ELISA-test (\textit{Enzyme-Linked ImmunoSorbent Assay}). Het is een laboratoriumtest die gebruikt wordt voor het meten van macromoleculaire stoffen in bloedmonsters. Door, gebruik makend van een enzym als merker, een specifieke antigeen-antistofbinding aan te tonen in het bloed of andere lichaamsvloeistof van een mens of dier, kan de eventuele aanwezigheid van de aandoening vastgesteld worden. 
-\newline
-De test verloopt in volgende stappen:
+Vandaag de dag komen veel mensen in contact met HIV, de ziekte van Lyme en voedselallergenen. Een vaak gebruikte techniek om deze aandoeningen op te sporen, is de ELISA-test\cite{wikipedia} (\textit{Enzyme-Linked ImmunoSorbent Assay}). Het is een laboratoriumtest die gebruikt wordt voor het meten van macromoleculaire stoffen. Door, gebruik makend van een enzym als merker, een specifieke antigeen-antistofbinding aan te tonen in het bloed of andere lichaamsvloeistof van een mens of dier, kan de eventuele aanwezigheid van de aandoening vastgesteld worden. De ELISA-test heeft naast het opsporen van virussen en voedselallergenen nog tal van andere toepassingen\cite{ELISAApplications}. Zo kan men de test gebruiken om vroege fasen van eierstok- en borstkanker op te sporen, om concentraties illegale drugs te bepalen in urinestalen en om de concentratie van een medicijn in patiënten die een behandeling ondergaan, te monitoren. Nog een andere toepassing is het detecteren van humaan choriongonadotrofine, een hormoon dat tijdens de zwangerschap door de placenta wordt geproduceerd\cite{HumanChorionicGonadotropin}. \newline
+Er bestaan verschillende varianten van de test. De meest eenvoudige versie is de directe antistof ELISA-test. Deze verloopt in volgende stappen (zie Figuur \ref{fig: directe ELISA} \cite{AfbeeldingdirectELISA}):
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.5\textwidth]{ELISA.png}
+	\caption{Directe antistof ELISA-test}
+	\label{fig: directe ELISA}
+	
+\end{figure} 
+
+
+
+
 \begin{enumerate}
 	\item Men brengt het te bestuderen antigen aan in de \textit{wells} van een \textit{microwell}plaat.
 	\item Vervolgens wordt een oplossing met een niet-reagerend proteïne toegevoegd aan de wells zodat het volledige grondvlak van elke well bedekt is met vloeistof.
@@ -51,9 +62,10 @@ De test verloopt in volgende stappen:
 	\item Een substraat voor het enzyme wordt toegevoegd. 
 	\item De concentratie van het antilichaam wordt gemeten.
 \end{enumerate}
+Andere varianten zijn de indirecte \textit{sandwich} ELISA-, de competitieve inhibitie ELISA- en de \textit{blocking} ELISA-test (BRON).
 Deze test wordt elke dag gebruikt door de onderzoekers van het \textit{Laboratory for Thrombosis Research} aan KU Leuven Campus Kulak Kortrijk. Er is echter een probleem bij de uitvoering van de test: wanneer de uitvoering van het proces niet geautomatiseerd is, neemt de ELISA-test veel handenarbeid en tijd in beslag. De \textit{automatic microplate dispenser} kan hier een oplossing voor bieden. Deze machine is volledig geautomatiseerd en snel, waardoor een pak efficiënter kan gewerkt worden. 
 
-Het grote probleem met de \textit{automated microplate dispensers} die momenteel op de markt zijn, is dat prijzen voor een tweedehandstoestel beginnen bij \euro 1500 tot zelfs \euro 8500. Het doel van dit project is dan ook om een machine te bouwen die hetzelfde doet als de apparaten die momenteel op de markt zijn, maar dan voor een wél acceptabele prijs.
+Het grote probleem met de \textit{automated microplate dispensers} die momenteel op de markt zijn, is dat prijzen de pan uit swingen. Voor een nieuw toestel betaalt men gemakkelijk \euro $12000$ tot \euro $35000$\cite{BioSPX} exclusief BTW, voor een tweedehandstoestel \euro 1500 tot \euro 8500\cite{LabX}. Het doel van dit project is dan ook om een machine te bouwen die hetzelfde doet als de apparaten die momenteel op de markt zijn, maar dan voor een wél acceptabele prijs.
 
 
 \chapter{Klantenvereisten}
@@ -163,12 +175,23 @@ De machine werd gemaakt uit onderdelen die gemakkelijk te vinden zijn in zowel w
 
 \chapter{Mogelijkheden tot uitbreiding en verbetering}
 
-Om nog beter aan de wensen van de klant te voldoen, zijn er nog enkele zaken die na het einde van dit project zouden verbeterd kunnen worden. \\
-Een eerste mogelijke verbetering is een mechanisme dat automatisch gevulde microplates  van de transportplaat haalt en nieuwe microplates op de transportplaat plaatst. Nu moet de gebruiker van het apparaat dit zelf doen. Door ervoor te zorgen dat dit proces volledig geautomatiseerd wordt, kan het vullen van de microplates nog efficiënter gebeuren en moet de gebruiker minder zelf tussenkomen. \\
-Ten tweede zou er een systeem kunnen voorzien worden dat automatisch een recipiënt onder de pipetpunten plaats om de machine te initialiseren. Nu moet dit manueel gebeuren. \\
-Als derde zou een mogelijkheid kunnen voorzien worden die automatisch de pipetpunten kan vervangen indien dit de gebruiker dit wenst.
+Om nog beter aan de wensen van de klant te voldoen, zijn er nog enkele zaken die na het einde van dit project zouden verbeterd kunnen worden. \\ \\
+Een eerste mogelijke verbetering is een mechanisme dat automatisch gevulde microplates  van de transportplaat haalt en nieuwe microplates op de transportplaat plaatst. Nu moet de gebruiker van het apparaat dit zelf doen. Door ervoor te zorgen dat dit proces volledig geautomatiseerd wordt, kan het vullen van de microplates nog efficiënter gebeuren en moet de gebruiker minder zelf tussenkomen. \\ \\
+Ten tweede zou er een systeem kunnen voorzien worden dat automatisch een recipiënt onder de pipetpunten plaats om de machine te initialiseren. Nu moet dit manueel gebeuren. \\ \\
+Als derde zou een mogelijkheid kunnen voorzien worden die automatisch de pipetpunten kan vervangen indien dit de gebruiker dit wenst. \\ \\
+
+Tot slot wordt de vloeistof niet precies genoeg over de microwells verdeeld om de ELISA-test op een wetenschappelijk verantwoorde manier uit te voeren. Om het apparaat te gebruiken om ook daadwerkelijk volledig zelf een ELISA-test uit te voeren, moet de verdeling van de vloeistof dus nog preciezer gebeuren. 
+\\ \\
+Plaat op transportplaat spuiten of in waterafstotend MDF.
 
 \chapter{Conclusie}
+
+De automated microplate dispenser is een toestel dat het uitvoeren van de ELISA-test heel wat efficiënter kan maken. Het toestel kan snel en precies een te onderzoeken substantie verdelen over verschillende microwells. Een groot nadeel aan de toestellen die op de markt zijn, is dat ze zeer duur zijn om aan te kopen. Het door ons gebouwde toestel is sneller dan wanneer men handmatig een microplate zou vullen, maar niet precies genoeg om de ELISA-test op een wetenschappelijk verantwoorde manier uit te voeren. Dit is precies waar het probleem zit bij onze machine: de reden waarom een automated microplate dispenser zo duur is, is net omdat deze toestellen zeer precies geijkt zijn. Dit is iets wat wij niet konden realiseren. Ons toestel kan echter wel gebruikt worden om de microplates te spoelen. Door alleen dit deel van de ELISA-test al te automatiseren, kan in labo's heel wat efficiënter gewerkt worden.
+
+\clearpage
+\nocite{wikipedia,LabX}
+\bibliographystyle{unsrt}
+\bibliography{bibliografie}
 
 \chapter*{Appendices}
 
@@ -180,15 +203,24 @@ Als derde zou een mogelijkheid kunnen voorzien worden die automatisch de pipetpu
 In Tabel \ref{tab:financieelVerslag} staan de gemaakte aankopen vermeld. 
 
 
+
+
+		
+
 \begin{table}[!hbt]
 	\noindent\makebox[\textwidth]
 	\sffamily
 	
 	\caption{Aankopen}
-		\begin{tabular}{@{}lllll@{}}
+		%\begin{tabular}{@{}lllll@{}}
+		\begin{tabular}{|p{1cm}|p{5cm}|p{2cm}|p{2cm}|p{2cm}|}
+			
+		
+		
 		\toprule
 		  Item & Product & Prijs/stuk (\euro) & Aantal & Totaal (\euro)   \\ \midrule
-		1 & Staaf voor X- of Y-as glad 10 mm x 100 cm & 4.75 & 2 & 9.50 \\
+		1 & Staaf voor X- of Y-as
+			glad 10 mm x 100 cm & 4.75 & 2 & 9.50 \\
 		2 & SCS10UU lineaire kogellager  & 5.50 & 2 & 11.00 \\
 		3 & GT2 timing belt 6 mm (per meter)  & 4.50 & 2 & 9.00 \\
 		4 & GT2 Pulley hoge resolutie | 6 mm riem | 20 tanden | 5 mm as & 6.00 & 1 & 6.00 \\
@@ -197,6 +229,14 @@ In Tabel \ref{tab:financieelVerslag} staan de gemaakte aankopen vermeld.
 		7 & Aluminium profiel 2020 extrusion lengte 1 m (123-3D huismerk)  & 9.50 & 3 & 28.50 \\
 		8 & Aluminium hoekverbinding 2020 inclusief bevestigingsmateriaal (123-3D huismerk) & 2.75 & 4 & 11.00 \\
 		9 & Hulpstukje 4 mm Luchtslang PE T-stuk 4 x 4 x 4 mm & 0.20 & 15 & 3.00 \\
+		10 & RASPBERRY PI 3 - MODELB - 1GB  & 31.59 & 1 & 31.59 \\
+		11 & Stepper motor 42BYGHW811 NEMA-17 Bipolar 48mm & 17.95 & 1 & 17.95 \\
+		12 & Waterpomp & onbekend & 2 & onbekend \\
+		13 & Waterafstotend MDF \SI{2}{\metre\squared} 18 mm & 19.99 & 1 & 19.99 \\
+		  
+		\bottomrule
+		
+		Totaal & & & & 172.03 \\
 		\bottomrule
 	\end{tabular}
 	\label{tab:financieelVerslag}
@@ -264,13 +304,8 @@ Op de volgende pagina's vindt u de vergaderverslagen van de teambijeenkomsten.
 \includepdf{vergaderverslag28november.pdf}
 
 
-%https://en.wikipedia.org/wiki/Stepper_motor
 
-%\clearpage
-%\nocite{website:wikipedia,website:LabX}
-%\bibliographystyle{plainurl}
-%\bibliography{bibliografie.bib}
-%\bibliographystyle{plain}
+
 
 
 \end{document}

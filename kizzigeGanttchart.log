@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.10.1)  31 OCT 2019 11:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.10.1)  5 DEC 2019 16:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -488,40 +488,34 @@ e
 ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 36.
 
-Overfull \hbox (206.84842pt too wide) in paragraph at lines 63--64
+Overfull \hbox (150.3152pt too wide) in paragraph at lines 64--65
 [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 211.43515pt on input line 64.
+LaTeX Warning: Float too large for page by 152.54938pt on input line 65.
 
 [1{c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (188.87498pt too wide) in paragraph at lines 83--84
-[][] 
- []
-
-
-Overfull \hbox (45.10017pt too wide) in paragraph at lines 98--99
+Overfull \hbox (133.99994pt too wide) in paragraph at lines 84--85
 [][] 
  []
 
 [2] [3] (./kizzigeGanttchart.aux) ) 
 Here is how much of TeX's memory you used:
- 13825 strings out of 492639
- 296601 string characters out of 6133088
- 386549 words of memory out of 5000000
- 17479 multiletter control sequences out of 15000+600000
- 5244 words of font info for 19 fonts, out of 8000000 for 9000
+ 13735 strings out of 492639
+ 294606 string characters out of 6133088
+ 338478 words of memory out of 5000000
+ 17390 multiletter control sequences out of 15000+600000
+ 4588 words of font info for 17 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,9n,85p,437b,955s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,9n,85p,437b,963s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2018/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmbx12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl
-12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on kizzigeGanttchart.pdf (3 pages, 64149 bytes).
+ic/amsfonts/cm/cmr6.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmti7.pfb>
+Output written on kizzigeGanttchart.pdf (3 pages, 31572 bytes).
 PDF statistics:
- 35 PDF objects out of 1000 (max. 8388607)
- 24 compressed objects within 1 object stream
+ 27 PDF objects out of 1000 (max. 8388607)
+ 18 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  19 words of extra memory for PDF output out of 10000 (max. 10000000)
 
