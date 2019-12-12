@@ -27,7 +27,7 @@
 \contentsline {paragraph}{Vervangstukken}{16}{section*.21}
 \contentsline {chapter}{\numberline {7}Mogelijkheden tot uitbreiding en verbetering}{17}{chapter.7}
 \contentsline {chapter}{\numberline {8}Conclusie}{18}{chapter.8}
-\contentsline {paragraph}{Algemene Natuurkunde: Mechanica}{24}{section*.31}
-\contentsline {paragraph}{Beginselen van Programmeren}{24}{section*.32}
-\contentsline {paragraph}{Probleemoplossen \& Ontwerpen, deel 2}{24}{section*.33}
-\contentsline {paragraph}{Algemene Natuurkunde: Elektromagnetisme en Informatieoverdracht en -verwerking \& elektrische netwerken}{24}{section*.34}
+\contentsline {paragraph}{Algemene Natuurkunde: Mechanica}{40}{section*.31}
+\contentsline {paragraph}{Beginselen van Programmeren}{40}{section*.32}
+\contentsline {paragraph}{Probleemoplossen \& Ontwerpen, deel 2}{40}{section*.33}
+\contentsline {paragraph}{Algemene Natuurkunde: Elektromagnetisme en Informatieoverdracht en -verwerking \& elektrische netwerken}{40}{section*.34}
