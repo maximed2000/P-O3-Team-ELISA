@@ -22,7 +22,7 @@
 
 \faculty{Wetenschap \& Technologie Kulak}
 \group{Ingenieurswetenschappen}
-\title{How to make \textit{an automated microplate dispenser}}
+\title{De \textit{automated microplate dispenser}}
 \subtitle{Een zoektocht naar balans tussen precisie, snelheid en betaalbaarheid}
 \author{Team ELISA}
 \institute{Matthias Derez, Maxime Dujardin, Korneel Verkens, Seppe Vilain}
@@ -53,23 +53,46 @@ Er bestaan verschillende varianten van de test. De meest eenvoudige versie is de
 \end{figure} 
 
 
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.5\textwidth]{microplate.png}
+	\caption{Microwellplaat}
+	\label{fig: microwellplaat}
+	
+\end{figure} 
+
 
 
 \begin{enumerate}
-	\item Men brengt het te bestuderen antigen aan in de \textit{wells} van een \textit{microwell}plaat.
+	\item Men brengt het te bestuderen antigen aan in de \textit{wells} van een \textit{microwell}plaat (zie Figuur \ref{fig: microwellplaat}).
 	\item Vervolgens wordt een oplossing met een niet-reagerend proteïne toegevoegd aan de wells zodat het volledige grondvlak van elke well bedekt is met vloeistof.
 	\item Het antilichaam met een geconjugeerd enzyme wordt in de wells gevoegd.
 	\item Een substraat voor het enzyme wordt toegevoegd. 
 	\item De concentratie van het antilichaam wordt gemeten.
 \end{enumerate}
-Andere varianten zijn de indirecte \textit{sandwich} ELISA-, de competitieve inhibitie ELISA- en de \textit{blocking} ELISA-test (BRON).
+Andere varianten zijn de indirecte \textit{sandwich} ELISA-, de competitieve inhibitie ELISA- en de \textit{blocking} ELISA-test\cite{soortenELISA}.
 Deze test wordt elke dag gebruikt door de onderzoekers van het \textit{Laboratory for Thrombosis Research} aan KU Leuven Campus Kulak Kortrijk. Er is echter een probleem bij de uitvoering van de test: wanneer de uitvoering van het proces niet geautomatiseerd is, neemt de ELISA-test veel handenarbeid en tijd in beslag. De \textit{automated microplate dispenser} kan hier een oplossing voor bieden. Deze machine is volledig geautomatiseerd en snel, waardoor een pak efficiënter kan gewerkt worden. 
 
-Het grote probleem met de \textit{automated microplate dispensers} die momenteel op de markt zijn, is dat prijzen de pan uit swingen. Voor een nieuw toestel betaalt men gemakkelijk \euro $12000$ tot \euro $35000$\cite{BioSPX} exclusief BTW, voor een tweedehandstoestel \euro 1500 tot \euro 8500\cite{LabX}. Het doel van dit project is dan ook om een machine te bouwen die dezelfde taken kan uitvoeren als de apparaten die momenteel op de markt zijn, maar dan voor een wél acceptabele prijs.
+Het grote probleem met de \textit{automated microplate dispensers} die momenteel op de markt zijn (zie Figuur \ref{fig: microplateDispensers}), is dat prijzen de pan uit swingen. Voor een nieuw toestel betaalt men gemakkelijk \euro $12000$ tot \euro $35000$\cite{BioSPX} exclusief BTW, voor een tweedehandstoestel \euro 1500 tot \euro 8500\cite{LabX}. Het doel van dit project is dan ook om een machine te bouwen die dezelfde taken kan uitvoeren als de apparaten die momenteel op de markt zijn, maar dan voor een wél acceptabele prijs.
+
+\begin{figure}
+	\centering
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=0.9\linewidth]{microplateDispenserThermo.png}
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=0.9\linewidth]{microplateDispenserBioTek.png}
+	\end{subfigure}
+	\caption{Voorbeelden van automated microplate dispensers die op de markt zijn}
+	\label{fig: microplateDispensers}
+\end{figure}
+
 
 
 \chapter{Klantenvereisten}
-De klant wil een geautomatiseerde \textit{dispenser}. De \textit{dispenser} moet in staat zijn om volledig autonoom een \textit{microwell}-plaat te vullen met de te onderzoeken substantie. Dit proces moet foutloos gebeuren: in elke \textit{microwell} moet exact evenveel substantie zitten en er mag niet naast de \textit{microwells} gemorst worden. Bovendien moet dit alles kunnen in een tijd die aanzienlijk korter is dan wanneer men deze \textit{microwell}-plaat handmatig zou vullen. Vooral dit laatste aspect is belangrijk, aangezien het handmatig vullen van de platen een zeer arbeidsintensief en tijdrovend onderdeel is van de ELISA-test. Het apparaat moet eenvoudig te bedienen zijn en de pipetpunten die de substantie in de wells spuiten, moeten vervangbaar zijn.  Indien mogelijk kunnen ook al andere stappen, buiten het vullen van de \textit{microwells} zelf, geautomatiseerd worden. Het automatisch aan- en afvoeren van \textit{microwell}-platen kan het productieproces al veel versnellen. Er is een budget van \euro 50 tot \euro 75 voorzien.
+De klant wil een geautomatiseerde \textit{dispenser}. De \textit{dispenser} moet in staat zijn om volledig autonoom een \textit{microwell}-plaat te vullen met de te onderzoeken substantie. Dit proces moet foutloos gebeuren: in elke \textit{microwell} moet exact evenveel substantie zitten en er mag niet naast de \textit{microwells} gemorst worden. Bovendien moet dit alles kunnen in een tijd die aanzienlijk korter is dan wanneer men deze \textit{microwell}-plaat handmatig zou vullen. Vooral dit laatste aspect is belangrijk, aangezien het handmatig vullen van de platen een zeer arbeidsintensief en tijdrovend onderdeel is van de ELISA-test. Het apparaat moet eenvoudig te bedienen zijn en de pipetpunten die de substantie in de wells spuiten, moeten vervangbaar zijn.  Indien mogelijk kunnen ook al andere stappen, buiten het vullen van de \textit{microwells} zelf, geautomatiseerd worden. Het automatisch aan- en afvoeren van microwellplaten kan het productieproces al veel versnellen. Er is een budget van \euro 50 tot \euro 75 voorzien.
 \chapter{Ontwerpspecificaties}
 De te onderzoeken substantie bevindt zich in een recipiënt van waaruit het kan worden opgezogen. De \textit{microwell}-plaat is \SI{127.76}{mm} breed, \SI{85.48}{mm} lang en \SI{14.4}{mm} hoog. Er zitten 96 \textit{microwells} in, met een bovendiameter van \SI{6.96}{mm} en een benedendiameter van \SI{6.58}{mm} (zie Figuur \ref{fig: afmetingenMicrowellplaat}). Het werkvolume van elke well is tussen 25 $\mu l$ en 340 $\mu l$. De middelpunten van de wells bevinden zich op \SI{9}{mm} van elkaar. De middelpunten van de pipetpunten moeten dus op een afstand van \SI{9}{mm} van elkaar liggen en moeten verwijderbaar zijn. De machine moet elke well kunnen vullen met een hoeveelheid van 100 $\mu l$ of 200 $\mu l$ van de te onderzoeken substantie. Om de vloeistof niet te morsen naast de wells, moeten de pipetpunten telkens exact boven het middelpunt van de well de vloeistof lossen. Om het apparaat gebruiksvriendelijk te maken, moet een grafische interface voorzien worden. Zo kan de machine in enkele tellen opgestart worden en kunnen onderzoekers die de programmeertaal niet kennen de machine toch zonder probleem gebruiken.
 
@@ -82,14 +105,14 @@ De te onderzoeken substantie bevindt zich in een recipiënt van waaruit het kan 
 \end{figure} 
 
 
-\chapter{Ontwerp} 
+\chapter{\textit{Concept}} 
 
 
 In dit hoofdstuk wordt het uiteindelijke concept toegelicht en uitgelegd waarom dit concept weerhouden is.
 
 \section{Werking}
 
-	Het concept (zie Figuren \ref{fig: CAD-model globaal} en \ref{fig: CAD-model ingezoomd}) laat toe om zes microwell-platen in één keer te vullen. Er wordt gewerkt met twee pompen die de vloeistof oppompen uit het recipiënt waarin de te onderzoeken substantie zich bevindt. Op elke pomp is een buizennetwerk aangesloten. In elk buizennetwerk wordt de vloeistof verdeeld over uiteindelijk acht pipetpunten. De middelpunten van de pipetpunten bevinden zich telkens op een afstand van \SI{9}{mm} van elkaar. De verdeling gebeurt door elke buis te splitsen in twee nieuwe buizen m.b.v. een T-verdeelstuk. De pipetpunten kunnen van de machine gehaald worden en zo gemakkelijk vervangen worden.
+	Het concept (zie Figuren \ref{fig: CAD-model bovenaan} en \ref{fig: CAD-model onderaan}) laat toe om zes microwell-platen in één keer te vullen. Er wordt gewerkt met twee pompen die de vloeistof oppompen uit het recipiënt waarin de te onderzoeken substantie zich bevindt. Op elke pomp is een buizennetwerk aangesloten. In elk buizennetwerk wordt de vloeistof verdeeld over uiteindelijk acht pipetpunten. De middelpunten van de pipetpunten bevinden zich telkens op een afstand van \SI{9}{mm} van elkaar. De verdeling gebeurt door elke buis te splitsen in twee nieuwe buizen m.b.v. een T-verdeelstuk. De pipetpunten kunnen van de machine gehaald worden en zo gemakkelijk vervangen worden.
 	
 	Alle onderdelen van de constructie zijn bevestigd aan het centrale chassis. Dit vormt de basis van de gehele constructie en bestaat uit 4 profielen die aan elkaar vasthangen. Het hierboven beschreven buizennetwerk wordt hierop vastgemaakt.
 	De microplates worden op een transportplaat geplaatst. Op dit platform is plaats voorzien voor 6 microplates: deze worden in 2 rijen van 3 na elkaar gezet. Het platform is vastgemaakt aan een aandrijfriem, die op zijn beurt verbonden is met een motor. De transportplaat wordt m.b.v. lagers verbonden aan 2 staven en kan zo vrij heen en weer bewegen. De staven zijn gemonteerd op het chassis.
@@ -101,17 +124,17 @@ In dit hoofdstuk wordt het uiteindelijke concept toegelicht en uitgelegd waarom 
 	
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.8\textwidth]{micdis1.jpg}
-	\caption{CAD-model concept 3}
-	\label{fig: CAD-model globaal}
+	\includegraphics[width=\textwidth]{renderingBovenaan.png}
+	\caption{CAD-model concept}
+	\label{fig: CAD-model bovenaan}
 	
 \end{figure} 
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.8\textwidth]{micdis2.jpg}
-	\caption{CAD-model concept 3}
-	\label{fig: CAD-model ingezoomd}
+	\includegraphics[width=0.8\textwidth]{renderingOnderaan.png}
+	\caption{CAD-model concept onderkant}
+	\label{fig: CAD-model onderaan}
 	
 \end{figure} 
 
@@ -197,11 +220,11 @@ De gebouwde machine heeft heel wat potentieel. Hieronder vindt u enkele grote pl
 
 \paragraph{Prijs-kwaliteitverhouding}
 
-Het grootste voordeel van ons toestel t.o.v. andere toestellen is ongetwijfeld de uitstekende prijs-kwaliteitverhouding. Ons toestel kost in totaal \euro BEDRAG (dit is weliswaar zonder werkuren te verrekenen), wat (AANPASSEN) 5 tot 10 keer minder is dan de prijs van andere toestellen. De machine werkt precies en snel, exact wat verwacht wordt van een dergelijk apparaat. Kortom: de prijs-kwaliteitverhouding is uitstekend.
+Het grootste voordeel van ons toestel t.o.v. andere toestellen is ongetwijfeld de uitstekende prijs-kwaliteitverhouding. Ons toestel kost in totaal \euro 173.63 (dit is weliswaar zonder werkuren te verrekenen), wat 60 tot 200 keer minder is dan de prijs van andere toestellen. De machine werkt precies en snel, exact wat verwacht wordt van een dergelijk apparaat. Kortom: de prijs-kwaliteitverhouding is uitstekend.
 
 \paragraph{Gebruiksgemak}
 
-Doordat alles geautomatiseerd is, hoeft de gebruiker van het apparaat zeer weinig te doen om de microwellplaten te vullen. Men hoeft enkel het aantal te vullen platen en het volume per microwell te specificeren en de microwellplaten op de transportband te plaatsen. Het ingeven van de aantallen en volumes kan heel snel en eenvoudig gebeuren via de voorziene grafische interface. De interface is zeer eenvoudig te bedienen via een scherm en computermuis.
+Doordat alles geautomatiseerd is, hoeft de gebruiker van het apparaat zeer weinig te doen om de microwellplaten te vullen. Men hoeft enkel het aantal te vullen platen en het volume per microwell te specificeren en de microwellplaten op de transportband te plaatsen. Het ingeven van de aantallen en volumes kan heel snel en eenvoudig gebeuren via de voorziene grafische interface. De interface is zeer eenvoudig te bedienen via een scherm en computermuis. Er is een handleiding voorzien zodat de gebruiker snel aan de slag kan.
 
 \paragraph{Mobiliteit en stevigheid}
 
@@ -216,7 +239,7 @@ De machine werd gemaakt uit onderdelen die gemakkelijk te vinden zijn in zowel w
 Om nog beter aan de wensen van de klant te voldoen, zijn er nog enkele zaken die na het einde van dit project verbeterd kunnen worden. \\ \\
 Een eerste mogelijke verbetering is een mechanisme dat automatisch gevulde microplates  van de transportplaat haalt en nieuwe microplates op de transportplaat plaatst. Nu moet de gebruiker van het apparaat dit zelf doen. Door ervoor te zorgen dat dit proces volledig geautomatiseerd wordt, kan het vullen van de microplates nog efficiënter gebeuren en moet de gebruiker minder zelf tussenkomen. \\ \\
 Ten tweede zou er een systeem kunnen voorzien worden dat automatisch een recipiënt onder de pipetpunten plaatst om de machine te initialiseren. Nu moet dit manueel gebeuren. \\ \\
-Ten derde zou ervoor gezorgd kunnen worden dat wanneer men de buizen ledigt, de vloeistof terug vloeit naar de recipiënt waar het vandaan komt. Zo moet er geen apart recipiënt onder de pipetten gehouden worden. \\ \\
+Ten derde zou ervoor gezorgd kunnen worden dat wanneer men de buizen ledigt, de vloeistof terug vloeit naar de recipiënt waar het vandaan komt. Zo moet er geen afzonderlijk recipiënt onder de pipetten gehouden worden. \\ \\
 Ten vierde zou een optie kunnen voorzien worden die automatisch de pipetpunten vervangt indien dit de gebruiker dit wenst. \\ \\
 %Daarnaast zou de dunne houten plaat die nu op de transportplaat ligt ook waterafstotend gemaakt kunnen worden. Deze bestaat nu uit normaal MDF en kan dus niet goed tegen water. De plaat vervangen door een dunne waterafstotende MDF-plaat of er een waterafstotende verf op spuiten zijn enkele van de mogelijke oplossingen. \\ \\
 Tot slot wordt de vloeistof niet precies genoeg over de microwells verdeeld om de ELISA-test op een wetenschappelijk verantwoorde manier uit te voeren. Om het apparaat te gebruiken om ook daadwerkelijk volledig zelf een ELISA-test uit te voeren, moet de verdeling van de vloeistof dus nog preciezer gebeuren. 
@@ -239,10 +262,24 @@ De automated microplate dispenser is een toestel dat het uitvoeren van de ELISA-
 \section*{Financieel verslag}
 \label{Appendix: Financieel verslag}
 
-In Tabel \ref{tab:financieelVerslag} staan de gemaakte aankopen vermeld. 
+In Tabel \ref{tab:financieelVerslag} staat een stuklijst met de gemaakte aankopen vermeld (de verschillende onderdelen vindt u in Figuren \ref{fig: renderingBovenkantStuklijst} en \ref{fig: renderingOnderkantStuklijst}). 
 
 
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{renderingBovenaanStuklijst.png}
+	\caption{CAD-model bovenkant met nummer stuklijst}
+	\label{fig: renderingBovenkantStuklijst}
+	
+\end{figure} 
 
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{renderingOnderaanStuklijst.png}
+	\caption{CAD-model onderkant met nummer stuklijst}
+	\label{fig: renderingOnderkantStuklijst}
+	
+\end{figure} 
 
 		
 
@@ -258,24 +295,35 @@ In Tabel \ref{tab:financieelVerslag} staan de gemaakte aankopen vermeld.
 		
 		\toprule
 		  Item & Product & Prijs/stuk (\euro) & Aantal & Totaal (\euro)   \\ \midrule
-		1 & Staaf voor X- of Y-as
-			glad 10 mm x 100 cm & 4.75 & 2 & 9.50 \\
-		2 & SCS10UU lineaire kogellager  & 5.50 & 2 & 11.00 \\
+		1 & Aluminium hoekverbinding 2020 inclusief bevestigingsmateriaal (123-3D huismerk) & 2.75 & 4 & 11.00 \\
+		2 & SHF10 as-bevestiging (2 stuks) & 9.50 & 2 & 19.00 \\
 		3 & GT2 timing belt 6 mm (per meter)  & 4.50 & 2 & 9.00 \\
-		4 & GT2 Pulley hoge resolutie | 6 mm riem | 20 tanden | 5 mm as & 6.00 & 1 & 6.00 \\
-		5 & Spanrol | gladde pulley hoge resolutie | 6 mm riem | 5 mm as & 5.50 & 1 & 5.50 \\
-		6 & SHF10 as-bevestiging (2 stuks) & 9.50 & 2 & 19.00 \\
-		7 & Aluminium profiel 2020 extrusion lengte 1 m (123-3D huismerk)  & 9.50 & 3 & 28.50 \\
-		8 & Aluminium hoekverbinding 2020 inclusief bevestigingsmateriaal (123-3D huismerk) & 2.75 & 4 & 11.00 \\
-		9 & Hulpstukje 4 mm Luchtslang PE T-stuk 4 x 4 x 4 mm & 0.20 & 15 & 3.00 \\
-		10 & RASPBERRY PI 3 - MODELB - 1GB  & 31.59 & 1 & 31.59 \\
-		11 & Stepper motor 42BYGHW811 NEMA-17 Bipolar 48mm & 17.95 & 1 & 17.95 \\
-		12 & Waterpomp & onbekend & 2 & onbekend \\
-		13 & Waterafstotend MDF \SI{2}{\metre\squared} 18 mm & 19.99 & 1 & 19.99 \\
-		  
+		4 & Staaf voor X- of Y-as glad 10 mm x 100 cm & 4.75 & 2 & 9.50 \\
+		5 & SCS10UU lineaire kogellager  & 5.50 & 2 & 11.00 \\
+		6 & Waterafstotend MDF \SI{2}{\metre\squared} 18 mm & 19.99 & 1 & 19.99 \\
+		7 & Aluminium profiel 2020 extrusion lengte 1 m  & 9.50 & 3 & 28.50 \\
+		8 & \textit{R\&D}-kosten & onbekend & &  \\
+		9 & \textit{R\&D}-kosten & onbekend & &  \\
+		10 & \textit{R\&D}-kosten & onbekend & & onbekend \\
+		11 & \textit{R\&D}-kosten & onbekend & & onbekend\\
+		12 & \textit{R\&D}-kosten & onbekend & & onbekend\\
+		13 & \textit{R\&D}-kosten & onbekend & & onbekend\\
+		14 & Waterpomp & onbekend & 2 & onbekend \\
+		15 & Hulpstukje 4 mm Luchtslang PE T-stuk 4 x 4 x 4 mm & 0.20 & 15 & 3.00 \\
+		16 & Leidingen (\si{m}) & 0.40 & 4 & 1.60 \\
+		17 & Pipetpunten (zelf te voorzien) & & & \\
+		18 & Microplate (zelf te voorzien) & & & \\
+		19 & MDF-plaat & onbekend & & onbekend \\
+		20 & Zie onderdeel 6 & & & \\
+		21 & Stepper motor 42BYGHW811 NEMA-17 Bipolar 48mm & 17.95 & 1 & 17.95 \\
+		22 & Spanrol | gladde pulley hoge resolutie | 6 mm riem | 5 mm as & 5.50 & 1 & 5.50 \\
+		23 & Schakelaar & onbekend & 1 & onbekend \\
+	    24 & GT2 Pulley hoge resolutie | 6 mm riem | 20 tanden | 5 mm as & 6.00 & 1 & 6.00 \\
+	    25 & RASPBERRY PI 3 - MODELB - 1GB  & 31.59 & 1 & 31.59 \\
+	    
 		\bottomrule
 		
-		Totaal & & & & 172.03 \\
+		Totaal & & & & 173.63 \\
 		\bottomrule
 	\end{tabular}
 	\label{tab:financieelVerslag}
@@ -329,18 +377,6 @@ Op de volgende bladzijden vindt u een Gantt-grafiek van onze planning.
 \includepdf[pages=2]{kizzigeGanttchart.pdf}
 \includepdf[pages=3]{kizzigeGanttchart.pdf}
 
-
-\subsection*{Vergaderverslagen}
-Op de volgende pagina's vindt u de vergaderverslagen van de teambijeenkomsten.
-\includepdf{vergaderverslag3oktober.pdf}
-\includepdf{vergaderverslag10oktober.pdf}
-\includepdf{vergaderverslag17oktober.pdf}
-\includepdf{vergaderverslag24oktober.pdf}
-\includepdf{vergaderverslag31oktober.pdf}
-\includepdf{vergaderverslag7november.pdf}
-\includepdf{vergaderverslag14november.pdf}
-\includepdf{vergaderverslag21november.pdf}
-\includepdf{vergaderverslag28november.pdf}
 
 
 

@@ -4,45 +4,45 @@ The top-level auxiliary file: eindverslagTeamELISA.aux
 The style file: unsrt.bst
 Database file #1: bibliografie.bib
 Warning--empty note in BioSPX
-You've used 6 entries,
+You've used 7 entries,
             1791 wiz_defined-function locations,
-            471 strings with 4459 characters,
-and the built_in function-call counts, 705 in all, are:
-= -- 54
-> -- 21
+            476 strings with 4615 characters,
+and the built_in function-call counts, 805 in all, are:
+= -- 62
+> -- 22
 < -- 0
-+ -- 11
++ -- 12
 - -- 5
 * -- 6
-:= -- 112
-add.period$ -- 15
-call.type$ -- 6
-change.case$ -- 5
+:= -- 121
+add.period$ -- 17
+call.type$ -- 7
+change.case$ -- 6
 chr.to.int$ -- 0
-cite$ -- 7
-duplicate$ -- 29
-empty$ -- 99
+cite$ -- 8
+duplicate$ -- 34
+empty$ -- 117
 format.name$ -- 5
-if$ -- 164
+if$ -- 191
 int.to.chr$ -- 0
-int.to.str$ -- 6
+int.to.str$ -- 7
 missing$ -- 0
-newline$ -- 30
+newline$ -- 34
 num.names$ -- 5
-pop$ -- 29
+pop$ -- 35
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 26
+skip$ -- 32
 stack$ -- 0
 substring$ -- 0
-swap$ -- 5
+swap$ -- 6
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
 while$ -- 5
-width$ -- 7
-write$ -- 51
+width$ -- 8
+write$ -- 58
 (There was 1 warning)
