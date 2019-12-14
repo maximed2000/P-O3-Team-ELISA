@@ -1,32 +1,34 @@
 \begin{thebibliography}{1}
 
-\bibitem{wikipedia}
-Wikipedia.
-\newblock Elisa.
-\newblock
-  \href{https://en.wikipedia.org/wiki/ELISA}{https://en.wikipedia.org/wiki/ELISA},
-  2019.
+\bibitem{naamELISA}
+Rudolf~M Lequin.
+\newblock Enzyme immunoassay (eia)/enzyme-linked immunosorbent assay (elisa).
+\newblock {\em Clinical chemistry}, 51(12):2415--2418, 2005.
 
 \bibitem{ELISAApplications}
-Ph.D. Dr. Tomislav~Meštrović, MD.
-\newblock Elisa applications.
-\newblock
-  \href{https://www.news-medical.net/life-sciences/ELISA-Applications.aspx}{https://www.news-medical.net}.
-
-\bibitem{HumanChorionicGonadotropin}
-Human chorionic gonadotropin.
-\newblock
-  \href{https://embryology.med.unsw.edu.au/embryology/index.php/Human_Chorionic_Gonadotropin}{https://embryology.med}.
+Rob Reed, David Holmes, Jonathan Weyers, and Allan Jones.
+\newblock Practical skills in biomolecular sciences 4th edition pdf.
 
 \bibitem{AfbeeldingdirectELISA}
 Jason Kelly.
 \newblock
   \href{http://jasonkellyphoto.co/direct-elisa/}{http://jasonkellyphoto.co}.
 
-\bibitem{soortenELISA}
-Elisa guide.
-\newblock
-  \href{https://www.creative-diagnostics.com/ELISA-guide.htm}{www.creative-diagnostics.com/ELISA-guide}.
+\bibitem{soortenELISA1}
+Suryakant~K Niture and Aditi Pant.
+\newblock Purification and biochemical characterization of polygalacturonase ii
+  produced in semi-solid medium by a strain of fusarium moniliforme.
+\newblock {\em Microbiological Research}, 159(3):322--328, 2004.
+
+\bibitem{soortenELISA2}
+John~R Crowther.
+\newblock Methods in molecular biology, vol. 42-elisa: Theory and practice.
+\newblock {\em Methods in Molecular Biology}, 1995.
+
+\bibitem{soortenELISA3}
+ED~Harlow, David Lane, et~al.
+\newblock A laboratory manual.
+\newblock {\em New York: Cold Spring Harbor Laboratory}, 579:553--612, 1988.
 
 \bibitem{BioSPX}
 BioSPX.

@@ -3,46 +3,49 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: eindverslagTeamELISA.aux
 The style file: unsrt.bst
 Database file #1: bibliografie.bib
+Warning--I didn't find a database entry for "wikipedia"
+Warning--empty journal in ELISAApplications
+Warning--empty year in ELISAApplications
 Warning--empty note in BioSPX
-You've used 7 entries,
+You've used 8 entries,
             1791 wiz_defined-function locations,
-            476 strings with 4615 characters,
-and the built_in function-call counts, 805 in all, are:
-= -- 62
-> -- 22
+            494 strings with 4786 characters,
+and the built_in function-call counts, 1375 in all, are:
+= -- 118
+> -- 53
 < -- 0
-+ -- 12
-- -- 5
-* -- 6
-:= -- 121
-add.period$ -- 17
-call.type$ -- 7
-change.case$ -- 6
++ -- 22
+- -- 14
+* -- 77
+:= -- 231
+add.period$ -- 21
+call.type$ -- 8
+change.case$ -- 7
 chr.to.int$ -- 0
-cite$ -- 8
-duplicate$ -- 34
-empty$ -- 117
-format.name$ -- 5
-if$ -- 191
+cite$ -- 11
+duplicate$ -- 57
+empty$ -- 146
+format.name$ -- 14
+if$ -- 294
 int.to.chr$ -- 0
-int.to.str$ -- 7
-missing$ -- 0
-newline$ -- 34
-num.names$ -- 5
-pop$ -- 35
+int.to.str$ -- 8
+missing$ -- 5
+newline$ -- 40
+num.names$ -- 8
+pop$ -- 24
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 32
+skip$ -- 28
 stack$ -- 0
-substring$ -- 0
+substring$ -- 81
 swap$ -- 6
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 1
-while$ -- 5
-width$ -- 8
-write$ -- 58
-(There was 1 warning)
+warning$ -- 3
+while$ -- 14
+width$ -- 9
+write$ -- 75
+(There were 4 warnings)

@@ -41,13 +41,15 @@
 \tableofcontents
 
 \chapter*{Inleiding}
-Vandaag de dag komen veel mensen in contact met HIV, de ziekte van Lyme en voedselallergenen. Een vaak gebruikte techniek om deze aandoeningen op te sporen, is de ELISA-test\cite{wikipedia} (\textit{Enzyme-Linked ImmunoSorbent Assay}). Het is een laboratoriumtest die gebruikt wordt voor het meten van macromoleculaire stoffen. Door, gebruik makend van een enzym als merker, een specifieke antigeen-antistofbinding aan te tonen in het bloed of andere lichaamsvloeistof van een mens of dier, kan de eventuele aanwezigheid van de aandoening vastgesteld worden. De ELISA-test heeft naast het opsporen van virussen en voedselallergenen nog tal van andere toepassingen\cite{ELISAApplications}. Zo kan men de test gebruiken om vroege fasen van eierstok- en borstkanker op te sporen, om concentraties illegale drugs te bepalen in urinestalen en om de concentratie van een medicijn in patiënten die een behandeling ondergaan, te monitoren. Nog een andere toepassing is het detecteren van humaan choriongonadotrofine, een hormoon dat tijdens de zwangerschap door de placenta wordt geproduceerd\cite{HumanChorionicGonadotropin}. \newline
-Er bestaan verschillende varianten van de test. De meest eenvoudige versie is de directe antistof ELISA-test. Deze verloopt in volgende stappen (zie Figuur \ref{fig: directe ELISA}) \cite{AfbeeldingdirectELISA}:
+
+Vandaag de dag wordt heel wat wetenschappelijk onderzoek uitgevoerd in labo's. In veel gevallen wordt hierbij gewerkt volgens bepaalde methodieken. Een goed voorbeeld hiervan is de ELISA-test. De ELISA-test (\textit{Enzyme-Linked ImmunoSorbent Assay}\cite{naamELISA}) is een laboratoriumtest die gebruikt wordt voor het meten van macromoleculaire stoffen. Deze test heeft een zeer brede waaier van toepassingen. Zo kan hij onder andere gebruikt worden om HIV, de ziekte van Lyme en voedselallergenen op te sporen. Door, gebruik makend van een enzym als merker, een specifieke antigeen-antistofbinding aan te tonen in het bloed of andere lichaamsvloeistof van een mens of dier, kan de eventuele aanwezigheid van de aandoening vastgesteld worden. Er zijn echter nog tal van andere toepassingen\cite{ELISAApplications}.  
+\newline
+Er bestaan verschillende varianten van de test. De meest eenvoudige versie is de directe ELISA-test. Deze verloopt in volgende stappen (zie Figuur \ref{fig: directe ELISA})\cite{AfbeeldingdirectELISA}:
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.5\textwidth]{ELISA.png}
-	\caption{Directe antistof ELISA-test}
+	\caption{Directe ELISA-test}
 	\label{fig: directe ELISA}
 	
 \end{figure} 
@@ -65,15 +67,15 @@ Er bestaan verschillende varianten van de test. De meest eenvoudige versie is de
 
 \begin{enumerate}
 	\item Men brengt het te bestuderen antigen aan in de \textit{wells} van een \textit{microwell}plaat (zie Figuur \ref{fig: microwellplaat}).
-	\item Vervolgens wordt een oplossing met een niet-reagerend proteïne toegevoegd aan de wells zodat het volledige grondvlak van elke well bedekt is met vloeistof.
+	\item De plaatsen waar nog geen specifiek specifiek antigen gebonden is, worden bedekt met een niet-reagerend proteïne.
 	\item Het antilichaam met een geconjugeerd enzyme wordt in de wells gevoegd.
 	\item Een substraat voor het enzyme wordt toegevoegd. 
-	\item De concentratie van het antilichaam wordt gemeten.
+	\item Uiteindelijk zal er een kleurreactie plaatsvinden. Door hiervan de absorbantie te meten, kunnen de nodige concentraties bepaald worden. 
 \end{enumerate}
-Andere varianten zijn de indirecte \textit{sandwich} ELISA-, de competitieve inhibitie ELISA- en de \textit{blocking} ELISA-test\cite{soortenELISA}.
-Deze test wordt elke dag gebruikt door de onderzoekers van het \textit{Laboratory for Thrombosis Research} aan KU Leuven Campus Kulak Kortrijk. Er is echter een probleem bij de uitvoering van de test: wanneer de uitvoering van het proces niet geautomatiseerd is, neemt de ELISA-test veel handenarbeid en tijd in beslag. De \textit{automated microplate dispenser} kan hier een oplossing voor bieden. Deze machine is volledig geautomatiseerd en snel, waardoor een pak efficiënter kan gewerkt worden. 
-
-Het grote probleem met de \textit{automated microplate dispensers} die momenteel op de markt zijn (zie Figuur \ref{fig: microplateDispensers}), is dat prijzen de pan uit swingen. Voor een nieuw toestel betaalt men gemakkelijk \euro $12000$ tot \euro $35000$\cite{BioSPX} exclusief BTW, voor een tweedehandstoestel \euro 1500 tot \euro 8500\cite{LabX}. Het doel van dit project is dan ook om een machine te bouwen die dezelfde taken kan uitvoeren als de apparaten die momenteel op de markt zijn, maar dan voor een wél acceptabele prijs.
+Andere varianten zijn de indirecte \textit{sandwich} ELISA- en de competitieve inhibitie ELISA-test\cite{soortenELISA1}\cite{soortenELISA2}\cite{soortenELISA3}.
+De ELISA-test wordt elke dag gebruikt door de onderzoekers van het \textit{Laboratory for Thrombosis Research} aan KU Leuven Campus Kulak Kortrijk. Er is echter een probleem bij de uitvoering van de test: wanneer de uitvoering van het proces niet geautomatiseerd is, neemt de ELISA-test veel handenarbeid en tijd in beslag. De \textit{automated microplate dispenser} kan hier een oplossing voor bieden. Deze machine is volledig geautomatiseerd en snel, waardoor efficiënter kan gewerkt worden. 
+\newline
+Het grote probleem met de \textit{automated microplate dispensers} die momenteel op de markt zijn (zie Figuur \ref{fig: microplateDispensers}), is de hoge kostprijs. Zo kan een nieuw toestel  \euro $12000$ tot \euro $35000$\cite{BioSPX} kosten, voor een tweedehandstoestel \euro 1500 tot \euro 8500\cite{LabX}. Het doel van dit project is dan ook om een machine te bouwen die dezelfde taken kan uitvoeren als de apparaten die momenteel op de markt zijn, maar dan voor een acceptabele prijs.
 
 \begin{figure}
 	\centering
@@ -92,7 +94,7 @@ Het grote probleem met de \textit{automated microplate dispensers} die momenteel
 
 
 \chapter{Klantenvereisten}
-Het laboratorium voor trombose onderzoek wil een geautomatiseerde \textit{dispenser}. De \textit{dispenser} moet in staat zijn om volledig autonoom een \textit{microwell}-plaat te vullen met de te onderzoeken substantie. Dit proces moet foutloos gebeuren: in elke \textit{microwell} moet exact evenveel substantie zitten en er mag er uiteraard niet naast de \textit{microwells} gespoten worden. Bovendien moet dit alles kunnen in een tijd die aanzienlijk korter is dan wanneer men deze \textit{microwell}-plaat handmatig zou vullen. Vooral dit laatste aspect is belangrijk, aangezien het handmatig vullen van de platen een zeer arbeidsintensief en tijdrovend onderdeel is van de ELISA-test. Het apparaat moet eenvoudig te bedienen zijn en de pipetpunten die de substantie in de wells spuiten, moeten vervangbaar zijn.  Indien mogelijk kunnen ook al andere stappen, buiten het vullen van de \textit{microwells} zelf, geautomatiseerd worden. Het automatisch aan- en afvoeren van microwellplaten kan het productieproces al veel versnellen. Er is een budget van \euro 50 tot \euro 75 voorzien.
+Het laboratorium voor trombose-onderzoek wil een geautomatiseerde \textit{dispenser}. De \textit{dispenser} moet in staat zijn om volledig autonoom een \textit{microwell}-plaat te vullen met de te onderzoeken substantie. Dit proces moet foutloos gebeuren: in elke \textit{microwell} moet exact evenveel substantie zitten en er mag er uiteraard niet naast de \textit{microwells} gespoten worden. Bovendien moet dit alles kunnen in een tijd die aanzienlijk korter is dan wanneer men deze \textit{microwell}-plaat handmatig zou vullen. Vooral dit laatste aspect is belangrijk, aangezien het handmatig vullen van de platen een zeer arbeidsintensief en tijdrovend onderdeel is van de ELISA-test. Het apparaat moet eenvoudig te bedienen zijn en de pipetpunten die de substantie in de wells spuiten, moeten vervangbaar zijn.  Indien mogelijk kunnen ook al andere stappen, buiten het vullen van de \textit{microwells} zelf, geautomatiseerd worden. Het automatisch aan- en afvoeren van microwellplaten kan het productieproces al veel versnellen. Er is een budget van \euro 50 tot \euro 75 voorzien.
 \chapter{Ontwerpspecificaties}
 De te onderzoeken substantie bevindt zich in een recipiënt van waaruit het kan worden opgezogen. De \textit{microwell}-plaat is \SI{127.76}{mm} breed, \SI{85.48}{mm} lang en \SI{14.4}{mm} hoog. Er zitten 96 \textit{microwells} in, met een bovendiameter van \SI{6.96}{mm} en een benedendiameter van \SI{6.58}{mm} (zie Figuur \ref{fig: afmetingenMicrowellplaat}). Het werkvolume van elke well is tussen 25 $\mu l$ en 340 $\mu l$. De middelpunten van de wells bevinden zich op \SI{9}{mm} van elkaar. De middelpunten van de pipetpunten moeten dus op een afstand van \SI{9}{mm} van elkaar liggen en moeten verwijderbaar zijn. De machine moet elke well kunnen vullen met een hoeveelheid van 100 $\mu l$ of 200 $\mu l$ van de te onderzoeken substantie. Om de vloeistof niet te morsen naast de wells, moeten de pipetpunten telkens exact boven het middelpunt van de well de vloeistof lossen. Om het apparaat gebruiksvriendelijk te maken, moet een grafische interface voorzien worden. Zo kan de machine in enkele tellen opgestart worden en kunnen onderzoekers die de programmeertaal niet kennen de machine toch zonder probleem gebruiken.
 
@@ -113,10 +115,10 @@ In dit hoofdstuk wordt het uiteindelijke concept toegelicht en uitgelegd waarom 
 \section{Werking}
 
 	Het concept (zie Figuren \ref{fig: CAD-model bovenaan} en \ref{fig: CAD-model onderaan}) laat toe om zes microwell-platen met één druk op de startknop te vullen. Er wordt gewerkt met twee pompen die de vloeistof oppompen uit het recipiënt waarin de te onderzoeken substantie zich bevindt. Op elke pomp is een buizennetwerk aangesloten. In elk buizennetwerk wordt de vloeistof verdeeld over uiteindelijk acht pipetpunten. De middelpunten van de pipetpunten bevinden zich telkens op een afstand van \SI{9}{mm} van elkaar. De verdeling gebeurt door elke buis te splitsen in twee nieuwe buizen m.b.v. een T-verdeelstuk. De pipetpunten kunnen van de machine gehaald worden en zo gemakkelijk vervangen worden.
-	
+	\newline
 	Alle onderdelen van de constructie zijn bevestigd aan het centrale chassis. Dit vormt de basis van de gehele constructie en bestaat uit 4 profielen die aan elkaar vasthangen. Het hierboven beschreven buizennetwerk wordt hierop vastgemaakt.
 	De microplates worden op een transportplaat geplaatst. Op dit platform is plaats voorzien voor 6 microplates: deze worden in 2 rijen van 3 na elkaar gezet. Het platform is vastgemaakt aan een aandrijfriem, die op zijn beurt verbonden is met een motor. De transportplaat wordt m.b.v. lagers verbonden aan 2 staven en kan zo vrij heen en weer bewegen. De staven zijn gemonteerd op het chassis.
-	
+	\newline
 	Het mechanisme om de microwells te vullen werkt als volgt: telkens wanneer een rij van acht wells gevuld is, stopt de pomp en verschuift de transportplaat. Daarna vult de pomp opnieuw acht wells. Dit proces wordt herhaald tot de twaalf rijen van acht wells gevuld zijn. 
 	
 \section{Voordelen ontwerp}
@@ -208,7 +210,7 @@ Om de microcontroller correct af te sluiten en zo schade te voorkomen, dient men
 \begin{figure}[h]
 
 	\includegraphics[width=1.3\linewidth]{GI_letters.png}
-	\caption{Grafische Interface}
+	\caption{Grafische interface}
 	\label{fig: Grafische interface}
 	
 \end{figure} 
@@ -221,7 +223,7 @@ De gebouwde machine heeft heel wat potentieel. Hieronder vindt u enkele grote pl
 
 \paragraph{Prijs-kwaliteitverhouding}
 
-Het grootste voordeel van ons toestel t.o.v. andere toestellen is ongetwijfeld de uitstekende prijs-kwaliteitverhouding. Ons toestel kost in totaal \euro 173.63 (dit is weliswaar zonder werkuren te verrekenen), wat 60 tot 200 keer minder is dan de prijs van andere toestellen. De machine werkt minder precies dan professionele toestellen, maar desalniettemin is de prijs-kwaliteitverhouding is uitstekend.
+Het grootste voordeel van ons toestel t.o.v. andere toestellen is ongetwijfeld de uitstekende prijs-kwaliteitverhouding. Ons toestel kost in totaal \euro 173.63 (dit is weliswaar zonder werkuren te verrekenen), wat 60 tot 200 keer minder is dan de prijs van andere toestellen. De machine werkt minder precies dan professionele toestellen, maar desalniettemin is de prijs-kwaliteitverhouding uitstekend.
 
 \paragraph{Gebruiksgemak}
 
@@ -239,10 +241,10 @@ De machine werd gemaakt uit onderdelen die gemakkelijk te verkrijgen zijn. Dit z
 
 Om nog beter aan de wensen van de klant te voldoen, zijn er nog enkele zaken die na het einde van dit project verbeterd kunnen worden. \\ \\
 Ten eerste wordt de vloeistof niet precies genoeg over de microwells verdeeld om de ELISA-test op een wetenschappelijk verantwoorde manier uit te voeren. Om het apparaat te gebruiken om ook daadwerkelijk volledig zelf een ELISA-test uit te voeren, moet de verdeling van de vloeistof dus nog preciezer gebeuren. \\ \\
-Ten tweede zou een optie kunnen voorzien worden die automatisch de pipetpunten vervangt indien dit de gebruiker dit wenst. \\ \\
-
-Ten derde zou er een systeem kunnen voorzien worden dat automatisch een recipiënt onder de pipetpunten plaatst om de machine te initialiseren. Nu moet dit manueel gebeuren. Daarnaast zou ervoor gezorgd kunnen worden dat wanneer men de buizen ledigt, de vloeistof terug vloeit naar de recipiënt waar het vandaan komt. Zo moet er geen afzonderlijk recipiënt onder de pipetten gehouden worden. \\ \\
-
+Ten tweede zou een optie kunnen voorzien worden die automatisch de pipetpunten vervangt indien dit de gebruiker dit wenst. 
+\\ \\
+Ten derde zou er een systeem kunnen voorzien worden dat automatisch een recipiënt onder de pipetpunten plaatst om de machine te initialiseren. Nu moet dit manueel gebeuren. Daarnaast zou ervoor gezorgd kunnen worden dat wanneer men de buizen ledigt, de vloeistof terug vloeit naar de recipiënt waar het vandaan komt. Zo moet er geen afzonderlijk recipiënt onder de pipetten gehouden worden. 
+\\ \\
 Een laatste mogelijke verbetering is een mechanisme dat automatisch gevulde microplates  van de transportplaat haalt en nieuwe microplates op de transportplaat plaatst. Nu moet de gebruiker van het apparaat dit zelf doen. Door ervoor te zorgen dat dit proces volledig geautomatiseerd wordt, kan het vullen van de microplates nog efficiënter gebeuren en moet de gebruiker minder zelf tussenkomen. \\ \\
 
 %Daarnaast zou de dunne houten plaat die nu op de transportplaat ligt ook waterafstotend gemaakt kunnen worden. Deze bestaat nu uit normaal MDF en kan dus niet goed tegen water. De plaat vervangen door een dunne waterafstotende MDF-plaat of er een waterafstotende verf op spuiten zijn enkele van de mogelijke oplossingen. \\ \\
