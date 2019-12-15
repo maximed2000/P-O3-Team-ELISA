@@ -122,7 +122,7 @@ In dit hoofdstuk wordt het uiteindelijke concept toegelicht en uitgelegd waarom 
 	Het mechanisme om de microwells te vullen werkt als volgt: telkens wanneer een rij van acht wells gevuld is, stopt de pomp en verschuift de transportplaat. Daarna vult de pomp opnieuw acht wells. Dit proces wordt herhaald tot de twaalf rijen van acht wells gevuld zijn. 
 	
 \section{Voordelen ontwerp}
-	We gebruiken slechts 8 pipetpunten en geen 12 of 96. Er werd beslist om geen 96 wells tegelijk te vullen omdat één enkele pomp niet genoeg zuigkracht genereert om zo'n grote hoeveelheid vloeistof te kunnen opzuigen. De reden dat we geen 12 wells tegelijk vullen is de volgende: wanneer we de vloeistof verdelen over 8 pipetpunten, kunnen we ervoor zorgen dat de vloeistof van het recipiënt tot aan elk van de 8 pipetpunten een gelijke afstand aflegt. Dit kan eenvoudig gerealiseerd worden door de buizen te splitsen m.b.v. T- of Y-verdeelstukken, wat bij 12 pipetpunten niet het geval is. Dit laatste zou ervoor kunnen zorgen dat er niet evenveel vloeistof in elke well komt, wat problemen oplevert bij het uitvoeren van de ELISA-test. Dit concept heeft ook als voordeel t.o.v. andere mogelijke concepten dat er maar één bewegend onderdeel is. Hierdoor kan het aantal motoren beperkt worden. Een ander voordeel is dat het relatief goedkoop is. Bij andere concepten die gemaakt werden, werd voorgesteld om met cilinders en zuigers te werken in plaats van met een pomp. Deze onderdelen kosten per stuk echter even veel als het voorziene budget voor dit project. Door met een pomp te werken kan dit vermeden worden en wordt de kostprijs aanzienlijk gedrukt. 
+	We gebruiken slechts 8 pipetpunten en geen 12 of 96 (zie Figuur \ref{fig: close up buizensysteem}). Er werd beslist om geen 96 wells tegelijk te vullen omdat één enkele pomp niet genoeg zuigkracht genereert om zo'n grote hoeveelheid vloeistof te kunnen opzuigen. De reden dat we geen 12 wells tegelijk vullen is de volgende: wanneer we de vloeistof verdelen over 8 pipetpunten, kunnen we ervoor zorgen dat de vloeistof van het recipiënt tot aan elk van de 8 pipetpunten een gelijke afstand aflegt. Dit kan eenvoudig gerealiseerd worden door de buizen te splitsen m.b.v. T- of Y-verdeelstukken, wat bij 12 pipetpunten niet het geval is. Dit laatste zou ervoor kunnen zorgen dat er niet evenveel vloeistof in elke well komt, wat problemen oplevert bij het uitvoeren van de ELISA-test. Dit concept heeft ook als voordeel t.o.v. andere mogelijke concepten dat er maar één bewegend onderdeel is. Hierdoor kan het aantal motoren beperkt worden. Een ander voordeel is dat het relatief goedkoop is. Bij andere concepten die gemaakt werden, werd voorgesteld om met cilinders en zuigers te werken in plaats van met een pomp. Deze onderdelen kosten per stuk echter even veel als het voorziene budget voor dit project. Door met een pomp te werken kan dit vermeden worden en wordt de kostprijs aanzienlijk gedrukt. 
 	
 \begin{figure}[h]
 	\centering
@@ -137,6 +137,14 @@ In dit hoofdstuk wordt het uiteindelijke concept toegelicht en uitgelegd waarom 
 	\includegraphics[width=0.8\textwidth]{renderingOnderaan.png}
 	\caption{Onderaanzicht van onze automated microplate dispenser}
 	\label{fig: CAD-model onderaan}
+	
+\end{figure} 
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.8\textwidth]{renderingBuizensysteem.jpg}
+	\caption{\textit{Close up} van het buizensysteem}
+	\label{fig: close up buizensysteem}
 	
 \end{figure} 
 
@@ -168,7 +176,7 @@ De gebruikte pompen zijn vacuümpompen. Deze zorgen ervoor dat wanneer de pomp n
 
 \section{Microcontroller}
 
-Om aan de vereiste te voldoen dat de machine volledig automatisch de microplates kan vullen, moet het apparaat bestuurd worden via een microcontroller. Er werd gekozen voor een \textit{Raspberry Pi}. Deze heeft verschillende voordelen t.o.v. andere microcontrollers. Ten eerste is het een relatief goedkope microcontroller. Dit was een belangrijk aspect gezien het budget dat voorhanden was. Ten tweede laat een Raspberry Pi toe om een HDMI-kabel en computermuis rechtstreeks aan te sluiten op de microcontroller. Dit laat toe om een grafische interface te implementeren die eenvoudigweg kan bediend worden via een scherm en computermuis die met de Raspberry Pi verbonden zijn. Een derde reden voor onze keuze is dat dit type microcontroller redelijk compact is in vergelijking met andere microcontrollers die te verkrijgen zijn. Tot slot werkt een Raspberry Pi met de programmeertaal \textit{Python}. Dit had voor ons als voordeel dat we al konden werken met deze taal, wat niet het geval was met bijvoorbeeld een \textit{Arduino}microcontroller. 
+Om aan de vereiste te voldoen dat de machine volledig automatisch de microplates kan vullen, moet het apparaat bestuurd worden via een microcontroller (het elektrisch schema van het toestel vindt u in Appendix \ref{Appendix: elektrisch schema}). Er werd gekozen voor een \textit{Raspberry Pi}. Deze heeft verschillende voordelen t.o.v. andere microcontrollers. Ten eerste is het een relatief goedkope microcontroller. Dit was een belangrijk aspect gezien het budget dat voorhanden was. Ten tweede laat een Raspberry Pi toe om een HDMI-kabel en computermuis rechtstreeks aan te sluiten op de microcontroller. Dit laat toe om een grafische interface te implementeren die eenvoudigweg kan bediend worden via een scherm en computermuis die met de Raspberry Pi verbonden zijn. Een derde reden voor onze keuze is dat dit type microcontroller redelijk compact is in vergelijking met andere microcontrollers die te verkrijgen zijn. Tot slot werkt een Raspberry Pi met de programmeertaal \textit{Python}. Dit had voor ons als voordeel dat we al konden werken met deze taal, wat niet het geval was met bijvoorbeeld een \textit{Arduino}microcontroller. 
 
 
 
@@ -264,6 +272,10 @@ De automated microplate dispenser is een toestel dat het uitvoeren van de ELISA-
 \section*{Handleiding toestel}
 
 \includepdf[pages={1-}]{handleidingELISA.pdf}
+
+\section*{Elektrisch schema}
+\label{Appendix: elektrisch schema}
+\includepdf{elektrisch-schema-AMD-schema.pdf}
 
 \section*{Financieel verslag}
 \label{Appendix: Financieel verslag}

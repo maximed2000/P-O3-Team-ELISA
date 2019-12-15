@@ -4,30 +4,30 @@
 \contentsline {chapter}{\numberline {3}\textit {Concept}}{8}{chapter.3}
 \contentsline {section}{\numberline {3.1}Werking}{8}{section.3.1}
 \contentsline {section}{\numberline {3.2}Voordelen ontwerp}{8}{section.3.2}
-\contentsline {chapter}{\numberline {4}Realisatie ontwerp}{10}{chapter.4}
-\contentsline {section}{\numberline {4.1}Chassis}{10}{section.4.1}
-\contentsline {section}{\numberline {4.2}Transportplaat}{10}{section.4.2}
-\contentsline {section}{\numberline {4.3}Steppermotor}{11}{section.4.3}
-\contentsline {section}{\numberline {4.4}Waterpomp}{11}{section.4.4}
-\contentsline {section}{\numberline {4.5}Microcontroller}{11}{section.4.5}
-\contentsline {chapter}{\numberline {5}Programmeerstructuur}{12}{chapter.5}
-\contentsline {section}{\numberline {5.1}Grafische interface}{12}{section.5.1}
-\contentsline {section}{\numberline {5.2}Programmastructuur}{12}{section.5.2}
-\contentsline {paragraph}{Initialize}{12}{section*.10}
-\contentsline {paragraph}{Hoeveelheid ingeven + microplates selecteren}{12}{section*.11}
-\contentsline {paragraph}{Plaat naar pomp}{12}{section*.12}
-\contentsline {paragraph}{Noodstop}{14}{section*.13}
-\contentsline {paragraph}{Terug naar startplaats}{14}{section*.14}
-\contentsline {paragraph}{Cleanup}{14}{section*.15}
-\contentsline {paragraph}{Quit}{14}{section*.16}
-\contentsline {chapter}{\numberline {6}\textit {Unique selling proposition}}{15}{chapter.6}
-\contentsline {paragraph}{Prijs-kwaliteitverhouding}{15}{section*.18}
-\contentsline {paragraph}{Gebruiksgemak}{15}{section*.19}
-\contentsline {paragraph}{Mobiliteit en stevigheid}{15}{section*.20}
-\contentsline {paragraph}{Vervangstukken}{15}{section*.21}
-\contentsline {chapter}{\numberline {7}Mogelijkheden tot uitbreiding en verbetering}{16}{chapter.7}
-\contentsline {chapter}{\numberline {8}Conclusie}{17}{chapter.8}
-\contentsline {paragraph}{Algemene Natuurkunde: Mechanica}{39}{section*.31}
-\contentsline {paragraph}{Beginselen van Programmeren}{39}{section*.32}
-\contentsline {paragraph}{Probleemoplossen \& Ontwerpen, deel 2}{39}{section*.33}
-\contentsline {paragraph}{Algemene Natuurkunde: Elektromagnetisme en Informatieoverdracht en -verwerking \& elektrische netwerken}{39}{section*.34}
+\contentsline {chapter}{\numberline {4}Realisatie ontwerp}{11}{chapter.4}
+\contentsline {section}{\numberline {4.1}Chassis}{11}{section.4.1}
+\contentsline {section}{\numberline {4.2}Transportplaat}{11}{section.4.2}
+\contentsline {section}{\numberline {4.3}Steppermotor}{12}{section.4.3}
+\contentsline {section}{\numberline {4.4}Waterpomp}{12}{section.4.4}
+\contentsline {section}{\numberline {4.5}Microcontroller}{12}{section.4.5}
+\contentsline {chapter}{\numberline {5}Programmeerstructuur}{13}{chapter.5}
+\contentsline {section}{\numberline {5.1}Grafische interface}{13}{section.5.1}
+\contentsline {section}{\numberline {5.2}Programmastructuur}{13}{section.5.2}
+\contentsline {paragraph}{Initialize}{13}{section*.11}
+\contentsline {paragraph}{Hoeveelheid ingeven + microplates selecteren}{13}{section*.12}
+\contentsline {paragraph}{Plaat naar pomp}{13}{section*.13}
+\contentsline {paragraph}{Noodstop}{15}{section*.14}
+\contentsline {paragraph}{Terug naar startplaats}{15}{section*.15}
+\contentsline {paragraph}{Cleanup}{15}{section*.16}
+\contentsline {paragraph}{Quit}{15}{section*.17}
+\contentsline {chapter}{\numberline {6}\textit {Unique selling proposition}}{16}{chapter.6}
+\contentsline {paragraph}{Prijs-kwaliteitverhouding}{16}{section*.19}
+\contentsline {paragraph}{Gebruiksgemak}{16}{section*.20}
+\contentsline {paragraph}{Mobiliteit en stevigheid}{16}{section*.21}
+\contentsline {paragraph}{Vervangstukken}{16}{section*.22}
+\contentsline {chapter}{\numberline {7}Mogelijkheden tot uitbreiding en verbetering}{17}{chapter.7}
+\contentsline {chapter}{\numberline {8}Conclusie}{18}{chapter.8}
+\contentsline {paragraph}{Algemene Natuurkunde: Mechanica}{42}{section*.33}
+\contentsline {paragraph}{Beginselen van Programmeren}{42}{section*.34}
+\contentsline {paragraph}{Probleemoplossen \& Ontwerpen, deel 2}{42}{section*.35}
+\contentsline {paragraph}{Algemene Natuurkunde: Elektromagnetisme en Informatieoverdracht en -verwerking \& elektrische netwerken}{42}{section*.36}
