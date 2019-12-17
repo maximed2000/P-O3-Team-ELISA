@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.10.1)  17 DEC 2019 15:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.10.1)  17 DEC 2019 15:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1016,22 +1016,22 @@ Package: pbox 2011/12/07 v1.2 Dynamic parboxes
 (./eindverslagTeamELISA.aux)
 \openout1 = `eindverslagTeamELISA.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
 \AtBeginShipoutBox=\box93
-Package hyperref Info: Link coloring OFF on input line 37.
+Package hyperref Info: Link coloring OFF on input line 38.
 
 (c:/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1041,9 +1041,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count315
 )
-LaTeX Info: Redefining \ref on input line 37.
-LaTeX Info: Redefining \pageref on input line 37.
-LaTeX Info: Redefining \nameref on input line 37.
+LaTeX Info: Redefining \ref on input line 38.
+LaTeX Info: Redefining \pageref on input line 38.
+LaTeX Info: Redefining \nameref on input line 38.
 
 (./eindverslagTeamELISA.out) (./eindverslagTeamELISA.out)
 \@outlinefile=\write4
@@ -1174,29 +1174,29 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \celsius on input line 37.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 37.
+LaTeX Info: Redefining \celsius on input line 38.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 38.
 
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 37.
-Package gensymb Info: Using \Omega for \ohm on input line 37.
+LaTeX Info: Redefining \ohm on input line 38.
+Package gensymb Info: Using \Omega for \ohm on input line 38.
 
 Package gensymb Warning: Not defining \micro.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 37.
+(Font)              <7> on input line 38.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 37.
+(Font)              <5> on input line 38.
 <kulakLogo.pdf, id=75, 245.83241pt x 51.21533pt>
 File: kulakLogo.pdf Graphic file (type pdf)
 <use kulakLogo.pdf>
-Package pdftex.def Info: kulakLogo.pdf  used on input line 39.
+Package pdftex.def Info: kulakLogo.pdf  used on input line 40.
 (pdftex.def)             Requested size: 245.8318pt x 51.21504pt.
 
-Underfull \hbox (badness 2961) in paragraph at lines 39--39
+Underfull \hbox (badness 2961) in paragraph at lines 40--40
 []|\OT1/cmr/bx/n/24.88 De \OT1/cmr/bx/it/24.88 au-to-ma-ted mi-cro-plate
  []
 
@@ -1215,12 +1215,12 @@ f-local/tex/latex/local/kulak/kulakLogo.pdf>] (./eindverslagTeamELISA.toc)
 <ELISA.png, id=118, 319.1925pt x 151.16475pt>
 File: ELISA.png Graphic file (type png)
 <use ELISA.png>
-Package pdftex.def Info: ELISA.png  used on input line 51.
+Package pdftex.def Info: ELISA.png  used on input line 52.
 (pdftex.def)             Requested size: 172.5pt x 81.69232pt.
 <microplate.png, id=120, 478.1865pt x 330.63525pt>
 File: microplate.png Graphic file (type png)
 <use microplate.png>
-Package pdftex.def Info: microplate.png  used on input line 60.
+Package pdftex.def Info: microplate.png  used on input line 61.
 (pdftex.def)             Requested size: 172.5pt x 119.2758pt.
  [3
 
@@ -1228,17 +1228,17 @@ Package pdftex.def Info: microplate.png  used on input line 60.
 <microplateDispenserThermo.png, id=142, 543.2295pt x 404.10976pt>
 File: microplateDispenserThermo.png Graphic file (type png)
 <use microplateDispenserThermo.png>
-Package pdftex.def Info: microplateDispenserThermo.png  used on input line 84.
+Package pdftex.def Info: microplateDispenserThermo.png  used on input line 85.
 (pdftex.def)             Requested size: 155.24895pt x 115.48695pt.
 <microplateDispenserBioTek.png, id=143, 554.07pt x 529.98pt>
 File: microplateDispenserBioTek.png Graphic file (type png)
 <use microplateDispenserBioTek.png>
-Package pdftex.def Info: microplateDispenserBioTek.png  used on input line 88.
+Package pdftex.def Info: microplateDispenserBioTek.png  used on input line 89.
 (pdftex.def)             Requested size: 155.24895pt x 148.4985pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 96.
+(Font)              <8> on input line 97.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 96.
+(Font)              <6> on input line 97.
  [4] [5 <./microplateDispenserThermo.PNG> <./microplateDispenserBioTek.PNG>]
 Hoofdstuk 1.
 [6
@@ -1248,7 +1248,7 @@ Hoofdstuk 2.
 <AfmetingenMicrowell.png, id=172, 169.8345pt x 104.18925pt>
 File: AfmetingenMicrowell.png Graphic file (type png)
 <use AfmetingenMicrowell.png>
-Package pdftex.def Info: AfmetingenMicrowell.png  used on input line 103.
+Package pdftex.def Info: AfmetingenMicrowell.png  used on input line 104.
 (pdftex.def)             Requested size: 172.5pt x 105.82805pt.
 [7
 
@@ -1260,17 +1260,17 @@ Hoofdstuk 3.
 <renderingBovenaan.png, id=192, 1109.3445pt x 499.26524pt>
 File: renderingBovenaan.png Graphic file (type png)
 <use renderingBovenaan.png>
-Package pdftex.def Info: renderingBovenaan.png  used on input line 129.
+Package pdftex.def Info: renderingBovenaan.png  used on input line 130.
 (pdftex.def)             Requested size: 345.0pt x 155.26581pt.
 <renderingOnderaan.png, id=193, 1106.9355pt x 498.06075pt>
 File: renderingOnderaan.png Graphic file (type png)
 <use renderingOnderaan.png>
-Package pdftex.def Info: renderingOnderaan.png  used on input line 137.
+Package pdftex.def Info: renderingOnderaan.png  used on input line 138.
 (pdftex.def)             Requested size: 276.00105pt x 124.18808pt.
 <renderingBuizensysteem.jpg, id=194, 2890.8pt x 1301.61281pt>
 File: renderingBuizensysteem.jpg Graphic file (type jpg)
 <use renderingBuizensysteem.jpg>
-Package pdftex.def Info: renderingBuizensysteem.jpg  used on input line 145.
+Package pdftex.def Info: renderingBuizensysteem.jpg  used on input line 146.
 (pdftex.def)             Requested size: 276.00105pt x 124.27019pt.
 
 
@@ -1282,29 +1282,21 @@ Hoofdstuk 4.
 <chassis+transportplaat.jpg, id=208, 2890.8pt x 1301.61281pt>
 File: chassis+transportplaat.jpg Graphic file (type jpg)
 <use chassis+transportplaat.jpg>
-Package pdftex.def Info: chassis+transportplaat.jpg  used on input line 162.
+Package pdftex.def Info: chassis+transportplaat.jpg  used on input line 163.
 (pdftex.def)             Requested size: 345.0pt x 155.33276pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 171--172
-
- []
-
 [11
 
  <./chassis+transportplaat.jpg>]
 <fotomotor.jpg, id=219, 2890.8pt x 1301.61281pt>
 File: fotomotor.jpg Graphic file (type jpg)
 <use fotomotor.jpg>
-Package pdftex.def Info: fotomotor.jpg  used on input line 180.
+Package pdftex.def Info: fotomotor.jpg  used on input line 181.
 (pdftex.def)             Requested size: 345.0pt x 155.33276pt.
-
-Underfull \vbox (badness 6775) has occurred while \output is active []
-
  [12 <./fotomotor.jpg>]
-<fotopomp.jpg, id=232, 2890.8pt x 1301.61281pt>
+<fotopomp.jpg, id=233, 2890.8pt x 1301.61281pt>
 File: fotopomp.jpg Graphic file (type jpg)
 <use fotopomp.jpg>
-Package pdftex.def Info: fotopomp.jpg  used on input line 192.
+Package pdftex.def Info: fotopomp.jpg  used on input line 193.
 (pdftex.def)             Requested size: 345.0pt x 155.33276pt.
  [13 <./fotopomp.jpg>]
 Hoofdstuk 5.
@@ -1315,10 +1307,10 @@ und PDF version <1.7>, but at most version <1.5> allowed
 <Programmastructuur.pdf, id=243, 542.025pt x 963.6pt>
 File: Programmastructuur.pdf Graphic file (type pdf)
 <use Programmastructuur.pdf>
-Package pdftex.def Info: Programmastructuur.pdf  used on input line 213.
+Package pdftex.def Info: Programmastructuur.pdf  used on input line 214.
 (pdftex.def)             Requested size: 345.0pt x 613.34955pt.
 
-LaTeX Warning: Float too large for page by 37.34955pt on input line 217.
+LaTeX Warning: Float too large for page by 37.34955pt on input line 218.
 
 [14
 
@@ -1326,12 +1318,12 @@ LaTeX Warning: Float too large for page by 37.34955pt on input line 217.
 <GI_letters.png, id=273, 974.64125pt x 484.81125pt>
 File: GI_letters.png Graphic file (type png)
 <use GI_letters.png>
-Package pdftex.def Info: GI_letters.png  used on input line 241.
+Package pdftex.def Info: GI_letters.png  used on input line 242.
 (pdftex.def)             Requested size: 345.0pt x 171.60985pt.
  [16 <./GI_letters.png>]
 Hoofdstuk 6.
 
-Underfull \hbox (badness 10000) in paragraph at lines 255--259
+Underfull \hbox (badness 10000) in paragraph at lines 256--260
 
  []
 
@@ -1340,32 +1332,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 255--259
 ] [18]
 Hoofdstuk 7.
 
-Underfull \hbox (badness 10000) in paragraph at lines 274--281
+Underfull \hbox (badness 10000) in paragraph at lines 275--282
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 274--281
+Underfull \hbox (badness 10000) in paragraph at lines 275--282
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 274--281
+Underfull \hbox (badness 10000) in paragraph at lines 275--282
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 274--281
+Underfull \hbox (badness 10000) in paragraph at lines 275--282
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 274--281
+Underfull \hbox (badness 10000) in paragraph at lines 275--282
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 274--281
+Underfull \hbox (badness 10000) in paragraph at lines 275--282
 
  []
 
@@ -1377,7 +1369,7 @@ Hoofdstuk 8.
 
 ]
 
-LaTeX Warning: Citation `wikipedia' undefined on input line 290.
+LaTeX Warning: Citation `wikipedia' undefined on input line 291.
 
 (./eindverslagTeamELISA.bbl) [21
 
@@ -1386,341 +1378,341 @@ LaTeX Warning: Citation `wikipedia' undefined on input line 290.
 <handleidingELISA.pdf, id=313, 597.50829pt x 845.0471pt>
 File: handleidingELISA.pdf Graphic file (type pdf)
 <use handleidingELISA.pdf>
-Package pdftex.def Info: handleidingELISA.pdf  used on input line 298.
+Package pdftex.def Info: handleidingELISA.pdf  used on input line 299.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: handleidingELISA.pdf Graphic file (type pdf)
 <use handleidingELISA.pdf>
-Package pdftex.def Info: handleidingELISA.pdf  used on input line 298.
+Package pdftex.def Info: handleidingELISA.pdf  used on input line 299.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 <handleidingELISA.pdf, id=316, page=1, 597.50829pt x 845.0471pt>
 File: handleidingELISA.pdf Graphic file (type pdf)
 <use handleidingELISA.pdf, page 1>
-Package pdftex.def Info: handleidingELISA.pdf , page1 used on input line 298.
+Package pdftex.def Info: handleidingELISA.pdf , page1 used on input line 299.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: handleidingELISA.pdf Graphic file (type pdf)
 <use handleidingELISA.pdf, page 1>
-Package pdftex.def Info: handleidingELISA.pdf , page1 used on input line 298.
+Package pdftex.def Info: handleidingELISA.pdf , page1 used on input line 299.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [22
 
 ]
 File: handleidingELISA.pdf Graphic file (type pdf)
 <use handleidingELISA.pdf, page 1>
-Package pdftex.def Info: handleidingELISA.pdf , page1 used on input line 298.
+Package pdftex.def Info: handleidingELISA.pdf , page1 used on input line 299.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: handleidingELISA.pdf Graphic file (type pdf)
 <use handleidingELISA.pdf, page 1>
-Package pdftex.def Info: handleidingELISA.pdf , page1 used on input line 298.
+Package pdftex.def Info: handleidingELISA.pdf , page1 used on input line 299.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: handleidingELISA.pdf Graphic file (type pdf)
 <use handleidingELISA.pdf, page 1>
-Package pdftex.def Info: handleidingELISA.pdf , page1 used on input line 298.
+Package pdftex.def Info: handleidingELISA.pdf , page1 used on input line 299.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [23 <./handleidingELISA.pdf>]
 <handleidingELISA.pdf, id=360, page=2, 597.50829pt x 845.0471pt>
 File: handleidingELISA.pdf Graphic file (type pdf)
 <use handleidingELISA.pdf, page 2>
-Package pdftex.def Info: handleidingELISA.pdf , page2 used on input line 298.
+Package pdftex.def Info: handleidingELISA.pdf , page2 used on input line 299.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: handleidingELISA.pdf Graphic file (type pdf)
 <use handleidingELISA.pdf, page 2>
-Package pdftex.def Info: handleidingELISA.pdf , page2 used on input line 298.
+Package pdftex.def Info: handleidingELISA.pdf , page2 used on input line 299.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: handleidingELISA.pdf Graphic file (type pdf)
 <use handleidingELISA.pdf, page 2>
-Package pdftex.def Info: handleidingELISA.pdf , page2 used on input line 298.
+Package pdftex.def Info: handleidingELISA.pdf , page2 used on input line 299.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [24 <./handleidingELISA.pdf>]
 <handleidingELISA.pdf, id=370, page=3, 597.50829pt x 845.0471pt>
 File: handleidingELISA.pdf Graphic file (type pdf)
 <use handleidingELISA.pdf, page 3>
-Package pdftex.def Info: handleidingELISA.pdf , page3 used on input line 298.
+Package pdftex.def Info: handleidingELISA.pdf , page3 used on input line 299.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: handleidingELISA.pdf Graphic file (type pdf)
 <use handleidingELISA.pdf, page 3>
-Package pdftex.def Info: handleidingELISA.pdf , page3 used on input line 298.
+Package pdftex.def Info: handleidingELISA.pdf , page3 used on input line 299.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: handleidingELISA.pdf Graphic file (type pdf)
 <use handleidingELISA.pdf, page 3>
-Package pdftex.def Info: handleidingELISA.pdf , page3 used on input line 298.
+Package pdftex.def Info: handleidingELISA.pdf , page3 used on input line 299.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [25 <./handleidingELISA.pdf>]
 <handleidingELISA.pdf, id=381, page=4, 597.50829pt x 845.0471pt>
 File: handleidingELISA.pdf Graphic file (type pdf)
 <use handleidingELISA.pdf, page 4>
-Package pdftex.def Info: handleidingELISA.pdf , page4 used on input line 298.
+Package pdftex.def Info: handleidingELISA.pdf , page4 used on input line 299.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: handleidingELISA.pdf Graphic file (type pdf)
 <use handleidingELISA.pdf, page 4>
-Package pdftex.def Info: handleidingELISA.pdf , page4 used on input line 298.
+Package pdftex.def Info: handleidingELISA.pdf , page4 used on input line 299.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: handleidingELISA.pdf Graphic file (type pdf)
 <use handleidingELISA.pdf, page 4>
-Package pdftex.def Info: handleidingELISA.pdf , page4 used on input line 298.
+Package pdftex.def Info: handleidingELISA.pdf , page4 used on input line 299.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [26 <./handleidingELISA.pdf>]
 <handleidingELISA.pdf, id=399, page=5, 597.50829pt x 845.0471pt>
 File: handleidingELISA.pdf Graphic file (type pdf)
 <use handleidingELISA.pdf, page 5>
-Package pdftex.def Info: handleidingELISA.pdf , page5 used on input line 298.
+Package pdftex.def Info: handleidingELISA.pdf , page5 used on input line 299.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: handleidingELISA.pdf Graphic file (type pdf)
 <use handleidingELISA.pdf, page 5>
-Package pdftex.def Info: handleidingELISA.pdf , page5 used on input line 298.
+Package pdftex.def Info: handleidingELISA.pdf , page5 used on input line 299.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: handleidingELISA.pdf Graphic file (type pdf)
 <use handleidingELISA.pdf, page 5>
-Package pdftex.def Info: handleidingELISA.pdf , page5 used on input line 298.
+Package pdftex.def Info: handleidingELISA.pdf , page5 used on input line 299.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 [27 <./handleidingELISA.pdf>]
 <handleidingELISA.pdf, id=407, page=6, 597.50829pt x 845.0471pt>
 File: handleidingELISA.pdf Graphic file (type pdf)
 <use handleidingELISA.pdf, page 6>
-Package pdftex.def Info: handleidingELISA.pdf , page6 used on input line 298.
+Package pdftex.def Info: handleidingELISA.pdf , page6 used on input line 299.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: handleidingELISA.pdf Graphic file (type pdf)
 <use handleidingELISA.pdf, page 6>
-Package pdftex.def Info: handleidingELISA.pdf , page6 used on input line 298.
+Package pdftex.def Info: handleidingELISA.pdf , page6 used on input line 299.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: handleidingELISA.pdf Graphic file (type pdf)
 <use handleidingELISA.pdf, page 6>
-Package pdftex.def Info: handleidingELISA.pdf , page6 used on input line 298.
+Package pdftex.def Info: handleidingELISA.pdf , page6 used on input line 299.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [28 <./handleidingELISA.pdf>]
 <handleidingELISA.pdf, id=413, page=7, 597.50829pt x 845.0471pt>
 File: handleidingELISA.pdf Graphic file (type pdf)
 <use handleidingELISA.pdf, page 7>
-Package pdftex.def Info: handleidingELISA.pdf , page7 used on input line 298.
+Package pdftex.def Info: handleidingELISA.pdf , page7 used on input line 299.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: handleidingELISA.pdf Graphic file (type pdf)
 <use handleidingELISA.pdf, page 7>
-Package pdftex.def Info: handleidingELISA.pdf , page7 used on input line 298.
+Package pdftex.def Info: handleidingELISA.pdf , page7 used on input line 299.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: handleidingELISA.pdf Graphic file (type pdf)
 <use handleidingELISA.pdf, page 7>
-Package pdftex.def Info: handleidingELISA.pdf , page7 used on input line 298.
+Package pdftex.def Info: handleidingELISA.pdf , page7 used on input line 299.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [29 <./handleidingELISA.pdf>]
 <handleidingELISA.pdf, id=421, page=8, 597.50829pt x 845.0471pt>
 File: handleidingELISA.pdf Graphic file (type pdf)
 <use handleidingELISA.pdf, page 8>
-Package pdftex.def Info: handleidingELISA.pdf , page8 used on input line 298.
+Package pdftex.def Info: handleidingELISA.pdf , page8 used on input line 299.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: handleidingELISA.pdf Graphic file (type pdf)
 <use handleidingELISA.pdf, page 8>
-Package pdftex.def Info: handleidingELISA.pdf , page8 used on input line 298.
+Package pdftex.def Info: handleidingELISA.pdf , page8 used on input line 299.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: handleidingELISA.pdf Graphic file (type pdf)
 <use handleidingELISA.pdf, page 8>
-Package pdftex.def Info: handleidingELISA.pdf , page8 used on input line 298.
+Package pdftex.def Info: handleidingELISA.pdf , page8 used on input line 299.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [30 <./handleidingELISA.pdf>]
 <handleidingELISA.pdf, id=430, page=9, 597.50829pt x 845.0471pt>
 File: handleidingELISA.pdf Graphic file (type pdf)
 <use handleidingELISA.pdf, page 9>
-Package pdftex.def Info: handleidingELISA.pdf , page9 used on input line 298.
+Package pdftex.def Info: handleidingELISA.pdf , page9 used on input line 299.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: handleidingELISA.pdf Graphic file (type pdf)
 <use handleidingELISA.pdf, page 9>
-Package pdftex.def Info: handleidingELISA.pdf , page9 used on input line 298.
+Package pdftex.def Info: handleidingELISA.pdf , page9 used on input line 299.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: handleidingELISA.pdf Graphic file (type pdf)
 <use handleidingELISA.pdf, page 9>
-Package pdftex.def Info: handleidingELISA.pdf , page9 used on input line 298.
+Package pdftex.def Info: handleidingELISA.pdf , page9 used on input line 299.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [31 <./handleidingELISA.pdf>]
 <handleidingELISA.pdf, id=441, page=10, 597.50829pt x 845.0471pt>
 File: handleidingELISA.pdf Graphic file (type pdf)
 <use handleidingELISA.pdf, page 10>
-Package pdftex.def Info: handleidingELISA.pdf , page10 used on input line 298.
+Package pdftex.def Info: handleidingELISA.pdf , page10 used on input line 299.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: handleidingELISA.pdf Graphic file (type pdf)
 <use handleidingELISA.pdf, page 10>
-Package pdftex.def Info: handleidingELISA.pdf , page10 used on input line 298.
+Package pdftex.def Info: handleidingELISA.pdf , page10 used on input line 299.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: handleidingELISA.pdf Graphic file (type pdf)
 <use handleidingELISA.pdf, page 10>
-Package pdftex.def Info: handleidingELISA.pdf , page10 used on input line 298.
+Package pdftex.def Info: handleidingELISA.pdf , page10 used on input line 299.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [32 <./handleidingELISA.pdf>]
 <handleidingELISA.pdf, id=446, page=11, 597.50829pt x 845.0471pt>
 File: handleidingELISA.pdf Graphic file (type pdf)
 <use handleidingELISA.pdf, page 11>
-Package pdftex.def Info: handleidingELISA.pdf , page11 used on input line 298.
+Package pdftex.def Info: handleidingELISA.pdf , page11 used on input line 299.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: handleidingELISA.pdf Graphic file (type pdf)
 <use handleidingELISA.pdf, page 11>
-Package pdftex.def Info: handleidingELISA.pdf , page11 used on input line 298.
+Package pdftex.def Info: handleidingELISA.pdf , page11 used on input line 299.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: handleidingELISA.pdf Graphic file (type pdf)
 <use handleidingELISA.pdf, page 11>
-Package pdftex.def Info: handleidingELISA.pdf , page11 used on input line 298.
+Package pdftex.def Info: handleidingELISA.pdf , page11 used on input line 299.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [33 <./handleidingELISA.pdf>]
 <handleidingELISA.pdf, id=452, page=12, 597.50829pt x 845.0471pt>
 File: handleidingELISA.pdf Graphic file (type pdf)
 <use handleidingELISA.pdf, page 12>
-Package pdftex.def Info: handleidingELISA.pdf , page12 used on input line 298.
+Package pdftex.def Info: handleidingELISA.pdf , page12 used on input line 299.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: handleidingELISA.pdf Graphic file (type pdf)
 <use handleidingELISA.pdf, page 12>
-Package pdftex.def Info: handleidingELISA.pdf , page12 used on input line 298.
+Package pdftex.def Info: handleidingELISA.pdf , page12 used on input line 299.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: handleidingELISA.pdf Graphic file (type pdf)
 <use handleidingELISA.pdf, page 12>
-Package pdftex.def Info: handleidingELISA.pdf , page12 used on input line 298.
+Package pdftex.def Info: handleidingELISA.pdf , page12 used on input line 299.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [34 <./handleidingELISA.pdf>]
 <handleidingELISA.pdf, id=458, page=13, 597.50829pt x 845.0471pt>
 File: handleidingELISA.pdf Graphic file (type pdf)
 <use handleidingELISA.pdf, page 13>
-Package pdftex.def Info: handleidingELISA.pdf , page13 used on input line 298.
+Package pdftex.def Info: handleidingELISA.pdf , page13 used on input line 299.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: handleidingELISA.pdf Graphic file (type pdf)
 <use handleidingELISA.pdf, page 13>
-Package pdftex.def Info: handleidingELISA.pdf , page13 used on input line 298.
+Package pdftex.def Info: handleidingELISA.pdf , page13 used on input line 299.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: handleidingELISA.pdf Graphic file (type pdf)
 <use handleidingELISA.pdf, page 13>
-Package pdftex.def Info: handleidingELISA.pdf , page13 used on input line 298.
+Package pdftex.def Info: handleidingELISA.pdf , page13 used on input line 299.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [35 <./handleidingELISA.pdf>]
 <handleidingELISA.pdf, id=463, page=14, 597.50829pt x 845.0471pt>
 File: handleidingELISA.pdf Graphic file (type pdf)
 <use handleidingELISA.pdf, page 14>
-Package pdftex.def Info: handleidingELISA.pdf , page14 used on input line 298.
+Package pdftex.def Info: handleidingELISA.pdf , page14 used on input line 299.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: handleidingELISA.pdf Graphic file (type pdf)
 <use handleidingELISA.pdf, page 14>
-Package pdftex.def Info: handleidingELISA.pdf , page14 used on input line 298.
+Package pdftex.def Info: handleidingELISA.pdf , page14 used on input line 299.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: handleidingELISA.pdf Graphic file (type pdf)
 <use handleidingELISA.pdf, page 14>
-Package pdftex.def Info: handleidingELISA.pdf , page14 used on input line 298.
+Package pdftex.def Info: handleidingELISA.pdf , page14 used on input line 299.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [36 <./handleidingELISA.pdf>]
 <handleidingELISA.pdf, id=468, page=15, 597.50829pt x 845.0471pt>
 File: handleidingELISA.pdf Graphic file (type pdf)
 <use handleidingELISA.pdf, page 15>
-Package pdftex.def Info: handleidingELISA.pdf , page15 used on input line 298.
+Package pdftex.def Info: handleidingELISA.pdf , page15 used on input line 299.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: handleidingELISA.pdf Graphic file (type pdf)
 <use handleidingELISA.pdf, page 15>
-Package pdftex.def Info: handleidingELISA.pdf , page15 used on input line 298.
+Package pdftex.def Info: handleidingELISA.pdf , page15 used on input line 299.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: handleidingELISA.pdf Graphic file (type pdf)
 <use handleidingELISA.pdf, page 15>
-Package pdftex.def Info: handleidingELISA.pdf , page15 used on input line 298.
+Package pdftex.def Info: handleidingELISA.pdf , page15 used on input line 299.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [37 <./handleidingELISA.pdf>]
 <handleidingELISA.pdf, id=475, page=16, 597.50829pt x 845.0471pt>
 File: handleidingELISA.pdf Graphic file (type pdf)
 <use handleidingELISA.pdf, page 16>
-Package pdftex.def Info: handleidingELISA.pdf , page16 used on input line 298.
+Package pdftex.def Info: handleidingELISA.pdf , page16 used on input line 299.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: handleidingELISA.pdf Graphic file (type pdf)
 <use handleidingELISA.pdf, page 16>
-Package pdftex.def Info: handleidingELISA.pdf , page16 used on input line 298.
+Package pdftex.def Info: handleidingELISA.pdf , page16 used on input line 299.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: handleidingELISA.pdf Graphic file (type pdf)
 <use handleidingELISA.pdf, page 16>
-Package pdftex.def Info: handleidingELISA.pdf , page16 used on input line 298.
+Package pdftex.def Info: handleidingELISA.pdf , page16 used on input line 299.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [38 <./handleidingELISA.pdf>]
 <elektrisch-schema-AMD-schema.pdf, id=483, 418.56375pt x 381.425pt>
 File: elektrisch-schema-AMD-schema.pdf Graphic file (type pdf)
 <use elektrisch-schema-AMD-schema.pdf>
 Package pdftex.def Info: elektrisch-schema-AMD-schema.pdf  used on input line 3
-02.
+03.
 (pdftex.def)             Requested size: 418.56271pt x 381.42406pt.
 File: elektrisch-schema-AMD-schema.pdf Graphic file (type pdf)
 <use elektrisch-schema-AMD-schema.pdf>
 Package pdftex.def Info: elektrisch-schema-AMD-schema.pdf  used on input line 3
-02.
+03.
 (pdftex.def)             Requested size: 418.56271pt x 381.42406pt.
 <elektrisch-schema-AMD-schema.pdf, id=486, page=1, 418.56375pt x 381.425pt>
 File: elektrisch-schema-AMD-schema.pdf Graphic file (type pdf)
 <use elektrisch-schema-AMD-schema.pdf, page 1>
 Package pdftex.def Info: elektrisch-schema-AMD-schema.pdf , page1 used on input
- line 302.
+ line 303.
 (pdftex.def)             Requested size: 418.56271pt x 381.42406pt.
 File: elektrisch-schema-AMD-schema.pdf Graphic file (type pdf)
 <use elektrisch-schema-AMD-schema.pdf, page 1>
 Package pdftex.def Info: elektrisch-schema-AMD-schema.pdf , page1 used on input
- line 302.
+ line 303.
 (pdftex.def)             Requested size: 598.31169pt x 545.22408pt.
  [39]
 File: elektrisch-schema-AMD-schema.pdf Graphic file (type pdf)
 <use elektrisch-schema-AMD-schema.pdf, page 1>
 Package pdftex.def Info: elektrisch-schema-AMD-schema.pdf , page1 used on input
- line 302.
+ line 303.
 (pdftex.def)             Requested size: 598.31169pt x 545.22408pt.
 File: elektrisch-schema-AMD-schema.pdf Graphic file (type pdf)
 <use elektrisch-schema-AMD-schema.pdf, page 1>
 Package pdftex.def Info: elektrisch-schema-AMD-schema.pdf , page1 used on input
- line 302.
+ line 303.
 (pdftex.def)             Requested size: 598.31169pt x 545.22408pt.
 File: elektrisch-schema-AMD-schema.pdf Graphic file (type pdf)
 <use elektrisch-schema-AMD-schema.pdf, page 1>
 Package pdftex.def Info: elektrisch-schema-AMD-schema.pdf , page1 used on input
- line 302.
+ line 303.
 (pdftex.def)             Requested size: 598.31169pt x 545.22408pt.
  [40 <./elektrisch-schema-AMD-schema.pdf>]
 <renderingBovenaanStuklijst.png, id=801, 1097.2995pt x 497.4585pt>
 File: renderingBovenaanStuklijst.png Graphic file (type png)
 <use renderingBovenaanStuklijst.png>
-Package pdftex.def Info: renderingBovenaanStuklijst.png  used on input line 312
+Package pdftex.def Info: renderingBovenaanStuklijst.png  used on input line 313
 .
 (pdftex.def)             Requested size: 345.0pt x 156.40422pt.
 <renderingOnderaanStuklijst.png, id=802, 1105.731pt x 498.663pt>
 File: renderingOnderaanStuklijst.png Graphic file (type png)
 <use renderingOnderaanStuklijst.png>
-Package pdftex.def Info: renderingOnderaanStuklijst.png  used on input line 320
+Package pdftex.def Info: renderingOnderaanStuklijst.png  used on input line 321
 .
 (pdftex.def)             Requested size: 345.0pt x 155.5883pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 339--339
+Underfull \hbox (badness 10000) in paragraph at lines 340--340
 []|\OT1/cmr/m/n/10 Prijs/stuk
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 340--340
+Underfull \hbox (badness 10000) in paragraph at lines 341--341
 \OT1/cmr/m/n/10 in-clu-sief be-ves-ti-gings-ma-te-ri-aal
  []
 
 
-Underfull \hbox (badness 1527) in paragraph at lines 345--345
+Underfull \hbox (badness 1527) in paragraph at lines 346--346
 []|\OT1/cmr/m/n/10 Waterafstotend MDF [][] 18
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 346--346
+Underfull \hbox (badness 10000) in paragraph at lines 347--347
 []|\OT1/cmr/m/n/10 Aluminium pro-fiel 2020 ex-
  []
 
 
-Underfull \hbox (badness 3219) in paragraph at lines 360--360
+Underfull \hbox (badness 3219) in paragraph at lines 361--361
 []|\OT1/cmr/m/n/10 Stepper mo-tor 42BY-GHW811
  []
 
 
-Overfull \hbox (58.833pt too wide) in paragraph at lines 334--372
+Overfull \hbox (58.833pt too wide) in paragraph at lines 335--373
 [][]
  []
 
 [41 <./renderingBovenaanStuklijst.PNG> <./renderingOnderaanStuklijst.PNG>]
 [42]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 383.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 384.
 
  (c:/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 383.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 384.
  [43
 
 ]
-Overfull \hbox (1.2843pt too wide) in paragraph at lines 411--412
+Overfull \hbox (1.2843pt too wide) in paragraph at lines 412--413
  []\OT1/cmr/bx/n/10 Algemene Na-tuur-kunde: Elek-tro-mag-ne-tisme en In-for-ma-
 tie-over-dracht
  []
@@ -1731,95 +1723,95 @@ tie-over-dracht
 <kizzigeGanttchart.pdf, id=832, 794.97pt x 614.295pt>
 File: kizzigeGanttchart.pdf Graphic file (type pdf)
 <use kizzigeGanttchart.pdf>
-Package pdftex.def Info: kizzigeGanttchart.pdf  used on input line 418.
+Package pdftex.def Info: kizzigeGanttchart.pdf  used on input line 419.
 (pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
 File: kizzigeGanttchart.pdf Graphic file (type pdf)
 <use kizzigeGanttchart.pdf>
-Package pdftex.def Info: kizzigeGanttchart.pdf  used on input line 418.
+Package pdftex.def Info: kizzigeGanttchart.pdf  used on input line 419.
 (pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
 <kizzigeGanttchart.pdf, id=835, page=1, 794.97pt x 614.295pt>
 File: kizzigeGanttchart.pdf Graphic file (type pdf)
 <use kizzigeGanttchart.pdf, page 1>
-Package pdftex.def Info: kizzigeGanttchart.pdf , page1 used on input line 418.
+Package pdftex.def Info: kizzigeGanttchart.pdf , page1 used on input line 419.
 (pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
 File: kizzigeGanttchart.pdf Graphic file (type pdf)
 <use kizzigeGanttchart.pdf, page 1>
-Package pdftex.def Info: kizzigeGanttchart.pdf , page1 used on input line 418.
+Package pdftex.def Info: kizzigeGanttchart.pdf , page1 used on input line 419.
 (pdftex.def)             Requested size: 598.22752pt x 462.26671pt.
  [45
 
 ]
 File: kizzigeGanttchart.pdf Graphic file (type pdf)
 <use kizzigeGanttchart.pdf, page 1>
-Package pdftex.def Info: kizzigeGanttchart.pdf , page1 used on input line 418.
+Package pdftex.def Info: kizzigeGanttchart.pdf , page1 used on input line 419.
 (pdftex.def)             Requested size: 598.22752pt x 462.26671pt.
 File: kizzigeGanttchart.pdf Graphic file (type pdf)
 <use kizzigeGanttchart.pdf, page 1>
-Package pdftex.def Info: kizzigeGanttchart.pdf , page1 used on input line 418.
+Package pdftex.def Info: kizzigeGanttchart.pdf , page1 used on input line 419.
 (pdftex.def)             Requested size: 598.22752pt x 462.26671pt.
 File: kizzigeGanttchart.pdf Graphic file (type pdf)
 <use kizzigeGanttchart.pdf, page 1>
-Package pdftex.def Info: kizzigeGanttchart.pdf , page1 used on input line 418.
+Package pdftex.def Info: kizzigeGanttchart.pdf , page1 used on input line 419.
 (pdftex.def)             Requested size: 598.22752pt x 462.26671pt.
  [46 <./kizzigeGanttchart.pdf>]
 File: kizzigeGanttchart.pdf Graphic file (type pdf)
 <use kizzigeGanttchart.pdf>
-Package pdftex.def Info: kizzigeGanttchart.pdf  used on input line 419.
+Package pdftex.def Info: kizzigeGanttchart.pdf  used on input line 420.
 (pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
 File: kizzigeGanttchart.pdf Graphic file (type pdf)
 <use kizzigeGanttchart.pdf>
-Package pdftex.def Info: kizzigeGanttchart.pdf  used on input line 419.
+Package pdftex.def Info: kizzigeGanttchart.pdf  used on input line 420.
 (pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
 <kizzigeGanttchart.pdf, id=856, page=2, 794.97pt x 614.295pt>
 File: kizzigeGanttchart.pdf Graphic file (type pdf)
 <use kizzigeGanttchart.pdf, page 2>
-Package pdftex.def Info: kizzigeGanttchart.pdf , page2 used on input line 419.
+Package pdftex.def Info: kizzigeGanttchart.pdf , page2 used on input line 420.
 (pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
 File: kizzigeGanttchart.pdf Graphic file (type pdf)
 <use kizzigeGanttchart.pdf, page 2>
-Package pdftex.def Info: kizzigeGanttchart.pdf , page2 used on input line 419.
+Package pdftex.def Info: kizzigeGanttchart.pdf , page2 used on input line 420.
 (pdftex.def)             Requested size: 598.22752pt x 462.26671pt.
 File: kizzigeGanttchart.pdf Graphic file (type pdf)
 <use kizzigeGanttchart.pdf, page 2>
-Package pdftex.def Info: kizzigeGanttchart.pdf , page2 used on input line 419.
+Package pdftex.def Info: kizzigeGanttchart.pdf , page2 used on input line 420.
 (pdftex.def)             Requested size: 598.22752pt x 462.26671pt.
 File: kizzigeGanttchart.pdf Graphic file (type pdf)
 <use kizzigeGanttchart.pdf, page 2>
-Package pdftex.def Info: kizzigeGanttchart.pdf , page2 used on input line 419.
+Package pdftex.def Info: kizzigeGanttchart.pdf , page2 used on input line 420.
 (pdftex.def)             Requested size: 598.22752pt x 462.26671pt.
 File: kizzigeGanttchart.pdf Graphic file (type pdf)
 <use kizzigeGanttchart.pdf, page 2>
-Package pdftex.def Info: kizzigeGanttchart.pdf , page2 used on input line 419.
+Package pdftex.def Info: kizzigeGanttchart.pdf , page2 used on input line 420.
 (pdftex.def)             Requested size: 598.22752pt x 462.26671pt.
  [47 <./kizzigeGanttchart.pdf>]
 File: kizzigeGanttchart.pdf Graphic file (type pdf)
 <use kizzigeGanttchart.pdf>
-Package pdftex.def Info: kizzigeGanttchart.pdf  used on input line 420.
+Package pdftex.def Info: kizzigeGanttchart.pdf  used on input line 421.
 (pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
 File: kizzigeGanttchart.pdf Graphic file (type pdf)
 <use kizzigeGanttchart.pdf>
-Package pdftex.def Info: kizzigeGanttchart.pdf  used on input line 420.
+Package pdftex.def Info: kizzigeGanttchart.pdf  used on input line 421.
 (pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
 <kizzigeGanttchart.pdf, id=868, page=3, 794.97pt x 614.295pt>
 File: kizzigeGanttchart.pdf Graphic file (type pdf)
 <use kizzigeGanttchart.pdf, page 3>
-Package pdftex.def Info: kizzigeGanttchart.pdf , page3 used on input line 420.
+Package pdftex.def Info: kizzigeGanttchart.pdf , page3 used on input line 421.
 (pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
 File: kizzigeGanttchart.pdf Graphic file (type pdf)
 <use kizzigeGanttchart.pdf, page 3>
-Package pdftex.def Info: kizzigeGanttchart.pdf , page3 used on input line 420.
+Package pdftex.def Info: kizzigeGanttchart.pdf , page3 used on input line 421.
 (pdftex.def)             Requested size: 598.22752pt x 462.26671pt.
 File: kizzigeGanttchart.pdf Graphic file (type pdf)
 <use kizzigeGanttchart.pdf, page 3>
-Package pdftex.def Info: kizzigeGanttchart.pdf , page3 used on input line 420.
+Package pdftex.def Info: kizzigeGanttchart.pdf , page3 used on input line 421.
 (pdftex.def)             Requested size: 598.22752pt x 462.26671pt.
 File: kizzigeGanttchart.pdf Graphic file (type pdf)
 <use kizzigeGanttchart.pdf, page 3>
-Package pdftex.def Info: kizzigeGanttchart.pdf , page3 used on input line 420.
+Package pdftex.def Info: kizzigeGanttchart.pdf , page3 used on input line 421.
 (pdftex.def)             Requested size: 598.22752pt x 462.26671pt.
 File: kizzigeGanttchart.pdf Graphic file (type pdf)
 <use kizzigeGanttchart.pdf, page 3>
-Package pdftex.def Info: kizzigeGanttchart.pdf , page3 used on input line 420.
+Package pdftex.def Info: kizzigeGanttchart.pdf , page3 used on input line 421.
 (pdftex.def)             Requested size: 598.22752pt x 462.26671pt.
 
 [48 <./kizzigeGanttchart.pdf>] [49
@@ -1828,33 +1820,33 @@ Package pdftex.def Info: kizzigeGanttchart.pdf , page3 used on input line 420.
 <kuleuvenSedes.pdf, id=878, 349.305pt x 596.2275pt>
 File: kuleuvenSedes.pdf Graphic file (type pdf)
 <use kuleuvenSedes.pdf>
-Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 428.
+Package pdftex.def Info: kuleuvenSedes.pdf  used on input line 429.
 (pdftex.def)             Requested size: 25.00282pt x 42.67912pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 428.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 429.
  [50
 
 
  <c:/texlive/texmf-local/tex/latex/local/kulak/kuleuvenSedes.pdf>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 428.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 429.
  (./eindverslagTeamELISA.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 428.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 428.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 429.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 429.
 Package rerunfilecheck Info: File `eindverslagTeamELISA.out' has not changed.
 (rerunfilecheck)             Checksum: 74D85B698F6E1CE58A54A07BC55212D7;980.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 428.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 429.
  ) 
 Here is how much of TeX's memory you used:
  30876 strings out of 492639
  620390 string characters out of 6133088
- 658446 words of memory out of 5000000
+ 658517 words of memory out of 5000000
  34215 multiletter control sequences out of 15000+600000
  541676 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,19n,67p,1364b,1125s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,19n,67p,1363b,1125s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tex
 live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2018
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><c:/texlive/2018/texmf-
@@ -1871,7 +1863,7 @@ lic/amsfonts/cm/cmti10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmti7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
 i8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb><c:
 /texlive/2018/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb>
-Output written on eindverslagTeamELISA.pdf (50 pages, 39311535 bytes).
+Output written on eindverslagTeamELISA.pdf (50 pages, 39312576 bytes).
 PDF statistics:
  962 PDF objects out of 1000 (max. 8388607)
  507 compressed objects within 6 object streams
