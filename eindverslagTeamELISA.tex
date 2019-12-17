@@ -155,24 +155,45 @@ In dit hoofdstuk wordt uitgelegd hoe we het ontwerp dat in het vorige hoofdstuk 
 
 \section{Chassis}
 
-Het chassis dient als basis voor het hele toestel. De belangrijkste vereisten voor dit onderdeel is dat het stevig en licht moet zijn. Om hieraan te voldoen, beslisten we om het chassis op te bouwen uit 4 aluminium profielen die aan elkaar bevestigd werden. 
+Het chassis (zie Figuur \ref{fig: chassis en transportplaat}) dient als basis voor het hele toestel. De belangrijkste vereisten voor dit onderdeel is dat het stevig en licht moet zijn. Om hieraan te voldoen, beslisten we om het chassis op te bouwen uit 4 aluminium profielen die aan elkaar bevestigd werden. 
+
+\begin{figure}
+	\centering
+	\includegraphics[width=1\textwidth]{chassis+transportplaat.jpg}
+	\caption{Chassis en transportplaat van het toestel}
+	\label{fig: chassis en transportplaat}
+	
+\end{figure} 
+
 
 \section{Transportplaat}
 
-De transportplaat waarop de microplates worden geplaatst, laat toe om 6 microplates tegelijk te vullen. Om te voorkomen dat er vloeistof naast de wells gespoten wordt, is het noodzakelijk dat de microplates niet kunnen verschuiven tijdens het verplaatsen van de transportplaat. Om dit schuiven te vermijden, werden uit een dunne houten plaat (met dezelfde afmetingen als de transportplaat) 6 rechthoeken \textit{gelasercut} met precies de afmetingen van een microplate. Dit geheel werd bevestigd op de transportplaat. Als materiaal voor de transportplaat kozen we voor waterafstotend MDF (\textit{Medium-Density Fibreboard}). Dit materiaal heeft twee voordelen. Ten eerste is het een licht materiaal, wat een relatief lage belasting voor de constructie betekent. Een tweede voordeel is dat de transportplaat niet zal vergaan als er vloeistof op de plaat terechtkomt, wat bij een gewone houten plaat wel het geval zou zijn.  \\
-
-
-AFBEELDING TRANSPORTPLAAT ZETTEN
-
+De transportplaat (zie Figuur \ref{fig: chassis en transportplaat}) waarop de microplates worden geplaatst, laat toe om 6 microplates tegelijk te vullen. Om te voorkomen dat er vloeistof naast de wells gespoten wordt, is het noodzakelijk dat de microplates niet kunnen verschuiven tijdens het verplaatsen van de transportplaat. Om dit schuiven te vermijden, werden uit een dunne houten plaat (met dezelfde afmetingen als de transportplaat) 6 rechthoeken \textit{gelasercut} met precies de afmetingen van een microplate. Dit geheel werd bevestigd op de transportplaat. Als materiaal voor de transportplaat kozen we voor waterafstotend MDF (\textit{Medium-Density Fibreboard}). Dit materiaal heeft twee voordelen. Ten eerste is het een licht materiaal, wat een relatief lage belasting voor de constructie betekent. Een tweede voordeel is dat de transportplaat niet zal vergaan als er vloeistof op de plaat terechtkomt, wat bij een gewone houten plaat wel het geval zou zijn.  \\
 
 
 \section{Steppermotor}
 
-Als motor werd gekozen voor een \textit{steppermotor}. Een steppermotor is een type motor dat werkt m.b.v. elektromagneten die de aandrijfas van de motor laten draaien. In de door ons gebruikte motor zitten in totaal 4 elektromagneten die afwisselend aan- en uitgezet worden door er een stroom door te sturen. Telkens 1 van de 4 magneten wordt aangezet (dit is 1 stap), verdraait de aandrijfas waarop het magnetisch veld van de aangezette elektromagneet inwerkt volgens een vaste hoek\footnote{Voor meer informatie i.v.m. steppermotoren verwijzen we naar \url{https://en.wikipedia.org/wiki/Stepper_motor}}. Het grote voordeel van dit type motoren is dat deze hoek zeer klein is: de as van de motor die wij gebruiken maakt per stap een verdraaiing van $1.8\degree$. Hierdoor kunnen we de transportplaat die via een aandrijfriem aan de motor verbonden is met een zeer hoge nauwkeurigheid verplaatsen. Dit is van groot belang gezien de kleine afstand tussen twee opeenvolgende rijen wells op de microplates. 
+Als motor werd gekozen voor een \textit{steppermotor} (zie Figuur \ref{fig: steppermotor}). Een steppermotor is een type motor dat werkt m.b.v. elektromagneten die de aandrijfas van de motor laten draaien. In de door ons gebruikte motor zitten in totaal 4 elektromagneten die afwisselend aan- en uitgezet worden door er een stroom door te sturen. Telkens 1 van de 4 magneten wordt aangezet (dit is 1 stap), verdraait de aandrijfas waarop het magnetisch veld van de aangezette elektromagneet inwerkt volgens een vaste hoek\footnote{Voor meer informatie i.v.m. steppermotoren verwijzen we naar \url{https://en.wikipedia.org/wiki/Stepper_motor}}. Het grote voordeel van dit type motoren is dat deze hoek zeer klein is: de as van de motor die wij gebruiken maakt per stap een verdraaiing van $1.8\degree$. Hierdoor kunnen we de transportplaat die via een aandrijfriem aan de motor verbonden is met een zeer hoge nauwkeurigheid verplaatsen. Dit is van groot belang gezien de kleine afstand tussen twee opeenvolgende rijen wells op de microplates. 
+
+\begin{figure}
+	\centering
+	\includegraphics[width=1\textwidth]{fotomotor.jpg}
+	\caption{Steppermotors op ons toestel}
+	\label{fig: steppermotor}
+	
+\end{figure} 
 
 \section{Waterpomp}
 
-De gebruikte pompen zijn vacuümpompen. Deze zorgen ervoor dat wanneer de pomp niet actief is dat de vloeistof die nog in het buizennetwerk zit niet weglekt via de pipetpunten. We kozen zoals eerder vermeld voor twee pompen die de twee buizennetwerken van vloeistof voorzien. 
+De gebruikte pompen zijn vacuümpompen (zie Figuur \ref{fig: waterpomp}). Deze zorgen ervoor dat wanneer de pomp niet actief is dat de vloeistof die nog in het buizennetwerk zit niet weglekt via de pipetpunten. We kozen zoals eerder vermeld voor twee pompen die de twee buizennetwerken van vloeistof voorzien. 
+
+\begin{figure}
+	\centering
+	\includegraphics[width=1\textwidth]{fotopomp.jpg}
+	\caption{Waterpompen op ons toestel}
+	\label{fig: waterpomp}
+	
+\end{figure} 
 
 \section{Microcontroller}
 
@@ -231,7 +252,10 @@ De gebouwde machine heeft heel wat potentieel. Hieronder vindt u enkele grote pl
 
 \paragraph{Prijs-kwaliteitverhouding}
 
-Het grootste voordeel van ons toestel t.o.v. andere toestellen is ongetwijfeld de uitstekende prijs-kwaliteitverhouding. Ons toestel kost in totaal \euro 173.63 (dit is weliswaar zonder werkuren te verrekenen), wat 60 tot 200 keer minder is dan de prijs van andere toestellen. De machine werkt minder precies dan professionele toestellen, maar desalniettemin is de prijs-kwaliteitverhouding uitstekend.
+Het grootste voordeel van ons toestel t.o.v. andere toestellen is ongetwijfeld de uitstekende prijs-kwaliteitverhouding. Ons toestel kost in totaal \euro 173.63 (dit is weliswaar zonder werkuren te verrekenen), wat 60 tot 200 keer minder is dan de prijs van andere toestellen.
+\newline
+Na testen blijkt echter dat ons apparaat niet precies genoeg de vloeistof kan verdelen over de microwells (we hebben dit bepaald door verschillende wegingen te doen van de vloeistof in de wells). Om deze reden kan het toestel niet gebruikt worden om de ELISA-test zelf uit te voeren. Het toestel kan wel gebruikt worden om de wells te wassen. Voor deze handeling is het immers minder van belang dat er in elke well precies even veel vloeistof terecht komt. Door alleen al dit deel van de test te automatiseren, kan al een stuk efficiënter gewerkt worden. \\ \\
+De machine werkt dus minder precies dan professionele toestellen, maar desalniettemin is de prijs-kwaliteitverhouding uitstekend.
 
 \paragraph{Gebruiksgemak}
 
@@ -248,7 +272,7 @@ De machine werd gemaakt uit onderdelen die gemakkelijk te verkrijgen zijn. Dit z
 \chapter{Mogelijkheden tot uitbreiding en verbetering}
 
 Om nog beter aan de wensen van de klant te voldoen, zijn er nog enkele zaken die na het einde van dit project verbeterd kunnen worden. \\ \\
-Ten eerste wordt de vloeistof niet precies genoeg over de microwells verdeeld om de ELISA-test op een wetenschappelijk verantwoorde manier uit te voeren. Om het apparaat te gebruiken om ook daadwerkelijk volledig zelf een ELISA-test uit te voeren, moet de verdeling van de vloeistof dus nog preciezer gebeuren. \\ \\
+Ten eerste wordt de vloeistof niet precies genoeg over de microwells verdeeld om de ELISA-test op een wetenschappelijk verantwoorde manier uit te voeren. Om het apparaat te gebruiken om ook daadwerkelijk volledig zelf een ELISA-test uit te voeren, moet de verdeling van de vloeistof dus nog preciezer gebeuren. We zouden de verdeling van de vloeistof preciezer kunnen maken door bijvoorbeeld het buizensysteem uit één stuk te fabriceren m.b.v. een 3D-printer. Op die manier kunnen eventuele lekken vermeden worden en hebben alle leidingen gegarandeerd dezelfde lengte en dezelfde diameter. \\ \\
 Ten tweede zou een optie kunnen voorzien worden die automatisch de pipetpunten vervangt indien dit de gebruiker dit wenst. 
 \\ \\
 Ten derde zou er een systeem kunnen voorzien worden dat automatisch een recipiënt onder de pipetpunten plaatst om de machine te initialiseren. Nu moet dit manueel gebeuren. Daarnaast zou ervoor gezorgd kunnen worden dat wanneer men de buizen ledigt, de vloeistof terug vloeit naar de recipiënt waar het vandaan komt. Zo moet er geen afzonderlijk recipiënt onder de pipetten gehouden worden. 

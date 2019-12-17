@@ -8,26 +8,26 @@
 \contentsline {section}{\numberline {4.1}Chassis}{11}{section.4.1}
 \contentsline {section}{\numberline {4.2}Transportplaat}{11}{section.4.2}
 \contentsline {section}{\numberline {4.3}Steppermotor}{12}{section.4.3}
-\contentsline {section}{\numberline {4.4}Waterpomp}{12}{section.4.4}
-\contentsline {section}{\numberline {4.5}Microcontroller}{12}{section.4.5}
-\contentsline {chapter}{\numberline {5}Programmeerstructuur}{13}{chapter.5}
-\contentsline {section}{\numberline {5.1}Grafische interface}{13}{section.5.1}
-\contentsline {section}{\numberline {5.2}Programmastructuur}{13}{section.5.2}
-\contentsline {paragraph}{Initialize}{13}{section*.11}
-\contentsline {paragraph}{Hoeveelheid ingeven + microplates selecteren}{13}{section*.12}
-\contentsline {paragraph}{Plaat naar pomp}{13}{section*.13}
-\contentsline {paragraph}{Noodstop}{15}{section*.14}
-\contentsline {paragraph}{Terug naar startplaats}{15}{section*.15}
-\contentsline {paragraph}{Cleanup}{15}{section*.16}
-\contentsline {paragraph}{Quit}{15}{section*.17}
-\contentsline {chapter}{\numberline {6}\textit {Unique selling proposition}}{16}{chapter.6}
-\contentsline {paragraph}{Prijs-kwaliteitverhouding}{16}{section*.19}
-\contentsline {paragraph}{Gebruiksgemak}{16}{section*.20}
-\contentsline {paragraph}{Mobiliteit en stevigheid}{16}{section*.21}
-\contentsline {paragraph}{Vervangstukken}{16}{section*.22}
-\contentsline {chapter}{\numberline {7}Mogelijkheden tot uitbreiding en verbetering}{17}{chapter.7}
-\contentsline {chapter}{\numberline {8}Conclusie}{18}{chapter.8}
-\contentsline {paragraph}{Algemene Natuurkunde: Mechanica}{42}{section*.33}
-\contentsline {paragraph}{Beginselen van Programmeren}{42}{section*.34}
-\contentsline {paragraph}{Probleemoplossen \& Ontwerpen, deel 2}{42}{section*.35}
-\contentsline {paragraph}{Algemene Natuurkunde: Elektromagnetisme en Informatieoverdracht en -verwerking \& elektrische netwerken}{42}{section*.36}
+\contentsline {section}{\numberline {4.4}Waterpomp}{13}{section.4.4}
+\contentsline {section}{\numberline {4.5}Microcontroller}{13}{section.4.5}
+\contentsline {chapter}{\numberline {5}Programmeerstructuur}{14}{chapter.5}
+\contentsline {section}{\numberline {5.1}Grafische interface}{14}{section.5.1}
+\contentsline {section}{\numberline {5.2}Programmastructuur}{14}{section.5.2}
+\contentsline {paragraph}{Initialize}{14}{section*.14}
+\contentsline {paragraph}{Hoeveelheid ingeven + microplates selecteren}{14}{section*.15}
+\contentsline {paragraph}{Plaat naar pomp}{14}{section*.16}
+\contentsline {paragraph}{Noodstop}{16}{section*.17}
+\contentsline {paragraph}{Terug naar startplaats}{16}{section*.18}
+\contentsline {paragraph}{Cleanup}{16}{section*.19}
+\contentsline {paragraph}{Quit}{16}{section*.20}
+\contentsline {chapter}{\numberline {6}\textit {Unique selling proposition}}{17}{chapter.6}
+\contentsline {paragraph}{Prijs-kwaliteitverhouding}{17}{section*.22}
+\contentsline {paragraph}{Gebruiksgemak}{17}{section*.23}
+\contentsline {paragraph}{Mobiliteit en stevigheid}{17}{section*.24}
+\contentsline {paragraph}{Vervangstukken}{18}{section*.25}
+\contentsline {chapter}{\numberline {7}Mogelijkheden tot uitbreiding en verbetering}{19}{chapter.7}
+\contentsline {chapter}{\numberline {8}Conclusie}{20}{chapter.8}
+\contentsline {paragraph}{Algemene Natuurkunde: Mechanica}{44}{section*.36}
+\contentsline {paragraph}{Beginselen van Programmeren}{44}{section*.37}
+\contentsline {paragraph}{Probleemoplossen \& Ontwerpen, deel 2}{44}{section*.38}
+\contentsline {paragraph}{Algemene Natuurkunde: Elektromagnetisme en Informatieoverdracht en -verwerking \& elektrische netwerken}{44}{section*.39}
